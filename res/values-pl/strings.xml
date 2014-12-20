@@ -18,20 +18,20 @@
     <string name="yes">"Tak"</string>
 
     <!-- Strings for Dialog no button -->
-    <string name="no">"No"</string>
+    <string name="no">"Nie"</string>
 
     <!-- Strings for Dialog create button -->
-    <string name="create">Create</string>
+    <string name="create">Utwórz</string>
 
     <!-- Strings for Dialog allow button -->
-    <string name="allow">Allow</string>
+    <string name="allow">Zezwól</string>
 
     <!-- Strings for Dialog deny button -->
-    <string name="deny">Deny</string>
+    <string name="deny">Odmów</string>
 
     <!-- Device Info --> <skip />
     <!-- Device Info screen. Used for a status item's value when the proper value is not known -->
-    <string name="device_info_default">Unknown</string>
+    <string name="device_info_default">Nieznane</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
     <plurals name="show_dev_countdown">
         <item quantity="one">You are now <xliff:g id="step_count">%1$d</xliff:g> step away from being a developer.</item>
