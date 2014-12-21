@@ -403,201 +403,201 @@
     <!-- Used for diagnostic screens, precise translation is not necessary -->
     <string name="intent_sender_data_label"><xliff:g id="data">Data:</xliff:g></string>
     <!-- Used for diagnostic screens, precise translation is not necessary -->
-    <string name="intent_sender_sendbroadcast_text">Send <xliff:g id="broadcast">broadcast</xliff:g></string>
+    <string name="intent_sender_sendbroadcast_text">Wyślij <xliff:g id="broadcast">broadcast</xliff:g></string>
     <!-- Used for diagnostic screens, precise translation is not necessary -->
     <string name="intent_sender_action_label"><xliff:g id="action">Action</xliff:g>:</string>
     <!-- Used for diagnostic screens, precise translation is not necessary -->
-    <string name="intent_sender_startactivity_text">Start <xliff:g id="activity">activity</xliff:g></string>
+    <string name="intent_sender_startactivity_text">Rozpocznij <xliff:g id="activity">aktywność</xliff:g></string>
     <!-- Used for diagnostic screens, precise translation is not necessary -->
     <string name="intent_sender_resource_label"><xliff:g id="resource">Resource</xliff:g>: </string>
     <!-- Used for diagnostic screens, precise translation is not necessary -->
-    <string name="intent_sender_account_label">Account: </string>
+    <string name="intent_sender_account_label">Konto: </string>
 
     <!-- HTTP proxy settings title -->
     <string name="proxy_settings_title">Proxy</string>
     <!-- HTTP proxy settings. Button to clear the proxy box. -->
-    <string name="proxy_clear_text">Clear</string>
+    <string name="proxy_clear_text">Wyczyść</string>
     <!-- HTTP proxy settings. The port number label. -->
-    <string name="proxy_port_label">Proxy port</string>
+    <string name="proxy_port_label">Numer portu serwera proxy</string>
     <!-- HTTP proxy settings. The hint text field for port. -->
     <string name="proxy_port_hint" translatable="false">8080</string>
     <!-- HTTP proxy settings. The exclusion list label. -->
-    <string name="proxy_exclusionlist_label">Bypass proxy for</string>
+    <string name="proxy_exclusionlist_label">Pomiń proxy dla</string>
     <!-- HTTP proxy settings. The hint text for proxy exclusion list. [CHAR LIMIT=50]-->
-    <string name="proxy_exclusionlist_hint">example.com,mycomp.test.com,localhost</string>
+    <string name="proxy_exclusionlist_hint">example.com,mojkomputer.test.com,localhost</string>
     <!-- HTTP proxy settings. The button to restore the defaults. -->
-    <string name="proxy_defaultView_text">Restore defaults</string>
+    <string name="proxy_defaultView_text">Przywróć domyślne</string>
     <!-- HTTP proxy settings. The button to save. -->
-    <string name="proxy_action_text">Done</string>
+    <string name="proxy_action_text">Gotowe</string>
     <!-- HTTP proxy settings. The text field for the hostname -->
-    <string name="proxy_hostname_label">Proxy hostname</string>
+    <string name="proxy_hostname_label">Nazwa hosta serwera proxy</string>
     <!-- HTTP proxy settings. The hint text field for the hostname. [CHAR LIMIT=50] -->
     <string name="proxy_hostname_hint">proxy.example.com</string>
     <!-- HTTP proxy settings. Title if there is an error-->
-    <string name="proxy_error">Attention</string>
+    <string name="proxy_error">Uwaga</string>
     <!-- HTTP proxy settings. Button to get rid of error box-->
     <string name="proxy_error_dismiss">OK</string>
     <!-- HTTP proxy settings. The error if the hostname is not valid -->
-    <string name="proxy_error_invalid_host">The hostname you typed isn\'t valid.</string>
+    <string name="proxy_error_invalid_host">Wpisana nazwa hosta jest nieprawidłowa.</string>
     <!-- HTTP proxy settings. The error if the exclusion list is not valid -->
-    <string name="proxy_error_invalid_exclusion_list">The exclusion list you typed isn\'t properly formatted. Type a comma-separated list of excluded domains.</string>
+    <string name="proxy_error_invalid_exclusion_list">Wpisana lista wykluczeń jest niepoprawnie sformatowana. Wykluczone domeny muszą być rozdzielone przecinkami.</string>
     <!-- HTTP proxy settings. Error msg -->
-    <string name="proxy_error_empty_port">You need to complete the port field.</string>
+    <string name="proxy_error_empty_port">Musisz wypełnić pole portu.</string>
     <!-- HTTP proxy settings. Error msg -->
-    <string name="proxy_error_empty_host_set_port">The port field must be empty if the host field is empty.</string>
+    <string name="proxy_error_empty_host_set_port">Pole port musi być puste, jeśli pole host jest puste.</string>
     <!-- HTTP proxy settings. Error msg -->
-    <string name="proxy_error_invalid_port">The port you typed isn\'t valid.</string>
+    <string name="proxy_error_invalid_port">Wpisany port jest nieprawidłowy.</string>
     <!-- HTTP proxy settings. Warning message about limited application support [CHAR LIMIT=100]-->
-    <string name="proxy_warning_limited_support">The HTTP proxy is used by the browser but may not be used by the other apps.</string>
+    <string name="proxy_warning_limited_support">Serwer proxy HTTP jest używany przez przeglądarkę, ale inne aplikacje mogą go nie używać.</string>
 
     <!-- HTTP proxy settings. Title for Proxy-Auto Config URL.  [CHAR LIMIT=25] -->
-    <string name="proxy_url_title">"PAC URL: "</string>
+    <string name="proxy_url_title">"URL pliku PAC: "</string>
     <!-- HTTP proxy settings. Hint for Proxy-Auto Config URL. -->
     <string name="proxy_url_hint" translatable="false">https://www.example.com/proxy.pac</string>
 
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radio_info_signal_location_label">Location:</string>
+    <string name="radio_info_signal_location_label">Lokalizacja:</string>
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radio_info_neighboring_location_label">Neighboring CID:</string>
+    <string name="radio_info_neighboring_location_label">Sąsiadujący CID:</string>
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radio_info_cellinfo_label">CellInfo:</string>
+    <string name="radio_info_cellinfo_label">Informacje:</string>
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radio_info_dcrtinfo_label">DcRtInfo:</string>
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radio_info_data_attempts_label">Data attempts:</string>
+    <string name="radio_info_data_attempts_label">Próby danych:</string>
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
 
-    <string name="radio_info_gprs_service_label">GPRS service:</string>
+    <string name="radio_info_gprs_service_label">Usługa GPRS:</string>
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radio_info_roaming_label">Roaming:</string>
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radio_info_imei_label">IMEI:</string>
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radio_info_call_redirect_label">Call redirect:</string>
+    <string name="radio_info_call_redirect_label">Przekierowania połączeń:</string>
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radio_info_ppp_resets_label">Number of PPP reset since boot:</string>
+    <string name="radio_info_ppp_resets_label">Liczba operacji resetowania PPP od momentu uruchomienia:</string>
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radio_info_gsm_disconnects_label">GSM disconnects:</string>
+    <string name="radio_info_gsm_disconnects_label">GSM rozłącza się:</string>
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radio_info_current_network_label">Current network:</string>
+    <string name="radio_info_current_network_label">Obecna sieć:</string>
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radio_info_data_successes_label">Data successes:</string>
+    <string name="radio_info_data_successes_label">Postępy danych:</string>
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radio_info_ppp_received_label">PPP received:</string>
+    <string name="radio_info_ppp_received_label">Otrzymano PPP:</string>
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radio_info_gsm_service_label">GSM service:</string>
+    <string name="radio_info_gsm_service_label">Usługa GSM:</string>
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radio_info_signal_strength_label">Signal strength:</string>
+    <string name="radio_info_signal_strength_label">Siła sygnału:</string>
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radio_info_call_status_label">Call status:</string>
+    <string name="radio_info_call_status_label">Stan połączenia:</string>
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radio_info_ppp_sent_label">PPP sent:</string>
+    <string name="radio_info_ppp_sent_label">Wysłano PPP:</string>
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radio_info_radio_resets_label">Radio resets:</string>
+    <string name="radio_info_radio_resets_label">Resetowanie radia:</string>
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radio_info_message_waiting_label">Message waiting:</string>
+    <string name="radio_info_message_waiting_label">Wiadomość oczekująca:</string>
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radio_info_phone_number_label">Phone number:</string>
+    <string name="radio_info_phone_number_label">Numer telefonu:</string>
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radio_info_band_mode_label">Select radio band</string>
+    <string name="radio_info_band_mode_label">Wybierz pasmo radiowe</string>
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radio_info_network_type_label">Network type:</string>
+    <string name="radio_info_network_type_label">Typ sieci:</string>
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radio_info_set_perferred_label">Set preferred network type:</string>
+    <string name="radio_info_set_perferred_label">Ustaw preferowany typ sieci:</string>
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radio_info_ping_ipaddr">Ping IpAddr:</string>
+    <string name="radio_info_ping_ipaddr">Wyślij polecenie ping adresu IP:</string>
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radio_info_ping_hostname">Ping Hostname(www.google.com):</string>
+    <string name="radio_info_ping_hostname">Nazwa hosta dla operacji ping (www.google.pl)</string>
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radio_info_http_client_test">HTTP Client test:</string>
+    <string name="radio_info_http_client_test">Test klienta HTTP</string>
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="ping_test_label">Run ping test</string>
+    <string name="ping_test_label">Przeprowadź test ping</string>
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radio_info_smsc_label">SMSC:</string>
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radio_info_smsc_update_label">Update</string>
+    <string name="radio_info_smsc_update_label">Aktualizuj</string>
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radio_info_smsc_refresh_label">Refresh</string>
+    <string name="radio_info_smsc_refresh_label">Odśwież</string>
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radio_info_toggle_dns_check_label">Toggle DNS check</string>
+    <string name="radio_info_toggle_dns_check_label">"Przełącz sprawdzanie DNS</string>
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="oem_radio_info_label">OEM-specific Info/Settings</string>
+    <string name="oem_radio_info_label">Informacje/ustawienia specyficzne dla producenta OEM</string>
 
     <!-- Band Mode Selection -->
     <!-- Band mode screen.  Title of activity. -->
-    <string name="band_mode_title">Set GSM/UMTS band</string>
+    <string name="band_mode_title">Ustaw pasmo GSM/UMTS</string>
     <!-- Band mode screen.  Loading message. -->
-    <string name="band_mode_loading">Loading band list\u2026</string>
+    <string name="band_mode_loading">Ładowanie listy pasm...</string>
     <!-- Band mode screen. Button caption to set the bandmode. -->
-    <string name="band_mode_set">Set</string>
+    <string name="band_mode_set">Ustaw</string>
     <!-- Band mode screen. Status message when unsuccessful. -->
-    <string name="band_mode_failed">Unsuccessful</string>
+    <string name="band_mode_failed">Niepowodzenie</string>
     <!-- Band mode screen. Statusm essage when successful. -->
-    <string name="band_mode_succeeded">Successful</string>
+    <string name="band_mode_succeeded">Udało się</string>
 
     <!-- Instructions after the user changes the mass storage settings -->
-    <string name="sdcard_changes_instructions">Changes take effect when USB cable is reconnected.</string>
+    <string name="sdcard_changes_instructions">Zmiany zostaną wprowadzone po ponownym podłączeniu kabla USB.</string>
     <!-- Enable USB mass storage mode checkbox title -->
-    <string name="sdcard_settings_screen_mass_storage_text">Enable USB mass storage</string>
+    <string name="sdcard_settings_screen_mass_storage_text">Włącz pamięć masową USB</string>
     <!-- The label for total bytes on SD card -->
-    <string name="sdcard_settings_total_bytes_label">Total bytes:</string>
+    <string name="sdcard_settings_total_bytes_label">Łącznie bajtów:</string>
     <!-- Message when there is no SD card present [CHAR LIMIT=30] -->
-    <string name="sdcard_settings_not_present_status" product="nosdcard">USB storage not mounted.</string>
+    <string name="sdcard_settings_not_present_status" product="nosdcard">Nośnik USB niepodłączony.</string>
     <!-- Message when there is no SD card present -->
-    <string name="sdcard_settings_not_present_status" product="default">No SD card.</string>
+    <string name="sdcard_settings_not_present_status" product="default">Brak karty SD</string>
     <!-- Th label for the available (free) sapce on the SD card -->
-    <string name="sdcard_settings_available_bytes_label">Available bytes:</string>
+    <string name="sdcard_settings_available_bytes_label">Dostępnych bajtów:</string>
     <!-- Message when the SD card is being used by the computer as mass storage [CHAR LIMIT=30] -->
-    <string name="sdcard_settings_mass_storage_status" product="nosdcard">USB storage is being used as a mass storage device.</string>
+    <string name="sdcard_settings_mass_storage_status" product="nosdcard">Nośnik USB jako pamięć masowa.</string>
     <!-- Message when the SD card is being used by the computer as mass storage -->
-    <string name="sdcard_settings_mass_storage_status" product="default">SD card is being used as a mass storage device.</string>
+    <string name="sdcard_settings_mass_storage_status" product="default">Karta SD jest używana jako pamięć masowa.</string>
     <!-- Message when it is safe to remove the SD card [CHAR LIMIT=30] -->
-    <string name="sdcard_settings_unmounted_status" product="nosdcard">It\'s now safe to remove the USB storage.</string>
+    <string name="sdcard_settings_unmounted_status" product="nosdcard">Możesz teraz wyjąć nośnik USB.</string>
     <!-- Message when it is safe to remove the SD card -->
-    <string name="sdcard_settings_unmounted_status" product="default">It\'s now safe to remove the SD card.</string>
+    <string name="sdcard_settings_unmounted_status" product="default">Możesz teraz wyjąć kartę SD.</string>
     <!-- Error message when the SD card was removed without properly unmounting [CHAR LIMIT=30] -->
-    <string name="sdcard_settings_bad_removal_status" product="nosdcard">USB storage was removed while still in use!</string>
+    <string name="sdcard_settings_bad_removal_status" product="nosdcard">Wyjęto USB podczas używania!</string>
     <!-- Error message when the SD card was removed without properly unmounting -->
-    <string name="sdcard_settings_bad_removal_status" product="default">SD card was removed while still in use!</string>
+    <string name="sdcard_settings_bad_removal_status" product="default">Karta SD została usunięta, gdy była używana!</string>
     <!-- Label for used bytes on the SD card -->
-    <string name="sdcard_settings_used_bytes_label">Used bytes:</string>
+    <string name="sdcard_settings_used_bytes_label">Wykorzystanych bajtów:</string>
     <!-- Message when it is scanning the SD card for new files [CHAR LIMIT=30]  -->
-    <string name="sdcard_settings_scanning_status" product="nosdcard">Scanning USB storage for media\u2026</string>
+    <string name="sdcard_settings_scanning_status" product="nosdcard">Trwa skanowanie nośnika USB…</string>
     <!-- Message when it is scanning the SD card for new files -->
-    <string name="sdcard_settings_scanning_status" product="default">Scanning SD card for media\u2026</string>
+    <string name="sdcard_settings_scanning_status" product="default">Przeszukiwanie karty SD w poszukiwaniu multimediów...</string>
     <!-- Message when the SD card is mounted as read only [CHAR LIMIT=30] -->
-    <string name="sdcard_settings_read_only_status" product="nosdcard">USB storage mounted read-only.</string>
+    <string name="sdcard_settings_read_only_status" product="nosdcard">Nośnik USB tylko do odczytu.</string>
     <!-- Message when the SD card is mounted as read only -->
-    <string name="sdcard_settings_read_only_status" product="default">SD card mounted read-only.</string>
+    <string name="sdcard_settings_read_only_status" product="default">Karta SD jest podłączona tylko do odczytu..</string>
     <!-- Used in setup wizard Wi-Fi screen.  The button label for going to the next screen without submitting. [CHAR LIMIT=20] -->
-    <string name="skip_label">Skip</string>
+    <string name="skip_label">Pomiń</string>
     <!-- Used in setup wizard Wi-Fi screen. The button label for going to the next screen and submitting. [CHAR LIMIT=20] -->
-    <string name="next_label">Next</string>
+    <string name="next_label">Dalej</string>
 
     <!-- LocalePicker -->
     <!-- Title for the locale picker activity -->
-    <string name="language_picker_title">Language</string>
+    <string name="language_picker_title">Język</string>
 
     <!-- The title of the dialog to pick an activity.  This is shown when there are multiple activities that can do a particular action.  For example, suppose you click on the "Share" menu item in the Browser.  Since you can share the webpage URL via many communication methods, this dialog would come up with choices like "Email", "IM", etc.  This is a generic message, and the previous example is a single possible scenario (so please don't assume it's for the browser or anything :) ). -->
-    <string name="activity_picker_label">Choose activity</string>
+    <string name="activity_picker_label">Wybierz działanie</string>
     <!-- Do not translate. -->
     <string name="debug_intent_sender_label">Debug intent sender</string>
     <!-- The title of the activity to see random device info. -->
-    <string name="device_info_label">Device info</string>
+    <string name="device_info_label">Informacje o urządzeniu</string>
     <!-- The title of the activity to see battery info. -->
-    <string name="battery_info_label">Battery info</string>
+    <string name="battery_info_label">Informacje o baterii</string>
     <!-- The title of the activity to adjust display settings -->
-    <string name="display_label">Screen</string>
+    <string name="display_label">Ekran</string>
     <!-- The title of the activity to see phone info -->
-    <string name="phone_info_label" product="tablet">Tablet info</string>
+    <string name="phone_info_label" product="tablet">Informacje o tablecie</string>
     <!-- The title of the activity to see phone info -->
-    <string name="phone_info_label" product="default">Phone info</string>
+    <string name="phone_info_label" product="default">Informacje o telefonie</string>
     <!-- The title of the activity to adjust SD card settings [CHAR LIMIT=25] -->
-    <string name="sd_card_settings_label" product="nosdcard">USB storage</string>
+    <string name="sd_card_settings_label" product="nosdcard">Nośnik USB</string>
     <!-- The title of the activity to adjust SD card settings-->
-    <string name="sd_card_settings_label" product="default">SD card</string>
+    <string name="sd_card_settings_label" product="default">Karta SD</string>
     <!-- The title of the activity to adjust proxy settings -->
-    <string name="proxy_settings_label">Proxy settings</string>
+    <string name="proxy_settings_label">Ustawienia proxy</string>
 
     <!-- ======================================================================================= -->
     <!-- NEW STUFF -->
