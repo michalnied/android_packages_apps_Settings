@@ -163,157 +163,157 @@
     <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
     <string name="battery_info_power_label">Podłączone zasilanie:</string>
     <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="battery_info_scale_label">Battery scale:</string>
+    <string name="battery_info_scale_label">Poziom baterii:</string>
     <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="battery_info_level_label">Battery level:</string>
+    <string name="battery_info_level_label">Poziom naładowania baterii:</string>
     <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="battery_info_health_label">Battery health:</string>
+    <string name="battery_info_health_label">Poziom baterii:</string>
     <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="battery_info_technology_label">Battery technology:</string>
+    <string name="battery_info_technology_label">Technologia wykonania baterii:</string>
     <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="battery_info_voltage_label">Battery voltage:</string>
+    <string name="battery_info_voltage_label">Napięcie baterii:</string>
     <!-- Battery Info screen. Units shown after a value.  Used for diagnostic info screens, precise translation isn't needed -->
     <string name="battery_info_voltage_units">mV</string>
     <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="battery_info_temperature_label">Battery temperature:</string>
+    <string name="battery_info_temperature_label">Temperatura baterii:</string>
     <!-- Battery Info screen. Units shown after a value.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="battery_info_temperature_units">\u00B0 C</string>
+    <string name="battery_info_temperature_units">\°C</string>
     <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="battery_info_uptime">Time since boot:</string>
+    <string name="battery_info_uptime">Czas od uruchomienia:</string>
     <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="battery_info_awake_battery">Awake time on battery:</string>
+    <string name="battery_info_awake_battery">Czas działania na baterii:</string>
     <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="battery_info_awake_plugged">Awake time when charging:</string>
+    <string name="battery_info_awake_plugged">Czas pozostawania w stanie wybudzenia podczas ładowania:</string>
     <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="battery_info_screen_on">Screen ON time:</string>
+    <string name="battery_info_screen_on">Czas włączenia ekranu:</string>
 
     <!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="battery_info_status_unknown">Unknown</string>
+    <string name="battery_info_status_unknown">Nieznane</string>
     <!-- [CHAR_LIMIT=20] Battery use screen.  Battery status shown in chart label when charging from an unknown source.  -->
-    <string name="battery_info_status_charging">Charging</string>
+    <string name="battery_info_status_charging">Ładowanie</string>
     <!-- [CHAR_LIMIT=20] Battery use screen.  Battery status shown in chart label when charging on AC.  -->
-    <string name="battery_info_status_charging_ac">Charging on AC</string>
+    <string name="battery_info_status_charging_ac">Ładowanie zasilaczem</string>
     <!-- [CHAR_LIMIT=20] Battery use screen.  Battery status shown in chart label when charging over USB.  -->
-    <string name="battery_info_status_charging_usb">Charging over USB</string>
+    <string name="battery_info_status_charging_usb">Ładowanie przez USB</string>
     <!-- [CHAR_LIMIT=20] Battery use screen.  Battery status shown in chart label when charging over a wireless connection.  -->
-    <string name="battery_info_status_charging_wireless">Charging wirelessly</string>
+    <string name="battery_info_status_charging_wireless">Ład. bezprzewodowe</string>
     <!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="battery_info_status_discharging">Not charging</string>
+    <string name="battery_info_status_discharging">Nie podłączony</string>
     <!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="battery_info_status_not_charging">Not charging</string>
+    <string name="battery_info_status_not_charging">Nie podłączony</string>
     <!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="battery_info_status_full">Full</string>
+    <string name="battery_info_status_full">Pełna</string>
 
     <!-- Battery Info screen. Units shown after a value.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="battery_info_power_unplugged">Unplugged</string>
-    <string name="battery_info_power_ac">AC</string>
+    <string name="battery_info_power_unplugged">Odłączone</string>
+    <string name="battery_info_power_ac">Zasilacz</string>
     <string name="battery_info_power_usb">USB</string>
-    <string name="battery_info_power_wireless">wireless</string>
-    <string name="battery_info_power_ac_usb">AC+USB</string>
-    <string name="battery_info_power_unknown">Unknown</string>
+    <string name="battery_info_power_wireless">bezprzewodowo</string>
+    <string name="battery_info_power_ac_usb">Zasilacz i USB</string>
+    <string name="battery_info_power_unknown">Nieznane</string>
 
     <!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="battery_info_health_unknown">Unknown</string>
+    <string name="battery_info_health_unknown">Nieznane</string>
     <!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="battery_info_health_good">Good</string>
+    <string name="battery_info_health_good">Dobry</string>
     <!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="battery_info_health_overheat">Overheat</string>
+    <string name="battery_info_health_overheat">Przegrzanie</string>
     <!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="battery_info_health_dead">Dead</string>
+    <string name="battery_info_health_dead">Rozładowana</string>
     <!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="battery_info_health_over_voltage">Over voltage</string>
+    <string name="battery_info_health_over_voltage">Przepięcie</string>
     <!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="battery_info_health_unspecified_failure">Unknown error</string>
+    <string name="battery_info_health_unspecified_failure">Nieznany błąd</string>
     <!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="battery_info_health_cold">Cold</string>
+    <string name="battery_info_health_cold">Zimna</string>
 
     <!-- Used as setting title (for checkbox) on second screen after selecting Bluetooth settings -->
     <string name="bluetooth">Bluetooth</string>
     <!-- Bluetooth settings screen, summary after selecting Discoverable check box [CHAR LIMIT=50] -->
-    <string name="bluetooth_is_discoverable">Visible to all nearby Bluetooth devices (<xliff:g id="discoverable_time_period">%1$s</xliff:g>)</string>
+    <string name="bluetooth_is_discoverable">Widoczne dla wszystkich urządzeń Bluetooth (<xliff:g id="discoverable_time_period">%1$s</xliff:g>)</string>
     <!-- Bluetooth settings screen, summary when Discoverable duration is set to "forever" [CHAR LIMIT=50] -->
-    <string name="bluetooth_is_discoverable_always">Visible to all nearby Bluetooth devices</string>
+    <string name="bluetooth_is_discoverable_always">Widoczne dla wszystkich urządzeń Bluetooth</string>
     <!-- Bluetooth settings screen, summary text when not discoverable and no paired devices [CHAR LIMIT=50] -->
-    <string name="bluetooth_not_visible_to_other_devices">Not visible to other Bluetooth devices</string>
+    <string name="bluetooth_not_visible_to_other_devices">Niewidoczne dla innych urządzeń Bluetooth</string>
     <!-- Bluetooth settings screen, summary text when not discoverable with paired devices [CHAR LIMIT=50] -->
-    <string name="bluetooth_only_visible_to_paired_devices">Only visible to paired devices</string>
+    <string name="bluetooth_only_visible_to_paired_devices">Widoczne tylko dla urządzeń sparowanych</string>
     <!-- Bluetooth settings screen, option name to pick discoverability timeout duration (a list dialog comes up) -->
-    <string name="bluetooth_visibility_timeout">Visibility timeout</string>
+    <string name="bluetooth_visibility_timeout">Czas widoczności</string>
     <!-- Bluetooth settings screen, check box label whether or not to allow
         bluetooth voice dialing when lock screen is up-->
-    <string name="bluetooth_lock_voice_dialing">Lock voice dialing</string>
+    <string name="bluetooth_lock_voice_dialing">Zablokuj wybieranie głosowe</string>
     <!-- Bluetooth settings screen, lock voice dialing checkbox summary text -->
     <string name="bluetooth_lock_voice_dialing_summary">
-      Prevent use of the bluetooth dialer when the screen is locked
+      Zapobiegaj używaniu wybierania Bluetooth, gdy ekran jest zablokowany
     </string>
     <!-- Bluetooth settings screen, heading above the list of nearby bluetooth devices -->
-    <string name="bluetooth_devices">Bluetooth devices</string>
+    <string name="bluetooth_devices">Lista urządzeń</string>
     <!-- Bluetooth settings screen, title for the current bluetooth name setting -->
-    <string name="bluetooth_device_name">Device name</string>
+    <string name="bluetooth_device_name">Nazwa urządzenia</string>
     <!-- Bluetooth settings screen, image description for device details button. This opens the screen to rename, unpair, etc. a single device. -->
-    <string name="bluetooth_device_details">Device settings</string>
+    <string name="bluetooth_device_details">Ustawienia urządzenia</string>
     <!-- Bluetooth settings screen, image description for profile of a device details button. -->
-    <string name="bluetooth_profile_details">Profile settings</string>
+    <string name="bluetooth_profile_details">Ustawienia profilu</string>
     <!-- Bluetooth settings screen, summary text when there isn't a name set (for the name setting) -->
-    <string name="bluetooth_name_not_set">No name set, using account name</string>
+    <string name="bluetooth_name_not_set">Nie ustawiono nazwy, wykorzystywana jest nazwa konta</string>
     <!-- Bluetooth settings screen, menu item to scan for nearby bluetooth devices -->
-    <string name="bluetooth_scan_for_devices">Scan for devices</string>
+    <string name="bluetooth_scan_for_devices">Wyszukaj urządzenia</string>
     <!-- Bluetooth settings screen, menu item to change this device's Bluetooth name. [CHAR LIMIT=30] -->
-    <string name="bluetooth_rename_device">Rename this device</string>
+    <string name="bluetooth_rename_device">Zmień nazwę tego urządzenia</string>
     <!-- Bluetooth settings screen, confirmation button for rename device dialog. [CHAR LIMIT=20] -->
-    <string name="bluetooth_rename_button">Rename</string>
+    <string name="bluetooth_rename_button">Zmień nazwę</string>
     <!-- Bluetooth settings.  Dialog title to confirm disconnecting from all profiles of a device. [CHAR LIMIT=30] -->
-    <string name="bluetooth_disconnect_title">Disconnect?</string>
+    <string name="bluetooth_disconnect_title">Rozłączyć?</string>
     <!-- Bluetooth settings.  Message for disconnecting from all profiles of a bluetooth device. [CHAR LIMIT=NONE] -->
-    <string name="bluetooth_disconnect_all_profiles">This will end your connection with:&lt;br>&lt;b><xliff:g id="device_name">%1$s</xliff:g>&lt;/b></string>
+    <string name="bluetooth_disconnect_all_profiles">Spowoduje to zakończenie połączenia z urządzeniem:&lt;br>&lt;b><xliff:g id="device_name">%1$s</xliff:g>&lt;/b></string>
     <!-- Bluetooth Settings. text displayed when user has restriction DISALLOW_CONFIG_BLUETOOTH [CHAR LIMIT=NONE]-->
-    <string name="bluetooth_empty_list_user_restricted">You don\'t have permission to change Bluetooth settings.</string>
+    <string name="bluetooth_empty_list_user_restricted">Nie masz uprawnień, by zmienić ustawienia Bluetootha.</string>
 
     <!-- Bluetooth Visibility message.  This message informs the user that their device is now visible to other bluetooth devices.  [CHAR LIMIT=NONE] -->
-    <string name="bluetooth_is_visible_message"><xliff:g id="device_name">%1$s</xliff:g> is visible to nearby devices while Bluetooth Settings is open.</string>
+    <string name="bluetooth_is_visible_message"><xliff:g id="device_name">%1$s</xliff:g> – widoczne dla urządzeń w pobliżu po otwarciu ustawień Bluetootha.</string>
     <!-- Bluetooth Visibility discoonect question.  Asks the user if they wish to disconnect a paired bluetooth device.  [CHAR LIMIT=50] -->
-    <string name="bluetooth_is_disconnect_question">Disconnect <xliff:g id="device_name">%1$s</xliff:g>?</string>
+    <string name="bluetooth_is_disconnect_question">Odłączyć urządzenie <xliff:g id="device_name">%1$s</xliff:g>?</string>
     <!-- Bluetooth broadcasting settings, option to enable/disable broadcasting -->
-    <string name="bluetooth_broadcasting">Broadcasting</string>
+    <string name="bluetooth_broadcasting">Transmisja</string>
     <!-- Bluetooth settings.  Dialog title to disable a single profile of a device. [CHAR LIMIT=40] -->
-    <string name="bluetooth_disable_profile_title">Disable profile?</string>
+    <string name="bluetooth_disable_profile_title">Wyłączyć profil?</string>
     <!-- Bluetooth settings.  Message for disabling a profile of a bluetooth device. [CHAR LIMIT=NONE] -->
-    <string name="bluetooth_disable_profile_message">This will disable:&lt;br>&lt;b><xliff:g id="profile_name">%1$s</xliff:g>&lt;/b>&lt;br>&lt;br>From:&lt;br>&lt;b><xliff:g id="device_name">%2$s</xliff:g>&lt;/b></string>
+    <string name="bluetooth_disable_profile_message">Spowoduje to wyłączenie profilu:&lt;br>&lt;b><xliff:g id="profile_name">%1$s</xliff:g>&lt;/b>&lt;br>&lt;br>From:&lt;br>&lt;b><xliff:g id="device_name">%2$s</xliff:g>&lt;/b></string>
 
     <!-- Bluetooth settings.  Message when connected to a device. [CHAR LIMIT=40] -->
-    <string name="bluetooth_connected">Connected</string>
+    <string name="bluetooth_connected">Połączony</string>
     <!-- Bluetooth settings.  Message when connected to a device, except for phone audio. [CHAR LIMIT=40] -->
-    <string name="bluetooth_connected_no_headset">Connected (no phone)</string>
+    <string name="bluetooth_connected_no_headset">Połączono (bez telefonu)</string>
     <!-- Bluetooth settings.  Message when connected to a device, except for media audio. [CHAR LIMIT=40] -->
-    <string name="bluetooth_connected_no_a2dp">Connected (no media)</string>
+    <string name="bluetooth_connected_no_a2dp">Połączono (bez multimediów)</string>
     <!-- Bluetooth settings.  Message when connected to a device, except for map. [CHAR LIMIT=40] -->
-    <string name="bluetooth_connected_no_map">Connected (no message access)</string>
+    <string name="bluetooth_connected_no_map">Połączono (brak dostępu do wiadomości)</string>
     <!-- Bluetooth settings.  Message when connected to a device, except for phone/media audio. [CHAR LIMIT=40] -->
-    <string name="bluetooth_connected_no_headset_no_a2dp">Connected (no phone or media)</string>
+    <string name="bluetooth_connected_no_headset_no_a2dp">Połączono (bez telefonu ani multimediów)</string>
     <!-- Bluetooth settings.  Message when a device is disconnected -->
-    <string name="bluetooth_disconnected">Disconnected</string>
+    <string name="bluetooth_disconnected">Rozłączona</string>
     <!-- Bluetooth settings.  Message when disconnecting from a device -->
-    <string name="bluetooth_disconnecting">Disconnecting\u2026</string>
+    <string name="bluetooth_disconnecting">Rozłączanie...</string>
     <!-- Bluetooth settings.  Message when connecting to a device -->
-    <string name="bluetooth_connecting">Connecting\u2026</string>
+    <string name="bluetooth_connecting">Łączenie...</string>
     <!-- Bluetooth settings.  Message when the device state is unknown -->
     <string name="bluetooth_unknown" />
     <!--Bluetooth settings screen, summary text under individual Bluetooth devices when pairing -->
-    <string name="bluetooth_pairing">Pairing\u2026</string>
+    <string name="bluetooth_pairing">Parowanie...</string>
     <!--Bluetooth settings screen, summary text for Bluetooth device with no name -->
-    <string name="bluetooth_device">Unnamed Bluetooth device</string>
+    <string name="bluetooth_device">Urządzenie Bluetooth bez nazwy</string>
     <!--Bluetooth settings screen, text that appears in heading bar when scanning for devices -->
-    <string name="progress_scanning">Searching</string>
+    <string name="progress_scanning">Wyszukiwanie</string>
     <!--Bluetooth settings screen, text that appears when scanning for devices is finished and no nearby bluetooth device was found [CHAR LIMIT=40]-->
-    <string name="bluetooth_no_devices_found">No nearby Bluetooth devices were found.</string>
+    <string name="bluetooth_no_devices_found">Brak urządzeń Bluetooth w pobliżu.</string>
     <!-- Notification ticker text (shown in the status bar) when a Bluetooth device wants to pair with us -->
-    <string name="bluetooth_notif_ticker">Bluetooth pairing request</string>
+    <string name="bluetooth_notif_ticker">Żądanie parowania Bluetooth</string>
     <!-- Notification title when a Bluetooth device wants to pair with us -->
-    <string name="bluetooth_notif_title">Pairing request</string>
+    <string name="bluetooth_notif_title">Żądanie parowania</string>
     <!-- Notification message when a Bluetooth device wants to pair with us -->
-    <string name="bluetooth_notif_message">Touch to pair with <xliff:g id="device_name">%1$s</xliff:g>.</string>
+    <string name="bluetooth_notif_message">Dotknij, by sparować z <xliff:g id="device_name">%1$s</xliff:g>.</string>
     <!-- Bluetooth settings screen, menu to show the list of received files [CHAR LIMIT=30] -->
-    <string name="bluetooth_show_received_files">Show received files</string>
+    <string name="bluetooth_show_received_files">Pokaż odebrane pliki</string>
 
     <!-- Strings for BluetoothDevicePicker [CHAR LIMIT=40]-->
     <string name="device_picker">Choose Bluetooth device</string>
