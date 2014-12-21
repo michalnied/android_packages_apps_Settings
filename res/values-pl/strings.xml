@@ -316,89 +316,89 @@
     <string name="bluetooth_show_received_files">Pokaż odebrane pliki</string>
 
     <!-- Strings for BluetoothDevicePicker [CHAR LIMIT=40]-->
-    <string name="device_picker">Choose Bluetooth device</string>
+    <string name="device_picker">Wybierz urządzenie Bluetooth</string>
 
     <!-- Strings for dialog title when asking to the user whether to allow an app to enable discovery mode -->
-    <string name="bluetooth_permission_request">"Bluetooth permission request"</string>
+    <string name="bluetooth_permission_request">"Prośba o pozwolenie na włączenie modułu Bluetooth"</string>
 
     <!-- Strings for asking to the user whether to allow an app to enable bluetooth -->
-    <string name="bluetooth_ask_enablement">An app wants to turn on Bluetooth.</string>
+    <string name="bluetooth_ask_enablement">Aplikacja chce włączyć Bluetooth.</string>
 
     <!-- Strings for asking to the user whether to allow an app to enable discovery mode -->
-    <string name="bluetooth_ask_discovery" product="tablet">An app wants to make your tablet visible to other Bluetooth devices for <xliff:g id="timeout">%1$d</xliff:g> seconds.</string>
+    <string name="bluetooth_ask_discovery" product="tablet">Aplikacja chce ustawić Twój tablet jako wykrywalny dla innych urządzeń Bluetooth przez <xliff:g id="timeout">%1$d</xliff:g> seconds.</string>
     <!-- Strings for asking to the user whether to allow an app to enable discovery mode -->
-    <string name="bluetooth_ask_discovery" product="default">An app wants to make your phone visible to other Bluetooth devices for <xliff:g id="timeout">%1$d</xliff:g> seconds.</string>
+    <string name="bluetooth_ask_discovery" product="default">Aplikacja chce ustawić Twój telefon jako wykrywalny dla innych urządzeń Bluetooth przez <xliff:g id="timeout">%1$d</xliff:g> seconds.</string>
 
     <!-- Strings for asking to the user whether to allow an app to enable lasting discovery mode  -->
-    <string name="bluetooth_ask_lasting_discovery" product="tablet">An app wants to make your tablet visible to other Bluetooth devices. You can change this later in Bluetooth settings.</string>
-    <string name="bluetooth_ask_lasting_discovery" product="default">An app wants to make your phone visible to other Bluetooth devices. You can change this later in Bluetooth settings.</string>
+    <string name="bluetooth_ask_lasting_discovery" product="tablet">Aplikacja chce ustawić Twój tablet jako wykrywalny dla innych urządzeń Bluetooth. Później możesz to zmienić w ustawieniach Bluetooth.</string>
+    <string name="bluetooth_ask_lasting_discovery" product="default">Aplikacja chce ustawić Twój telefon jako wykrywalny dla innych urządzeń Bluetooth. Później możesz to zmienić w ustawieniach Bluetooth.</string>
 
     <!-- Strings for asking to the user whether to allow an app to start broadcasting -->
-    <string name="bluetooth_ask_start_broadcast" product="default"><xliff:g id="app_name">%1$s</xliff:g> wants to turn on Bluetooth broadcasting to communicate with other devices nearby. You can change this later in Bluetooth settings.</string>
+    <string name="bluetooth_ask_start_broadcast" product="default"><xliff:g id="app_name">%1$s</xliff:g> chce włączyć transmisję Bluetooth, by komunikować się z innymi urządzeniami w pobliżu. Możesz to potem zmienić w ustawieniach Bluetooth</string>
     <!-- Strings for asking to the user whether to allow an app to enable bluetooth and start broadcasting -->
-    <string name="bluetooth_ask_enablement_and_start_broadcast" product="default"><xliff:g id="app_name">%1$s</xliff:g> wants to turn on Bluetooth and Bluetooth broadcasting to communicate with other devices nearby. You can change this later in Bluetooth settings.</string>
+    <string name="bluetooth_ask_enablement_and_start_broadcast" product="default"><xliff:g id="app_name">%1$s</xliff:g> chce włączyć Bluetooth i transmisję Bluetooth, by komunikować się z innymi urządzeniami w pobliżu. Możesz to potem zmienić w ustawieniach Bluetooth.</string>
     <!-- Strings for bluetooth broadcasting explanation -->
-    <string name="bluetooth_broadcasting_explaination" product="default">When this feature is turned on, your phone can communicate with other devices nearby.\n\nBroadcasting uses low-power Bluetooth signals.</string>
+    <string name="bluetooth_broadcasting_explaination" product="default">Gdy ta funkcja jest włączona, Twój telefon może komunikować się z innymi urządzeniami w pobliżu.\n\nFunkcja wykorzystuje sygnały Bluetooth małej mocy.</string>
 
     <!-- Strings for asking to the user whether to allow an app to enable bluetooth and discovery mode -->
-    <string name="bluetooth_ask_enablement_and_discovery" product="tablet">An app wants to turn on Bluetooth and make your tablet visible to other devices for <xliff:g id="timeout">%1$d</xliff:g> seconds.</string>
+    <string name="bluetooth_ask_enablement_and_discovery" product="tablet">Aplikacja chce włączyć Bluetooth i ustawić tablet jako wykrywalny dla innych urządzeń przez <xliff:g id="timeout">%1$d</xliff:g> seconds.</string>
     <!-- Strings for asking to the user whether to allow an app to enable bluetooth and discovery mode -->
-    <string name="bluetooth_ask_enablement_and_discovery" product="default">An app wants to turn on Bluetooth and make your phone visible to other devices for <xliff:g id="timeout">%1$d</xliff:g> seconds.</string>
+    <string name="bluetooth_ask_enablement_and_discovery" product="default">Aplikacja chce włączyć Bluetooth i ustawić telefon jako wykrywalny dla innych urządzeń przez <xliff:g id="timeout">%1$d</xliff:g> seconds.</string>
 
     <!-- Strings for asking to the user whether to allow an app to enable bluetooth and discovery mode -->
-    <string name="bluetooth_ask_enablement_and_lasting_discovery" product="tablet">An app wants to turn on Bluetooth and make your tablet visible to other devices. You can change this later in Bluetooth settings.</string>
-    <string name="bluetooth_ask_enablement_and_lasting_discovery" product="default">An app wants to turn on Bluetooth and make your phone visible to other devices. You can change this later in Bluetooth settings.</string>
+    <string name="bluetooth_ask_enablement_and_lasting_discovery" product="tablet">Aplikacja chce włączyć Bluetooth i ustawić Twój tablet jako wykrywalny dla innych urządzeń. Później możesz to zmienić w ustawieniach Bluetooth.</string>
+    <string name="bluetooth_ask_enablement_and_lasting_discovery" product="default">Aplikacja chce włączyć Bluetooth i ustawić Twój telefon jako wykrywalny dla innych urządzeń. Później możesz to zmienić w ustawieniach Bluetooth.</string>
 
     <!-- Strings for msg to display to user while bluetooth is turning on [CHAR LIMIT=60] -->
-    <string name="bluetooth_turning_on">"Turning Bluetooth on\u2026"</string>
+    <string name="bluetooth_turning_on">Włączanie Bluetooth...</string>
 
     <!-- Strings for msg to display to user while bluetooth is turning off [CHAR LIMIT=60] -->
-    <string name="bluetooth_turning_off">"Turning Bluetooth off\u2026"</string>
+    <string name="bluetooth_turning_off">"Wyłączanie Bluetooth...</string>
 
     <!-- Strings for device profile auto connect setting -->
-    <string name="bluetooth_auto_connect">Auto-connect</string>
+    <string name="bluetooth_auto_connect">Połącz automatycznie"</string>
 
     <!-- Activity label of BluetoothPermissionActivity [CHAR LIMIT=none]-->
-    <string name="bluetooth_connection_permission_request">"Bluetooth connection request"</string>
+    <string name="bluetooth_connection_permission_request">"Żądanie nawiązania połączenia Bluetooth"</string>
 
     <!-- Notification message when a remote Bluetooth device wants to connect to a Bluetooth profile [CHAR LIMIT=none]-->
-    <string name="bluetooth_connection_notif_message">"Touch to connect to \u0022<xliff:g id="device_name">%1$s</xliff:g>\u0022."</string>
+    <string name="bluetooth_connection_notif_message">"Dotknij, aby połączyć się z urządzeniem „<xliff:g id="device_name">%1$s</xliff:g>\u0022."</string>
 
     <!-- Bluetooth connection permission Alert Activity text [CHAR LIMIT=none]-->
-    <string name="bluetooth_connection_dialog_text">"Do you want to connect to \u0022<xliff:g id="device_name">%1$s</xliff:g>\u0022?"</string>
+    <string name="bluetooth_connection_dialog_text">"Czy chcesz nawiązać połączenie z urządzeniem „<xliff:g id="device_name">%1$s</xliff:g>\u0022?"</string>
 
     <!-- Activity label of BluetoothPbPermissionActivity, also used as Strings in the permission dialog [CHAR LIMIT=none] -->
-    <string name="bluetooth_phonebook_request">"Phone book access request"</string>
+    <string name="bluetooth_phonebook_request">"Żądanie dostępu do książki telefonicznej"</string>
 
     <!-- Bluetooth phone book permission Alert Activity text [CHAR LIMIT=none] -->
-    <string name="bluetooth_pb_acceptance_dialog_text">%1$s wants to access your contacts and call history. Give access to %2$s?</string>
+    <string name="bluetooth_pb_acceptance_dialog_text"%1$s chce uzyskać dostęp do Twoich kontaktów i historii połączeń. Zezwolić %2$s na dostęp?</string>
 
     <!-- Bluetooth phone book permission Alert Activity checkbox text [CHAR LIMIT=none] -->
-    <string name="bluetooth_remember_choice">Don\'t ask again</string>
+    <string name="bluetooth_remember_choice">Nie pytaj ponownie</string>
     <!--FIXME SHOULD BE REMOVED AND ALL LANG VERSIONS FIXED TO ABOVE NAME -->
-    <string name="bluetooth_pb_remember_choice">Don\'t ask again</string>
+    <string name="bluetooth_pb_remember_choice">Nie pytaj ponownie</string>
 
     <!-- Activity label of BluetoothMessagePermissionActivity, also used as Strings in the permission dialog [CHAR LIMIT=none] -->
-    <string name="bluetooth_map_request">"Message access request"</string>
+    <string name="bluetooth_map_request">"Żądanie dostępu do wiadomości"</string>
 
     <!-- Bluetooth message permission Alert Activity text [CHAR LIMIT=none] -->
-    <string name="bluetooth_map_acceptance_dialog_text">%1$s wants to access your messages. Give access to %2$s?</string>
+    <string name="bluetooth_map_acceptance_dialog_text">%1$s chce uzyskać dostęp do Twoich wiadomości. Zezwolić na dostęp?</string>
 
     <!-- Date & time settings screen title -->
-    <string name="date_and_time">Date &amp; time</string>
+    <string name="date_and_time">Data i czas</string>
     <!-- The title of the activity to pick a time zone. -->
-    <string name="choose_timezone">Choose time zone</string>
+    <string name="choose_timezone">Wybierz strefę czasową</string>
     <!-- Do not translate. Used as the value for a setting. -->
     <string name="default_date_format"><xliff:g id="default_date_format">MM/dd/yyyy</xliff:g></string>
 
     <!-- The option in the date-format picker for using the normal format
          called for by the user's locale. -->
-    <string name="normal_date_format">Regional (<xliff:g id="date" example="12-31-2009">%s</xliff:g>)</string>
+    <string name="normal_date_format">Regionalny (<xliff:g id="date" example="12-31-2009">%s</xliff:g>)</string>
 
     <!-- Label of preview text when tweaking font size -->
-    <string name="display_preview_label">Preview:</string>
+    <string name="display_preview_label">Podgląd:</string>
     <!-- Label for chosen font size -->
-    <string name="display_font_size_label">Font size:</string>
+    <string name="display_font_size_label">Rozmiar czcionki:</string>
 
     <!-- Used for diagnostic screens, precise translation is not necessary -->
     <string name="intent_sender_data_label"><xliff:g id="data">Data:</xliff:g></string>
