@@ -34,94 +34,94 @@
     <string name="device_info_default">Nieznane</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
     <plurals name="show_dev_countdown">
-        <item quantity="one">You are now <xliff:g id="step_count">%1$d</xliff:g> step away from being a developer.</item>
-        <item quantity="other">You are now <xliff:g id="step_count">%1$d</xliff:g> steps away from being a developer.</item>
+     <item quantity="one" msgid="5295687242294085452">"Od zostania programistą dzieli Cię już tylko <xliff:g id="STEP_COUNT">%1$d</xliff:g> krok."</item>
+     <item quantity="other" msgid="6722953419953594148">"Od zostania programistą dzieli Cię już tylko tyle kroków: <xliff:g id="STEP_COUNT">%1$d</xliff:g>."</item>
     </plurals>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
-    <string name="show_dev_on">You are now a developer!</string>
+    <string name="show_dev_on">Jesteś teraz programistą!</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
-    <string name="show_dev_already">No need, you are already a developer.</string>
+    <string name="show_dev_already">W porządku, już jesteś programistą.</string>
 
     <!-- Category headings in left-pane header menu --> <skip />
     <!-- Settings main menu category heading. Wireless and networks (Wi-Fi, Bluetooth, data usage...). [CHAR LIMIT=40] -->
-    <string name="header_category_wireless_networks">Wireless &amp; networks</string>
+    <string name="header_category_wireless_networks">Sieci zwykłe i bezprzewodowe</string>
     <!-- Settings main menu category heading. Wireless and networks (Wi-Fi, Bluetooth, data usage...). [CHAR LIMIT=40] -->
-    <string name="header_category_connections">Connections</string>
+    <string name="header_category_connections">Połączenia</string>
     <!-- Settings main menu category heading. Device (Sound, display, battery, applications...). [CHAR LIMIT=40] -->
-    <string name="header_category_device">Device</string>
+    <string name="header_category_device">Urządzenie</string>
     <!-- Settings main menu category heading. Personal (Accounts, security, language, backup...). [CHAR LIMIT=40] -->
-    <string name="header_category_personal">Personal</string>
+    <string name="header_category_personal">Osobiste</string>
     <!-- Settings main menu category heading. Personal (Accounts, security, language, backup...). [CHAR LIMIT=40] -->
-    <string name="header_category_access">Access</string>
+    <string name="header_category_access">Dostęp</string>
     <!-- Settings main menu category heading. System (Updates, data, accessibility, about phone). [CHAR LIMIT=40] -->
     <string name="header_category_system">System</string>
 
     <!-- Phone info -->
     <!-- Phone Info screen. Button label to turn on the radio . Only shown in diagnostic screen, so precise translation is not needed. -->
-    <string name="turn_on_radio">Turn on radio</string>
+    <string name="turn_on_radio">Włącz radio</string>
     <!-- Phone Info screen. Button label to turn off the radio . Only shown in diagnostic screen, so precise translation is not needed. -->
-    <string name="turn_off_radio">Turn off radio</string>
+    <string name="turn_off_radio">Wyłącz radio</string>
 
     <!-- Phone SMS over IMS on. Only shown in diagnostic screen, so precise translation is not needed. -->
-    <string name="sms_over_ims_on">Turn on SMS over IMS</string>
+    <string name="sms_over_ims_on">Włącz SMS przez IMS</string>
     <!-- Phone SMS over IMS off. Only shown in diagnostic screen, so precise translation is not needed. -->
-    <string name="sms_over_ims_off">Turn off SMS over IMS</string>
+    <string name="sms_over_ims_off">Wyłącz SMS przez IMS</string>
 
     <!-- Phone SMS over IMS IMS registration required on. Only shown in diagnostic screen, so precise translation is not needed. -->
-    <string name="ims_reg_required_on">Turn on IMS registration required</string>
+    <string name="ims_reg_required_on">Włącz wymóg rejestracji IMS</string>
     <!-- Phone IMS registration required off. Only shown in diagnostic screen, so precise translation is not needed. -->
-    <string name="ims_reg_required_off">Turn off IMS registration required</string>
+    <string name="ims_reg_required_off">Wyłącz wymóg rejestracji IMS</string>
 
     <!-- Phone ram dump on. Only shown in diagnostic screen, so precise translation is not needed. -->
-    <string name="lte_ram_dump_on">Turn on lte ram dump</string>
+    <string name="lte_ram_dump_on">Włącz zrzut pamięci RAM LTE</string>
     <!-- Phone ram dump off. Only shown in diagnostic screen, so precise translation is not needed. -->
-    <string name="lte_ram_dump_off">Turn off lte ram dump</string>
+    <string name="lte_ram_dump_off">Wyłącz zrzut pamięci RAM LTE</string>
 
     <!-- Phone Info screen. Menu item label.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radioInfo_menu_viewADN">View SIM address book</string>
+    <string name="radioInfo_menu_viewADN">Wyświetl książkę adresową na karcie SIM</string>
     <!-- Phone Info screen. Menu item label.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radioInfo_menu_viewFDN">View Fixed Dialing Numbers</string>
+    <string name="radioInfo_menu_viewFDN">Wyświetl ustalone numery</string>
     <!-- Phone Info screen. Menu item label.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radioInfo_menu_viewSDN">View Service Dialing Numbers</string>
+    <string name="radioInfo_menu_viewSDN">Wyświetl numery usług</string>
     <!-- Phone Info screen. Menu item label.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radioInfo_menu_getPDP">Get PDP list</string>
+    <string name="radioInfo_menu_getPDP">Pobierz listę PDP</string>
 
     <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radioInfo_service_in">In service</string>
+    <string name="radioInfo_service_in">Działa</string>
     <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radioInfo_service_out">Out of service</string>
+    <string name="radioInfo_service_out">Nie działa</string>
     <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radioInfo_service_emergency">Emergency calls only</string>
+    <string name="radioInfo_service_emergency">Tylko połączenia alarmowe</string>
     <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radioInfo_service_off">Radio off</string>
+    <string name="radioInfo_service_off">Radio wyłączone</string>
 
     <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radioInfo_roaming_in">Roaming</string>
     <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radioInfo_roaming_not">Not roaming</string>
+    <string name="radioInfo_roaming_not">Brak roamingu</string>
 
     <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radioInfo_phone_idle">Idle</string>
+    <string name="radioInfo_phone_idle">Bezczynny</string>
     <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radioInfo_phone_ringing">Ringing</string>
+    <string name="radioInfo_phone_ringing">Dzwonienie</string>
     <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radioInfo_phone_offhook">Call in progress</string>
+    <string name="radioInfo_phone_offhook">Dzwonienie w toku</string>
 
     <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radioInfo_data_disconnected">Disconnected</string>
+    <string name="radioInfo_data_disconnected">Rozłączona</string>
     <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radioInfo_data_connecting">Connecting</string>
+    <string name="radioInfo_data_connecting">Łączenie</string>
     <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radioInfo_data_connected">Connected</string>
+    <string name="radioInfo_data_connected">Połączony</string>
     <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radioInfo_data_suspended">Suspended</string>
+    <string name="radioInfo_data_suspended">Zawieszony</string>
 
     <!-- Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radioInfo_unknown">unknown</string>
+    <string name="radioInfo_unknown">nieznane</string>
     <!-- Phone Info screen. Units shown after a value.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radioInfo_display_packets">pkts</string>
+    <string name="radioInfo_display_packets">pakietów</string>
     <!-- Phone Info screen. Units shown after a value.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radioInfo_display_bytes">bytes</string>
+    <string name="radioInfo_display_bytes">bajtów</string>
     <!-- Phone Info screen. Units shown after a value.  Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radioInfo_display_dbm">dBm</string>
     <!-- Phone Info screen. Units shown after a value.  Used for diagnostic info screens, precise translation isn't needed -->
@@ -132,21 +132,21 @@
     <string name="radioInfo_cid">CID</string>
 
     <!-- Used for diagnostic info screens, precise translation isn't needed. Unmounts the SD card from the phone, meaning it will become available for an attached computer  [CHAR LIMIT=25] -->
-    <string name="sdcard_unmount" product="nosdcard">Unmount USB storage</string>
+    <string name="sdcard_unmount" product="nosdcard">Odłącz nośnik USB</string>
     <!-- Used for diagnostic info screens, precise translation isn't needed. Unmounts the SD card from the phone, meaning it will become available for an attached computer  -->
-    <string name="sdcard_unmount" product="default">Unmount SD card</string>
+    <string name="sdcard_unmount" product="default">Odłącz kartę SD</string>
 
     <!-- Used for diagnostic info screens, precise translation isn't needed. Formats the SD card in the phone, meaning it will be erased and reformatted [CHAR LIMIT=25] -->
-    <string name="sdcard_format" product="nosdcard">Erase USB storage</string>
+    <string name="sdcard_format" product="nosdcard">Odłącz kartę SD</string>
     <!-- Used for diagnostic info screens, precise translation isn't needed. Formats the SD card in the phone, meaning it will be erased and reformatted -->
-    <string name="sdcard_format" product="default">Erase SD card</string>
+    <string name="sdcard_format" product="default">Wyczyść kartę SD</string>
 
     <!-- choice for the font size spinner -->
-    <string name="small_font">Small</string>
+    <string name="small_font">Mały</string>
     <!-- choice for the font size spinner -->
-    <string name="medium_font">Medium</string>
+    <string name="medium_font">Średni</string>
     <!-- choice for the font size spinner -->
-    <string name="large_font">Large</string>
+    <string name="large_font">Duży</string>
 
     <!-- Do not translate. label for font size preview.  Does not need to be translated. -->
     <string name="font_size_preview_text">Servez à ce monsieur une bière et des kiwis.</string>
@@ -154,14 +154,14 @@
     <string name="font_size_save">OK</string>
 
     <!-- Title for a notification shown. [CHAR LIMIT=25] -->
-    <string name="sdcard_setting" product="nosdcard">USB storage</string>
+    <string name="sdcard_setting" product="nosdcard">Nośnik USB</string>
     <!-- Title for a notification shown. -->
-    <string name="sdcard_setting" product="default">SD card</string>
+    <string name="sdcard_setting" product="default">Karta SD</string>
 
     <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="battery_info_status_label">Battery status:</string>
+    <string name="battery_info_status_label">Stan baterii:</string>
     <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="battery_info_power_label">Power plug:</string>
+    <string name="battery_info_power_label">Podłączone zasilanie:</string>
     <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
     <string name="battery_info_scale_label">Battery scale:</string>
     <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
