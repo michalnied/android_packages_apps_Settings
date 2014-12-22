@@ -51,12 +51,12 @@
     <string name="font_size_sample">Przykład</string>
 
     <!--Back to kill timeout -->
-    <string name="long_press_kill_delay">App kill delay</string>
+    <string name="long_press_kill_delay">Opóźnienie zabicia aplikacji</string>
 
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
     <string name="show_cpu_info">Pokaż informacje o procesorze</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
-    <string name="show_cpu_info_summary">Screen overlay showing current CPU info</string>
+    <string name="show_cpu_info_summary">Nakładka na ekran pokazująca bieżące użycie procesora</string>
 
     <!--Status bar -->
     <string name="status_bar_category">Pasek powiadomień</string>
@@ -67,8 +67,8 @@
     <string name="lockscreen_enable_power_menu_title">Pokaż menu zasilania na ekranie blokady</string>
 
     <!-- Touch control -->
-    <string name="touch_control_settings_title">Touch control</string>
-    <string name="touch_control_settings_summary">Manage advance wakeup options including double tap to wake and more</string>
+    <string name="touch_control_settings_title">Kontrola dotyku</string>
+    <string name="touch_control_settings_summary">Zarządzaj zaawansowanymi opcjami wybudzania including double tap to wake and more</string>
 
     <!-- Status bar | Clock -->
     <string name="status_bar_clock_category">Status bar</string>
