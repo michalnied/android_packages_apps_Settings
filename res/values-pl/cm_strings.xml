@@ -199,32 +199,32 @@
     <string name="color_enhancement_title">Wzmocnienie kolorów</string>
     <string name="color_enhancement_summary">Dynamiczne poprawianie kolorów na wyświetlaczu</string>
 
-    <string name="app_security_title">App security</string>
+    <string name="app_security_title">Zabezpieczenie aplikacji</string>
 
     <!-- Blacklist preferences -->
     <string name="blacklist_title">Czarna lista</string>
-    <string name="blacklist_edit_dialog_title">Edit blacklist entry</string>
+    <string name="blacklist_edit_dialog_title">Edytuj wpis do czarnej listy</string>
     <string name="blacklist_prefs">Ustawienia</string>
     <string name="blacklist_button_delete">Usuń</string>
     <string name="blacklist_empty_text">Nie masz żadnych numerów na czarnej liście. Dodaj pozycję przez naciśnięcie przycisku Dodaj (+).</string>
-    <string name="blacklist_disabled_empty_text">To blacklist calls and/or messages from certain numbers, enable the blacklist.</string>
-    <string name="blacklist_summary_disabled">Disabled</string>
-    <string name="blacklist_summary">Incoming calls and messages from phone numbers in the blacklist will be blocked</string>
+    <string name="blacklist_disabled_empty_text">Włącz czarną listę, aby automatycznie odrzucać połączenia i/lub wiadomości od wybranych numerów</string>
+    <string name="blacklist_summary_disabled">Wyłączone</string>
+    <string name="blacklist_summary">Przychodzące wiadomości i połączenia od numerów na czarnej liście będą blokowane</string>
     <string name="blacklist_notify">Pokaż powiadomienia</string>
     <string name="blacklist_private_numbers_title">Numery prywatne</string>
     <string name="blacklist_private_numbers_summary_disabled">Nie blokuj połączeń z prywatnych numerów</string>
-    <string name="blacklist_private_numbers_summary">Block incoming <xliff:g id="type">%s</xliff:g> from private numbers</string>
+    <string name="blacklist_private_numbers_summary">Blokuj przychodzące <xliff:g id="type">%s</xliff:g> z prywatnych numerów</string>
     <string name="blacklist_unknown_numbers_title">Nieznane numery</string>
     <string name="blacklist_unknown_numbers_summary_disabled">Nie blokuj połączeń lub wiadomości z numerów nie będących na liście kontaktów</string>
-    <string name="blacklist_unknown_numbers_summary">Block incoming <xliff:g id="type">%s</xliff:g> from numbers not in the contact list</string>
+    <string name="blacklist_unknown_numbers_summary">Blokuj przychodzące <xliff:g id="type">%s</xliff:g> z numerów nie będących na liście kontaktów</string>
     <string name="blacklist_summary_type_calls_only">połączenia</string>
     <string name="blacklist_summary_type_messages_only">wiadomości</string>
     <string name="blacklist_summary_type_calls_and_messages">połączenia i wiadomości</string>
-    <string name="blacklist_regex_title">Use wildcards</string>
-    <string name="blacklist_regex_summary">Use . as a wildcard and * for repetition. E.g. 123.* blocks numbers starting with 123 and .*123.* blocks numbers containing 123</string>
-    <string name="blacklist_policy_block_calls">Blokuj przychodzące połączenia</string>
-    <string name="blacklist_policy_block_messages">Blokuj przychodzące wiadomości</string>
-    <string name="blacklist_bad_number_add">Unable to add invalid number to blacklist</string>
+    <string name="blacklist_regex_title">Używaj symboli wieloznacznych</string>
+    <string name="blacklist_regex_summary">Użyj . jako dowolnego zamiennika i * dla powtórzenia. Np. 123.* blokuje numery zaczynające się od 123 a .*123.* blokuje numery zawierające 123</string>
+    <string name="blacklist_policy_block_calls">Blokuj połączenia przychodzące</string>
+    <string name="blacklist_policy_block_messages">Blokuj wiadomości przychodzące</string>
+    <string name="blacklist_bad_number_add">Numer jest nieprawidłowy, nie można go dodać do czarnej listy</string>
 
     <!-- Blacklist management -->
     <string name="add_blacklist_number">Dodaj numer</string>
