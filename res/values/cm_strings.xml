@@ -83,7 +83,7 @@
     <!-- Delete confimation messages -->
     <string name="profile_delete_confirm">Usunąć ten profil?</string>
     <string name="profile_app_delete_confirm">Usunąć tę aplikację?</string>
-    <string name="profile_cannot_delete">Aktywny profil nie może zostać usuniętey</string>
+    <string name="profile_cannot_delete">Aktywny profil nie może zostać usunięty</string>
 
     <!-- Profile network mode -->
     <string name="profile_networkmode_2g">2G</string>
@@ -206,31 +206,31 @@
     <string name="blacklist_edit_dialog_title">Edit blacklist entry</string>
     <string name="blacklist_prefs">Ustawienia</string>
     <string name="blacklist_button_delete">Usuń</string>
-    <string name="blacklist_empty_text">You don\'t have any blacklisted numbers. Add an entry by touching the Add (+) button.</string>
+    <string name="blacklist_empty_text">Nie masz żadnych numerów na czarnej liście. Dodaj pozycję przez naciśnięcie przycisku Dodaj (+).</string>
     <string name="blacklist_disabled_empty_text">To blacklist calls and/or messages from certain numbers, enable the blacklist.</string>
     <string name="blacklist_summary_disabled">Disabled</string>
     <string name="blacklist_summary">Incoming calls and messages from phone numbers in the blacklist will be blocked</string>
-    <string name="blacklist_notify">Show notification</string>
-    <string name="blacklist_private_numbers_title">Private numbers</string>
-    <string name="blacklist_private_numbers_summary_disabled">Don\'t block calls from private numbers</string>
+    <string name="blacklist_notify">Pokaż powiadomienia</string>
+    <string name="blacklist_private_numbers_title">Numery prywatne</string>
+    <string name="blacklist_private_numbers_summary_disabled">Nie blokuj połączeń z prywatnych numerów</string>
     <string name="blacklist_private_numbers_summary">Block incoming <xliff:g id="type">%s</xliff:g> from private numbers</string>
-    <string name="blacklist_unknown_numbers_title">Unknown numbers</string>
-    <string name="blacklist_unknown_numbers_summary_disabled">Don\'t block calls or messages from numbers not in the contact list</string>
+    <string name="blacklist_unknown_numbers_title">Nieznane numery</string>
+    <string name="blacklist_unknown_numbers_summary_disabled">Nie blokuj połączeń lub wiadomości z numerów nie będących na liście kontaktów</string>
     <string name="blacklist_unknown_numbers_summary">Block incoming <xliff:g id="type">%s</xliff:g> from numbers not in the contact list</string>
-    <string name="blacklist_summary_type_calls_only">calls</string>
-    <string name="blacklist_summary_type_messages_only">messages</string>
-    <string name="blacklist_summary_type_calls_and_messages">calls and messages</string>
+    <string name="blacklist_summary_type_calls_only">połączenia</string>
+    <string name="blacklist_summary_type_messages_only">wiadomości</string>
+    <string name="blacklist_summary_type_calls_and_messages">połączenia i wiadomości</string>
     <string name="blacklist_regex_title">Use wildcards</string>
     <string name="blacklist_regex_summary">Use . as a wildcard and * for repetition. E.g. 123.* blocks numbers starting with 123 and .*123.* blocks numbers containing 123</string>
-    <string name="blacklist_policy_block_calls">Block incoming calls</string>
-    <string name="blacklist_policy_block_messages">Block incoming messages</string>
+    <string name="blacklist_policy_block_calls">Blokuj przychodzące połączenia</string>
+    <string name="blacklist_policy_block_messages">Blokuj przychodzące wiadomości</string>
     <string name="blacklist_bad_number_add">Unable to add invalid number to blacklist</string>
 
     <!-- Blacklist management -->
     <string name="add_blacklist_number">Dodaj numer</string>
     <string name="remove_blacklist_number_title">Usuń numer</string>
-    <string name="remove_blacklist_entry">Do you want to remove this blacklist entry?</string>
-    <string name="select_contact">Select contact</string>
+    <string name="remove_blacklist_entry">Czy chcesz usunąć ten wpis z czarnej listy?</string>
+    <string name="select_contact">Wybierz kontakt</string>
 
     <!-- Protected apps lockpattern reset button -->
     <string name="lockpattern_reset_button">Reset pattern</string>
@@ -730,7 +730,7 @@
     <string name="enable_adb_summary_charging">Device is in Charging mode, USB debugging is disabled</string>
 
     <!-- Title of checkbox setting that enable quickboot. [CHAR LIMIT=32] -->
-    <string name="enable_quickboot_title">Enable QuickBoot mode</string>
+    <string name="enable_quickboot_title">Włącz QuickBoot</string>
     <!-- Summary of checkbox setting that enable quickboot. [CHAR LIMIT=64] -->
     <string name="enable_quickboot_summary">Put device into QuickBoot mode instead of normal power off</string>
 
@@ -758,7 +758,7 @@
     <string name="sub_activate_not_supported">Activation not supported</string>
     <string name="slot_name">SIM <xliff:g id="sub">%d</xliff:g></string>
 
-    <string name="usb_charging_title">Charging</string>
+    <string name="usb_charging_title">Ładowanie</string>
     <string name="usb_charging_summary">Lets you disable all data and file transfer connection with computer and put device in charging only mode.</string>
     <string name="primary_sub_select_title">Default 4G/3G Subscription</string>
 
@@ -774,7 +774,7 @@
     <string name="saving_protected_components">Saving component state</string>
 
     <!-- Weather in status bar -->
-    <string name="status_bar_show_weather_title">Show weather</string>
-    <string name="status_bar_show_weather_summary">Show the weather in the status bar header</string>
+    <string name="status_bar_show_weather_title">Pokaż pogodę</string>
+    <string name="status_bar_show_weather_summary">Pokaż pogodę w nagłówku paska statusu</string>
 
 </resources>
