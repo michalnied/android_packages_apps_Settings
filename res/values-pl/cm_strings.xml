@@ -266,33 +266,33 @@
     <string name="sms_security_check_limit_summary">Wyświetla ostrzeżenie, aby zapobiec wysyłaniu zbyt wielu wiadomości przez inne aplikacje. Obecny limit: %d wiadomości w ciągu 15 minut</string>
     <string name="sms_security_check_limit_default">30 (Domyślne)</string>
 
-    <string name="spam_added_title">Added %1$s</string>
-    <string name="spam_last_blocked_title">Last blocked %1$s</string>
-    <string name="block_notifications_title">Filter notifications</string>
-    <string name="block_notifications_summary">Manage ignored notifications and filters</string>
-    <string name="no_filters_title">No filters set</string>
+    <string name="spam_added_title">Dodano %1$s</string>
+    <string name="spam_last_blocked_title">Ostatnio zablokowano %1$s</string>
+    <string name="block_notifications_title">Filtrowanie powiadomieńs</string>
+    <string name="block_notifications_summary">Zarządzaj ignorowanymi powiadomieniami i filtrami</string>
+    <string name="no_filters_title">Brak ustawień filtórw</string>
 
     <!-- CM Updater -->
-    <string name="cmupdate_settings_title">CyanogenMod updates</string>
+    <string name="cmupdate_settings_title">Aktualizacje CyanogenMod</string>
 
     <!-- About phone screen, CyanogenMod version -->
-    <string name="mod_version">CyanogenMod version</string>
-    <string name="mod_version_default">Unknown</string>
+    <string name="mod_version">Wersja CyanogenMod</string>
+    <string name="mod_version_default">Nieznane</string>
 
     <!-- About phone screen, build date -->
-    <string name="build_date">Build date</string>
+    <string name="build_date">Data buildu</string>
     <string name="build_date_default">2014-01-01-0000</string>
 
     <!--- Advanced Settings -->
-    <string name="advanced_settings">Advanced settings</string>
-    <string name="advanced_settings_summary">Enable more settings options</string>
+    <string name="advanced_settings">Ustawienia zaawansowane</string>
+    <string name="advanced_settings_summary">Włącz więcej opcji ustawień</string>
 
     <!--- Tap To Wake -->
-    <string name="double_tap_to_wake_title">Double-tap to wake</string>
+    <string name="double_tap_to_wake_title">Wybudzanie podwójnym dotknięciem</string>
 
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">Zapobieganie przypadkowemu wybudzaniu</string>
+    <string name="proximity_wake_summary">Użyj czujnika zbliżeniowego, aby zapobiegać przypadkowemu wybudzaniu ekranu</string>
 
     <!-- Privacy Settings Header item -->
     <string name="privacy_settings_cyanogenmod_title">Privacy</string>
