@@ -78,7 +78,7 @@
 
     <!-- Reset Profiles -->
     <string name="profile_reset_title">Resetuj</string>
-    <string name="profile_reset_message">Usunąć wszystkie stworzone profile i grupy aplikacji i przywrócić je do domyślnych??</string>
+    <string name="profile_reset_message">Usunąć wszystkie stworzone profile oraz grupy aplikacji i przywrócić je do domyślnych??</string>
 
     <!-- Delete confimation messages -->
     <string name="profile_delete_confirm">Usunąć ten profil?</string>
@@ -91,13 +91,13 @@
     <string name="profile_networkmode_2g3g">2G/3G</string>
 
     <!-- Profile Config screen PreferenceGroup titles -->
-    <string name="profile_connectionoverrides_title">Connection overrides</string>
-    <string name="profile_volumeoverrides_title">Volume overrides</string>
+    <string name="profile_connectionoverrides_title">Ustawienia połączeń</string>
+    <string name="profile_volumeoverrides_title">Ustawienia dżwięków</string>
     <string name="connection_state_disabled">Wyłącz</string>
     <string name="connection_state_enabled">Włącz</string>
-    <string name="volume_override_summary">Set to %1$s/%2$s</string>
-    <string name="volume_override_summary_no_override">Do not override</string>
-    <string name="profile_volume_override_checkbox_label">Override volume</string>
+    <string name="volume_override_summary">Ustaw %1$s/%2$s</string>
+    <string name="volume_override_summary_no_override">Nie zmieniaj</string>
+    <string name="profile_volume_override_checkbox_label">Zmień głośność</string>
 
     <!-- Menu item for managing profiles -->
     <string name="profile_profiles_manage">Profile</string>
@@ -107,14 +107,14 @@
 
     <!-- Profile settings screen, section header for settings related to notification profiles -->
     <string name="profile_settings">Ustawienia profili</string>
-    <string name="profile_trigger_connect">On connect</string>
-    <string name="profile_trigger_disconnect">On disconnect</string>
+    <string name="profile_trigger_connect">Przy podłączeniu</string>
+    <string name="profile_trigger_disconnect">Przy odłączeniu</string>
     <string name="profile_trigger_notrigger">Brak przełącznika</string>
 
     <!-- Profile Settings sound modes labels -->
     <string name="sound_mode">Tryb powiadomień</string>
     <string name="ringer_mode">Tryb dźwięku</string>
-    <string name="lights_mode">Lights mode</string>
+    <string name="lights_mode">Tryb diody powiadomień</string>
     <string name="vibrate_mode">Tryb wibracji</string>
     <string name="choose_soundtone">Wybierz dźwięk powiadomienia</string>
     <string name="choose_ringtone">Wybierz dzwonek</string>
@@ -140,7 +140,7 @@
     <string name="profile_lockmode_default">Domyślny</string>
     <string name="profile_lockmode_insecure">Niezabezpieczony</string>
     <string name="profile_lockmode_disabled">Wyłączony</string>
-    <string name="profile_lockmode_default_summary">Użyj domyślnych systemu</string>
+    <string name="profile_lockmode_default_summary">Użyj domyślnych ustawień systemu</string>
     <string name="profile_lockmode_insecure_summary">Użyj niezabezpieczonego ekranu blokady</string>
     <string name="profile_lockmode_disabled_summary">Ekran blokady jest wyłączony</string>
     <string name="profile_airplanemode_title">Tryb samolotowy</string>
@@ -159,8 +159,8 @@
     <!-- Hardware keys -->
     <string name="button_pref_title">Przyciski</string>
     <string name="hardware_keys_power_key_title">Przycisk zasilania</string>
-    <string name="hardware_keys_home_key_title">Przycisk home</string>
-    <string name="hardware_keys_menu_key_title">Przycisk menu</string>
+    <string name="hardware_keys_home_key_title">Przycisk Home</string>
+    <string name="hardware_keys_menu_key_title">Przycisk Menu</string>
     <string name="hardware_keys_volume_keys_title">Przyciski głośności</string>
     <string name="hardware_keys_short_press_title">Krótkie naciśnięcie</string>
     <string name="hardware_keys_long_press_title">Długie naciśnięcie</string>
@@ -170,34 +170,34 @@
     <string name="hardware_keys_action_app_switch">Przełączanie ostatnich aplikacji</string>
     <string name="hardware_keys_action_search">Asystent wyszukiwania</string>
     <string name="hardware_keys_action_voice_search">Wyszukiwanie głosowe</string>
-    <string name="hardware_keys_action_in_app_search">In-app search</string>
+    <string name="hardware_keys_action_in_app_search">Wyszukiwanie w aplikacji</string>
     <string name="hardware_keys_action_launch_camera">Włącz aparat</string>
     <string name="hardware_keys_action_sleep">Wygaś ekran</string>
     <string name="hardware_keys_action_last_app">Ostatnia aplikacja</string>
-    <string name="volbtn_cursor_control_title">Keyboard cursor control</string>
+    <string name="volbtn_cursor_control_title">Sterowanie kursorem za pomocą klawiszy</string>
     <string name="volbtn_cursor_control_off">Wyłączone</string>
     <string name="volbtn_cursor_control_on">Głośność w górę/dół rusza kursorem w lewo/prawo</string>
     <string name="volbtn_cursor_control_on_reverse">Głośność w górę/dół rusza kursorem w prawo/lewo</string>
-    <string name="power_end_call_title">End call</string>
-    <string name="power_end_call_summary">Naciśnięcie przycisku zasilania zakończy aktualną rozmowę</string>
-    <string name="button_wake_title">Wake up</string>
+    <string name="power_end_call_title">Kończenie rozmowy</string>
+    <string name="power_end_call_summary">Naciśnięcie przycisku zasilania zakończy bieżące połączenie</string>
+    <string name="button_wake_title">Wybudż urządzenie</string>
     <string name="home_wake_summary">Naciśnięcie przycisku Home wybudzi urządzenie</string>
-    <string name="home_answer_call_title">Answer call</string>
-    <string name="home_answer_call_summary">Pressing the home button will answer the current incoming call</string>
-    <string name="volbtn_wake_device_title">Wake up device</string>
-    <string name="volbtn_wake_device_summary">Pressing either volume button will wake your device</string>
+    <string name="home_answer_call_title">Odbieranie połączeń</string>
+    <string name="home_answer_call_summary">Naciśniecie przycisku Home odbierze bieżące połączenie przychodzące</string>
+    <string name="volbtn_wake_device_title">Wybudź urządzenie</string>
+    <string name="volbtn_wake_device_summary">Naciśnięcie dowolnego przycisku głośności wybudzi urządzenie</string>
 
     <!-- Backlight brightness settings screen -->
     <string name="adaptive_backlight_title">Adaptacyjne podświetlenie</string>
-    <string name="adaptive_backlight_summary">Dynamiczne dostosowywanie jasności wyświetlacza w celu maksymalizacji żywotności baterii przy jednoczesnym zachowowaniu funkcjonalności</string>
+    <string name="adaptive_backlight_summary">Dynamiczne dostosowywanie jasności wyświetlacza w celu maksymalizacji żywotności baterii</string>
 
     <!-- Sunlight readability enhancement screen -->
-    <string name="sunlight_enhancement_title">Sunlight enhancement</string>
+    <string name="sunlight_enhancement_title">Poprawa widoczności w świetle słonecznym</string>
     <string name="sunlight_enhancement_summary">Zwiększenie jasności i czytelności wyświetlacza w świetle słonecznym</string>
 
     <!-- Color enhancement settings screen -->
     <string name="color_enhancement_title">Wzmocnienie kolorów</string>
-    <string name="color_enhancement_summary">Dynamically enhance the color of the display</string>
+    <string name="color_enhancement_summary">Dynamiczne poprawianie kolorów na wyświetlaczu</string>
 
     <string name="app_security_title">App security</string>
 
