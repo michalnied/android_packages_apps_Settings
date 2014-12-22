@@ -14,13 +14,13 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
     <plurals name="show_dev_countdown_cm">
-        <item quantity="one">You are now <xliff:g id="step_count">%1$d</xliff:g> step away from enabling development settings.</item>
-        <item quantity="other">You are now <xliff:g id="step_count">%1$d</xliff:g> steps away from enabling development settings.</item>
+     <item quantity="one" msgid="5295687242294085452">"Od zostania programistą dzieli Cię już tylko <xliff:g id="STEP_COUNT">%1$d</xliff:g> krok."</item>
+     <item quantity="other" msgid="6722953419953594148">"Od zostania programistą dzieli Cię już tylko tyle kroków: <xliff:g id="STEP_COUNT">%1$d</xliff:g>."</item>
     </plurals>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
-    <string name="show_dev_on_cm">You have enabled development settings!</string>
+    <string name="show_dev_on_cm">Opcje programistyczne zostały włączone!</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
-    <string name="show_dev_already_cm">No need, you have already enabled development settings.</string>
+    <string name="show_dev_already_cm">Nie trzeba, już masz włączone opcje programistyczne.</string>
 
     <!-- Launch Dev Tools -->
     <string name="development_tools_title">Narzędzia programistyczne</string>
@@ -28,19 +28,19 @@
     <!-- Setting checkbox title for root access -->
     <string name="root_access">Dostęp do roota</string>
     <string name="root_access_warning_title">Allow root access?</string>
-    <string name="root_access_warning_message">Allowing applications to request root access is very dangerous and could compromise the security of your system!</string>
+    <string name="root_access_warning_message">Umożliwienie aplikacjom dostępu do roota jest bardzo niebiezpieczne i może zagrozić bezpieczeństwu systemu!</string>
     <string name="root_access_none">Wyłączone</string>
     <string name="root_access_apps">Tylko aplikacje</string>
     <string name="root_access_adb">Tylko ADB</string>
     <string name="root_access_all">Aplikacje i ADB</string>
 
     <!-- Sound settings screen -->
-    <string name="ring_mode_title">Ring mode</string>
+    <string name="ring_mode_title">Tryb dźwięku</string>
     <string name="ring_mode_normal">Normalny</string>
     <string name="ring_mode_vibrate">Wibracje</string>
-    <string name="ring_mode_mute">Wyciszone</string>
+    <string name="ring_mode_mute">Wyciszony</string>
 
-    <string name="ring_mode_unchanged">Unchanged</string>
+    <string name="ring_mode_unchanged">Bez zmian</string>
 
     <!-- Profiles settings  -->
     <string name="profiles_settings_title">Profile</string>
@@ -48,19 +48,19 @@
     <string name="profile_menu_delete">Skasuj</string>
     <string name="profile_settings_title">Profile</string>
     <string name="profile_empty_list_profiles_off">Włącz system profili, aby je skonfigurować i używać.</string>
-    <string name="profile_trigger_configure">Configure trigger</string>
-    <string name="profile_triggers">Triggers</string>
-    <string name="profile_trigger_filter_all">All triggers</string>
-    <string name="profile_trigger_filter_wifi">Wi-Fi triggers</string>
-    <string name="profile_trigger_filter_bluetooth">Bluetooth triggers</string>
-    <string name="profile_write_nfc_tag">Write to NFC tag</string>
-    <string name="profile_write_touch_tag">Touch tag to write</string>
-    <string name="profile_write_success">Tag successfully written</string>
-    <string name="profile_write_failed">Tag writing failed!</string>
-    <string name="profile_selected">Profile selected: %1$s</string>
-    <string name="profile_nfc_text">Writing a profile to a NFC tag allows for tapping the tag to select the profile. Tapping a second time will select the previously selected profile.</string>
-    <string name="profile_unknown_nfc_tag">Unknown profile</string>
-    <string name="profile_add_nfc_text">This NFC tag refers to an unknown profile. Attaching this NFC tag to an existing profile will allow for selecting the profile in the future.</string>
+    <string name="profile_trigger_configure">Konfiguruj przełączniki</string>
+    <string name="profile_triggers">Przełączniki</string>
+    <string name="profile_trigger_filter_all">Wszystkie przełączniki</string>
+    <string name="profile_trigger_filter_wifi">Przełączniki Wi-Fi</string>
+    <string name="profile_trigger_filter_bluetooth">Przełączniki Bluetooth</string>
+    <string name="profile_write_nfc_tag">Zapisz do tagu NFC</string>
+    <string name="profile_write_touch_tag">Dotknij tag aby zapisać</string>
+    <string name="profile_write_success">Tag został zapisany pomyślnie</string>
+    <string name="profile_write_failed">Zapisywanie tagu nie powiodło się!</string>
+    <string name="profile_selected">Wybrany profil: %1$s</string>
+    <string name="profile_nfc_text">Zapisanie profilu do tagu NFC pozwala za pomocą dotknięcia tagu na wybranie danego profilu. Dotknięcie po raz drugi wybierze wcześniej wybrany profil.</string>
+    <string name="profile_unknown_nfc_tag">Nieznany profil</string>
+    <string name="profile_add_nfc_text">Ten tag NFC odwołuje się do nieznanego profilu. Załączenie tego tagu NFC do istniejącego profilu pozwoli na wybranie profilu w przyszłości.</string>
     <string name="profile_select">Wybierz profil</string>
 
     <!-- Add Profile -->
@@ -73,8 +73,8 @@
     <!-- Rename Dialog  -->
     <string name="rename_dialog_title">Zmień nazwę</string>
     <string name="rename_dialog_message">Wpisz nową nazwę</string>
-    <string name="duplicate_profile_name">Duplicate profile name!</string>
-    <string name="duplicate_appgroup_name">Duplicate app group name!</string>
+    <string name="duplicate_profile_name">Profil o tej nazwie już istnieje!</string>
+    <string name="duplicate_appgroup_name">Grupa aplikacji o tej nazwie już istnieje!</string>
 
     <!-- Reset Profiles -->
     <string name="profile_reset_title">Reset</string>
