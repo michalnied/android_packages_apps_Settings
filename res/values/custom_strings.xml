@@ -15,32 +15,32 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Custom settings  -->
-    <string name="custom_settings_title">Custom</string>
+    <string name="custom_settings_title">Personalizacja</string>
 
     <!-- Updater -->
-    <string name="updater_title">Updates</string>
+    <string name="updater_title">Aktualizacje</string>
     <string name="updater_summary">Check for updates and more</string>
 
     <!-- Button settings  -->
-    <string name="button_settings_title">Buttons</string>
+    <string name="button_settings_title">Przyciski</string>
 
     <!-- About phone screen,  Mod Version -->
-    <string name="mod_version">Euphoria version</string>
-    <string name="mod_version_default">Unknown</string>
+    <string name="mod_version">Wersja Euphoria OS</string>
+    <string name="mod_version_default">Nieznane</string>
     <!-- About phone screen, Build date of ROM -->
-    <string name="build_date">Build date</string>
+    <string name="build_date">Data buildu</string>
     <string name="build_date_default">2012-01-01-0000</string>
     <!-- About device screen, Cpu info. -->
     <string name="cpu_info">CPU</string>
     <!-- About phone screen, Free memory info -->
-    <string name="mem_info">Memory</string>
+    <string name="mem_info">Pamięć</string>
     <!-- About phone screen, status item label -->
 
     <!-- Advanced category -->
-    <string name="advanced_options_title">Advanced</string>
+    <string name="advanced_options_title">Zaawansowane</string>
 
     <!-- General category -->
-    <string name="general_options_title">General</string>
+    <string name="general_options_title">Ogólne</string>
 
     <!--Wakeup when plugged/unplugged -->
     <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
