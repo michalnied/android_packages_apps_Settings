@@ -402,49 +402,49 @@
     <string name="pulse_speed_very_slow">Bardzo wolno</string>
 
     <!-- Battery light settings -->
-    <string name="battery_light_title">Battery light</string>
-    <string name="battery_low_pulse_title">Pulse if battery low</string>
-    <string name="battery_light_list_title">Colors</string>
-    <string name="battery_light_low_color_title">Battery low</string>
-    <string name="battery_light_medium_color_title">Charging</string>
-    <string name="battery_light_full_color_title">Fully charged</string>
+    <string name="battery_light_title">Dioda baterii</string>
+    <string name="battery_low_pulse_title">Pulsowanie, gdy poziom baterii jest niski</string>
+    <string name="battery_light_list_title">Kolory</string>
+    <string name="battery_light_low_color_title">Niski poziom baterii</string>
+    <string name="battery_light_medium_color_title">Ładowanie</string>
+    <string name="battery_light_full_color_title">W pełni naładowana</string>
 
     <!-- Lights settings screen, notification light settings -->
-    <string name="notification_light_title">Notification light</string>
-    <string name="notification_light_general_title">General</string>
-    <string name="notification_light_applist_title">Apps</string>
-    <string name="notification_light_phonelist_title">Phone</string>
-    <string name="notification_light_use_custom">Use custom values</string>
-    <string name="notification_light_default_value">Default</string>
-    <string name="notification_light_missed_call_title">Missed call</string>
-    <string name="notification_light_voicemail_title">Voicemail</string>
+    <string name="notification_light_title">Dioda powiadomień</string>
+    <string name="notification_light_general_title">Ogólne</string>
+    <string name="notification_light_applist_title">Aplikacje</string>
+    <string name="notification_light_phonelist_title">Telefon</string>
+    <string name="notification_light_use_custom">Użyj własnych wartości</string>
+    <string name="notification_light_default_value">Domyślne</string>
+    <string name="notification_light_missed_call_title">Nieodebrane połączenia</string>
+    <string name="notification_light_voicemail_title">Poczta głosowa</string>
 
     <!-- Sound & notification > Sound section: Title for the option defining the default notification ringtone. [CHAR LIMIT=30] -->
-    <string name="notification_ringtone_title_cm">Notification tone</string>
+    <string name="notification_ringtone_title_cm">Dźwięk powiadomienia</string>
 
     <!-- Whether to display IME switcher notifcation -->
-    <string name="ime_switcher_notify">Selector notification</string>
-    <string name="ime_switcher_notify_summary">Display input method selector notification</string>
+    <string name="ime_switcher_notify">Wybór klawiatury</string>
+    <string name="ime_switcher_notify_summary">Wyświetla wybór metody wprowadzania danych</string>
 
     <!-- App ops -->
-    <string name="app_ops_summaries_coarse_location">coarse location</string>
-    <string name="app_ops_summaries_fine_location">fine location</string>
+    <string name="app_ops_summaries_coarse_location">przybliżona lokalizacja</string>
+    <string name="app_ops_summaries_fine_location">dokładna lokalizacja</string>
     <string name="app_ops_summaries_gps">GPS</string>
-    <string name="app_ops_summaries_vibrate">vibrate</string>
-    <string name="app_ops_summaries_read_contacts">read contacts</string>
-    <string name="app_ops_summaries_modify_contacts">modify contacts</string>
-    <string name="app_ops_summaries_read_call_log">read call log</string>
-    <string name="app_ops_summaries_modify_call_log">modify call log</string>
-    <string name="app_ops_summaries_read_calendar">read calendar</string>
-    <string name="app_ops_summaries_modify_calendar">modify calendar</string>
-    <string name="app_ops_summaries_wifi_scan">wi-fi scan</string>
-    <string name="app_ops_summaries_notification">notification</string>
-    <string name="app_ops_summaries_cell_scan">cell scan</string>
-    <string name="app_ops_summaries_call_phone">call phone</string>
-    <string name="app_ops_summaries_read_sms">read SMS</string>
-    <string name="app_ops_summaries_write_sms">write SMS</string>
-    <string name="app_ops_summaries_receive_sms">receive SMS</string>
-    <string name="app_ops_summaries_receive_emergency_sms">receive emergency SMS</string>
+    <string name="app_ops_summaries_vibrate">wibracje</string>
+    <string name="app_ops_summaries_read_contacts">odczytywanie kontaktów</string>
+    <string name="app_ops_summaries_modify_contacts">modyfikowanie kontaktów</string>
+    <string name="app_ops_summaries_read_call_log">odczytywanie rejestru połączeń</string>
+    <string name="app_ops_summaries_modify_call_log">modyfikowanie rejestru połączeń</string>
+    <string name="app_ops_summaries_read_calendar">czytanie kalendarza</string>
+    <string name="app_ops_summaries_modify_calendar">modyfikowanie kalendarz</string>
+    <string name="app_ops_summaries_wifi_scan">skanowanie sieci wi-fi</string>
+    <string name="app_ops_summaries_notification">powiadomienie</string>
+    <string name="app_ops_summaries_cell_scan">skanowanie sieci komórkowych</string>
+    <string name="app_ops_summaries_call_phone">wykonywanie połączeń</string>
+    <string name="app_ops_summaries_read_sms">czytanie SMSów</string>
+    <string name="app_ops_summaries_write_sms">pisanie SMSów</string>
+    <string name="app_ops_summaries_receive_sms">odbieranie SMSów</string>
+    <string name="app_ops_summaries_receive_emergency_sms">odbieranie SMSów alarmowych</string>
     <string name="app_ops_summaries_receive_mms">receive MMS</string>
     <string name="app_ops_summaries_receive_wap_push">receive WAP push</string>
     <string name="app_ops_summaries_send_sms">send SMS</string>
