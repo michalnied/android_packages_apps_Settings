@@ -322,52 +322,52 @@
 
     <!-- Advanced reboot options -->
     <string name="advanced_reboot_title">Zaawansowane opcje uruchamiania</string>
-    <string name="advanced_reboot_summary">When unlocked, include options in the power menu for rebooting into recovery, bootloader or performing a soft reboot</string>
+    <string name="advanced_reboot_summary">Kiedy włączone, w menu zasilania pokazuje opcje uruchomienia w trybie recovery, bootloader lub wykonania miękkiego restartu </string>
 
     <!-- Setting checkbox title for Whether to enable Android debugging support on the phone. -->
-    <string name="enable_adb_cm">Android debugging</string>
+    <string name="enable_adb_cm">Debugowanie Androida</string>
     <!-- Setting checkbox summary for Whether to enable Android debugging support on the phone -->
-    <string name="enable_adb_summary_cm">Enable the Android Debug Bridge (adb) interface</string>
+    <string name="enable_adb_summary_cm">Włącz interfejs ADB (Android Debug Bridge)</string>
 
     <!-- Setting checkbox summary for displaying USB debugging notification -->
-    <string name="adb_notify">USB debugging notify</string>
-    <string name="adb_notify_summary">Display a notification when USB debugging is connected</string>
+    <string name="adb_notify">Informacja o trybie debugowania</string>
+    <string name="adb_notify_summary">Wyświetl powiadomienie, kiedy debugowanie USB jest włączone</string>
 
     <!-- Android debugging over WiFi -->
-    <string name="adb_over_network">ADB over network</string>
-    <string name="adb_over_network_summary">Enable TCP/IP debugging over network interfaces (Wi\u2011Fi, USB networks). This setting is reset on reboot</string>
+    <string name="adb_over_network">ADB przez sieć</string>
+    <string name="adb_over_network_summary">Włącz debugowanie przez interfejsy sieciowe TCP/IP (WiFi, sieci USB). To ustawienie zostanie usunięte po ponownym uruchomieniu</string>
     <!-- Warning for Adb over Network -->
-    <string name="adb_over_network_warning">WARNING: When ADB over network is enabled, your phone is open for intrusions on all connected networks, including GSM data network!\n\nOnly use this feature when you are connected on trusted networks.\n\nDo you really want to enable this function?</string>
+    <string name="adb_over_network_warning">UWAGA: Kiedy ADB przez sieć jest włączone, telefon jest podatny na ataki przez podłączone sieci, w tym sieć GSM! \n\nKorzystaj z tej funkcji tylko wtedy, gdy jesteś podłączony do zaufanych sieci. \n\nCzy jesteś pewny, że chcesz włączyć tę funkcję?</string>
 
     <!-- Hostname setting -->
-    <string name="device_hostname">Device hostname</string>
+    <string name="device_hostname">Nazwa hosta</string>
 
     <!-- Development shortcut -->
-    <string name="development_shortcut_title">Development shortcut</string>
-    <string name="development_shortcut_summary">Enable application management shortcuts in recent apps list</string>
+    <string name="development_shortcut_title">Skróty programistyczne</string>
+    <string name="development_shortcut_summary">Włącz skróty do zarządzania aplikacjami w liście ostatnio używanych aplikacji</string>
 
     <!-- tap-to-sleep -->
-    <string name="double_tap_to_sleep_title">Double-tap to sleep</string>
-    <string name="double_tap_to_sleep_summary">Double tap on the status bar to put the device to sleep</string>
+    <string name="double_tap_to_sleep_title">Dwukrotnie dotknij żeby uśpić</string>
+    <string name="double_tap_to_sleep_summary">Dwukrotnie dotknij na pasku statusu, aby uśpić urządzenie</string>
 
     <!-- Turn on display when power connected; turn off display when power disconnected -->
-    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
-    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
+    <string name="wake_when_plugged_or_unplugged_title">Wybudź przy podłączaniu</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Włącz ekran przy podłączeniu lub odłączeniu od źródła zasilania</string>
 
     <!-- Kill app long-press back -->
-    <string name="kill_app_longpress_back">Kill app back button</string>
-    <string name="kill_app_longpress_back_summary">Kill the foreground app by long-pressing the back button</string>
+    <string name="kill_app_longpress_back">Zabij ostatnią aplikację przyciskiem wstecz</string>
+    <string name="kill_app_longpress_back_summary">Zabij używaną aplikację długim naciśnięciem przycisku wstecz</string>
 
     <!-- Buttons - Enable navbar -->
     <string name="disable_navkeys_title">Włącz ekranowy pasek nawigacyjny</string>
-    <string name="disable_navkeys_summary">Enable on-screen navigation bar and disable hardware buttons</string>
+    <string name="disable_navkeys_summary">Włącz ekranowy pasek nawigacji i zablokuj przyciski sprzętowe</string>
 
-    <string name="header_category_personalization">Personalization</string>
+    <string name="header_category_personalization">Personalizacja</string>
 
     <!-- Status bar -->
-    <string name="status_bar_title">Status bar</string>
-    <string name="status_bar_toggle_brightness">Brightness control</string>
-    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+    <string name="status_bar_title">Pasek statusu</string>
+    <string name="status_bar_toggle_brightness">Sterowanie jasnością</string>
+    <string name="status_bar_toggle_brightness_summary">Reguluj jasność przesuwając po pasku statusu</string>
     <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
     <string name="status_bar_quick_qs_pulldown_summary">Right edge of the status bar pulls down Quick Settings</string>
     <string name="status_bar_notif_count_title">Show notification count</string>
