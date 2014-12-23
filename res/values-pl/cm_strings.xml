@@ -368,17 +368,17 @@
     <string name="status_bar_title">Pasek statusu</string>
     <string name="status_bar_toggle_brightness">Sterowanie jasnością</string>
     <string name="status_bar_toggle_brightness_summary">Reguluj jasność przesuwając po pasku statusu</string>
-    <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
-    <string name="status_bar_quick_qs_pulldown_summary">Right edge of the status bar pulls down Quick Settings</string>
-    <string name="status_bar_notif_count_title">Show notification count</string>
-    <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
+    <string name="status_bar_quick_qs_pulldown_title">Szybkie rozwijanie</string>
+    <string name="status_bar_quick_qs_pulldown_summary">Prawa krawędź paska statusu rozwija Szybkie Ustawienia</string>
+    <string name="status_bar_notif_count_title">Pokaż liczbę powiadomień</string>
+    <string name="status_bar_notif_count_summary">Wyświetla liczbę oczekujących powiadomień</string>
 
     <!-- Battery percentage -->
-    <string name="status_bar_battery_percentage_title">Show battery percentage</string>
+    <string name="status_bar_battery_percentage_title">Pokaż procentowe użycie baterii</string>
     <string name="status_bar_battery_percentage_dialog_title">Battery percentage</string>
     <string name="status_bar_battery_percentage_default">Hidden (default)</string>
-    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+    <string name="status_bar_battery_percentage_text_inside">Wewnątrz ikony</string>
+    <string name="status_bar_battery_percentage_text_next">Obok ikony</string>
 
     <!-- Notification light dialogs -->
     <string name="edit_light_settings">Edit light settings</string>
