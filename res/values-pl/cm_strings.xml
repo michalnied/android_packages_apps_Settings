@@ -740,13 +740,13 @@
     <string name="close_dialog">OK</string>
     <string name="sim_enabler_title">SIM Enablers</string>
     <string name="sim_enabler_summary">SIM is %1$s</string>
-    <string name="sim_enabled">enabled</string>
-    <string name="sim_disabled">disabled</string>
-    <string name="sim_missing">missing or error</string>
-    <string name="sim_enabler_need_enable_sim">Activating the SIM, are you sure?</string>
-    <string name="sim_enabler_need_disable_sim">Deactivating the SIM, are you sure?</string>
-    <string name="sim_enabler_airplane_on">ERROR, airplane mode is on!</string>
-    <string name="sim_enabler_in_call">ERROR, in call!</string>
+    <string name="sim_enabled">Włączone</string>
+    <string name="sim_disabled">Wyłączone</string>
+    <string name="sim_missing">brak lub błąd</string>
+    <string name="sim_enabler_need_enable_sim">Aktywacja SIM, czy jesteś pewny?</string>
+    <string name="sim_enabler_need_disable_sim">Dezaktywacja SIM, czy jesteś pewny?</string>
+    <string name="sim_enabler_airplane_on">BŁĄD, włączony tryb samolotowy!</string>
+    <string name="sim_enabler_in_call">BŁĄD, trwające połączenie!</string>
     <string name="sim_enabler_both_inactive">"Error, can't disable all the SIMs"</string>
     <string name="sim_enabler_enabling">Activating...</string>
     <string name="sim_enabler_disabling">Deactivating...</string>
@@ -759,8 +759,8 @@
     <string name="slot_name">SIM <xliff:g id="sub">%d</xliff:g></string>
 
     <string name="usb_charging_title">Ładowanie</string>
-    <string name="usb_charging_summary">Lets you disable all data and file transfer connection with computer and put device in charging only mode.</string>
-    <string name="primary_sub_select_title">Default 4G/3G Subscription</string>
+    <string name="usb_charging_summary">Wyłącza transfer danych i połączenie z komputerem oraz umieszcza urządzenie w trybie ładowania.</string>
+    <string name="primary_sub_select_title">Domyślne połączenie 4G/3G</string>
 
     <string name="usb_sdcard_summary">Umożliwia przesyłanie plików multimedialnych na komputer</string>
     <string name="usb_sdcard_title">Zamontuj kartę SD</string>
