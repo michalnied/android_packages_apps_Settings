@@ -471,8 +471,8 @@
     <string name="app_ops_summaries_monitor_location">monitorowanie lokalizacji</string>
     <string name="app_ops_summaries_monitor_high_power_location">monitorowanie wysokiej dokładności lokalizacji</string>
     <string name="app_ops_summaries_get_usage_stats">uzyskiwanie statystyk użycia aplikacji</string>
-    <string name="app_ops_summaries_mute_unmute_microphone">mute/unmute microphone</string>
-    <string name="app_ops_summaries_toast_window">display toasts</string>
+    <string name="app_ops_summaries_mute_unmute_microphone">wyłącz/włącz mikrofon</string>
+    <string name="app_ops_summaries_toast_window">wyświetl toasty</string>
     <string name="app_ops_summaries_project_media">project media</string>
     <string name="app_ops_summaries_activate_vpn">activate vpn</string>
     <string name="app_ops_summaries_wifi_change">wi-fi change</string>
