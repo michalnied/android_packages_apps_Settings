@@ -451,7 +451,7 @@
     <string name="app_ops_summaries_read_icc_sms">czytanie SMS ICC</string>
     <string name="app_ops_summaries_write_icc_sms">pisanie SMS ICC</string>
     <string name="app_ops_summaries_modify_settings">modyfikowanie ustawień</string>
-    <string name="app_ops_summaries_draw_on_top">rysuj na górze</string>
+    <string name="app_ops_summaries_draw_on_top">rysowanie na górze</string>
     <string name="app_ops_summaries_access_notifications">dostęp do powiadomień</string>
     <string name="app_ops_summaries_camera">aparat</string>
     <string name="app_ops_summaries_record_audio">nagrywanie audio</string>
@@ -505,7 +505,7 @@
     <string name="app_ops_labels_receive_mms">Otrzymywanie MMS</string>
     <string name="app_ops_labels_send_sms">Wysyłanie SMS</string>
     <string name="app_ops_labels_modify_settings">Modyfikowanie ustawień</string>
-    <string name="app_ops_labels_draw_on_top">Rysuj na górze</string>
+    <string name="app_ops_labels_draw_on_top">Rysowanie na górze</string>
     <string name="app_ops_labels_access_notifications">Dostęp do powiadomień</string>
     <string name="app_ops_labels_camera">Aparat</string>
     <string name="app_ops_labels_record_audio">Nagrywanie audio</string>
