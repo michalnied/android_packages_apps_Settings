@@ -690,22 +690,22 @@
     <string name="usb_mount" product="default">Zamontuj pamięć USB</string>
     <string name="usb_mount_summary" product="default"></string>
     <string name="usb_insert_summary" product="default">Podłącz pamięć USB, aby ją zamontować</string>
-    <string name="uicc_eject" product="default">Wyłącz pamięć UICC</string>
-    <string name="uicc_eject_summary" product="default">Wyłącz pamięć UICC, abyś mógł ją bezpiecznie wyjąć</string>
+    <string name="uicc_eject" product="default">Wymontuj pamięć UICC</string>
+    <string name="uicc_eject_summary" product="default">Wymontuj pamięć UICC, abyś mógł ją bezpiecznie wyjąć</string>
     <string name="uicc_format" product="default">Wyczyść pamięć UICC</string>
     <string name="uicc_format_summary" product="default">Czy usunąć wszystkie dane na pamięci UICC, takie jak muzyka czy zdjęcia?</string>
     <string name="uicc_mount" product="default">Zamontuj pamięć UICC</string>
     <string name="uicc_mount_summary" product="default"></string>
     <string name="uicc_insert_summary" product="default">Podłącz pamięć UICC, aby ją zamontować</string>
 
-    <string name="dlg_confirm_usb_unmount_title" product="default">Wyłączyć pamięć USB?</string>
-    <string name="dlg_confirm_uicc_unmount_title" product="default">Wyłączyć pamięć UICC?</string>
-    <string name="dlg_confirm_usb_unmount_text" product="default">Jeśli wyłączysz pamięć USB, niektóre aplikacje, których używasz mogą się zatrzymać i być niedostępne, dopóki nie zamontujesz pamięci USB ponownie.</string>
-    <string name="dlg_confirm_uicc_unmount_text" product="default">Jeśli wyłączysz pamięć UICC, niektóre aplikacje, których używasz mogą się zatrzymać i być niedostępne, dopóki nie zamontujesz pamięci UICC ponownie.</string>
-    <string name="dlg_error_usb_unmount_text" product="default">Nie można wyłączyć pamięci USB. Sprobuj ponownie później.</string>
-    <string name="dlg_error_uicc_unmount_text" product="default">Nie można wyłączyć pamięci UICC. Sprobuj ponownie później.</string>
-    <string name="usb_unmount_inform_text" product="default">Pamięć USB zostanie wyłączona</string>
-    <string name="uicc_unmount_inform_text" product="default">Pamięć UICC zostanie wyłączona.</string>
+    <string name="dlg_confirm_usb_unmount_title" product="default">Wymontować pamięć USB?</string>
+    <string name="dlg_confirm_uicc_unmount_title" product="default">Wymontować pamięć UICC?</string>
+    <string name="dlg_confirm_usb_unmount_text" product="default">Jeśli wymontujesz pamięć USB, niektóre aplikacje, których używasz mogą się zatrzymać i być niedostępne, dopóki nie zamontujesz pamięci USB ponownie.</string>
+    <string name="dlg_confirm_uicc_unmount_text" product="default">Jeśli wymontujesz pamięć UICC, niektóre aplikacje, których używasz mogą się zatrzymać i być niedostępne, dopóki nie zamontujesz pamięci UICC ponownie.</string>
+    <string name="dlg_error_usb_unmount_text" product="default">Nie można wymontować pamięci USB. Sprobuj ponownie później.</string>
+    <string name="dlg_error_uicc_unmount_text" product="default">Nie można wymontować pamięci UICC. Sprobuj ponownie później.</string>
+    <string name="usb_unmount_inform_text" product="default">Pamięć USB zostanie wymontowana</string>
+    <string name="uicc_unmount_inform_text" product="default">Pamięć UICC zostanie wymontowana.</string>
 
     <string name="usb_media_format_title" product="default">Wyczyść pamięć USB</string>
     <string name="uicc_media_format_title" product="default">Wyczyść pamięć UICC</string>
@@ -738,24 +738,24 @@
 
     <!-- MultiSim Settings changes-->
     <string name="close_dialog">OK</string>
-    <string name="sim_enabler_title">SIM Enablers</string>
-    <string name="sim_enabler_summary">SIM is %1$s</string>
+    <string name="sim_enabler_title">Akywacja kart SIM</string>
+    <string name="sim_enabler_summary">Karta SIM jest %1$s</string>
     <string name="sim_enabled">Włączone</string>
     <string name="sim_disabled">Wyłączone</string>
     <string name="sim_missing">brak lub błąd</string>
-    <string name="sim_enabler_need_enable_sim">Aktywacja SIM, czy jesteś pewny?</string>
-    <string name="sim_enabler_need_disable_sim">Dezaktywacja SIM, czy jesteś pewny?</string>
+    <string name="sim_enabler_need_enable_sim">Aktywacja karty SIM, czy jesteś pewny?</string>
+    <string name="sim_enabler_need_disable_sim">Dezaktywacja karty SIM, czy jesteś pewny?</string>
     <string name="sim_enabler_airplane_on">BŁĄD, włączony tryb samolotowy!</string>
     <string name="sim_enabler_in_call">BŁĄD, trwające połączenie!</string>
-    <string name="sim_enabler_both_inactive">"Error, can't disable all the SIMs"</string>
-    <string name="sim_enabler_enabling">Activating...</string>
-    <string name="sim_enabler_disabling">Deactivating...</string>
-    <string name="sub_activate_success">Successfully Activated.</string>
-    <string name="sub_activate_failed">Activation failed.</string>
-    <string name="sub_deactivate_success">Successfully Deactivated.</string>
-    <string name="sub_deactivate_failed">Deactivation failed.</string>
-    <string name="sub_deactivate_not_supported">Deactivation not supported</string>
-    <string name="sub_activate_not_supported">Activation not supported</string>
+    <string name="sim_enabler_both_inactive">"BŁĄD, nie można zablokować wszystkich kart SIM"</string>
+    <string name="sim_enabler_enabling">Aktywacja...</string>
+    <string name="sim_enabler_disabling">Dezaktywacja...</string>
+    <string name="sub_activate_success">Aktywacja przebiegła pomyślnie.</string>
+    <string name="sub_activate_failed">Aktywacja nie powiodła się.</string>
+    <string name="sub_deactivate_success">Dezaktywacja przebiegła pomyślnie.</string>
+    <string name="sub_deactivate_failed">Dezakytywacja nie powiodła się.</string>
+    <string name="sub_deactivate_not_supported">Dezaktywacja nie jest wspierana</string>
+    <string name="sub_activate_not_supported">Aktywacja nie jest wspierana</string>
     <string name="slot_name">SIM <xliff:g id="sub">%d</xliff:g></string>
 
     <string name="usb_charging_title">Ładowanie</string>
