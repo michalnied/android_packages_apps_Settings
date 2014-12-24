@@ -673,7 +673,7 @@
     <!-- About tablet screen, summary of the item that takes you to tablet status screen -->
     <string name="device_status_summary_cm" product="tablet">Stan baterii, sieci oraz inne informacje</string>
     <!-- About phone screen, summary of the item to go into the phone status screen -->
-    <string name="device_status_summary_cm" product="default">Status baterii, poziom baterii, itdc.</string>
+    <string name="device_status_summary_cm" product="default">Status baterii, poziom baterii, itd.</string>
     <string name="subs_settings">Status SUBS</string>
     <!-- About phone screen, summary of the item to go into the phone status screen -->
     <string name="device_additional_status_summary">Numer telefonu, Sygnał, IMEI, itd.</string>
@@ -681,58 +681,58 @@
     <string name="device_additional_status">Dodatkowe informacje</string>
 
     <!-- string resources for USB OTG & UICC features -->
-    <string name="storage_usb">Nośnik USB</string>
-    <string name="storage_uicc">Nośnik UICC</string>
-    <string name="usb_eject" product="default">Usuń nośnik USB</string>
-    <string name="usb_eject_summary" product="default">Usuń nośnik USB, abbyś mógł go bezpiecznie wyjąć</string>
-    <string name="usb_format" product="default">Erase USB storage</string>
-    <string name="usb_format_summary" product="default">Erases all data on the USB storage, such as music and photos</string>
-    <string name="usb_mount" product="default">Mount USB storage</string>
+    <string name="storage_usb">Pamięć USB</string>
+    <string name="storage_uicc">Pamięć UICC</string>
+    <string name="usb_eject" product="default">Usuń pamięć USB</string>
+    <string name="usb_eject_summary" product="default">Usuń pamięć USB, abyś mógł ją bezpiecznie wyjąć</string>
+    <string name="usb_format" product="default">Wyczyść pamięć USB</string>
+    <string name="usb_format_summary" product="default">Czy usunąć wszystkie dane na pamięci USB, takie jak muzyka czy zdjęcia?/string>
+    <string name="usb_mount" product="default">Zamontuj pamięć USB</string>
     <string name="usb_mount_summary" product="default"></string>
-    <string name="usb_insert_summary" product="default">Insert an USB storage for mounting</string>
-    <string name="uicc_eject" product="default">Unmount UICC storage</string>
-    <string name="uicc_eject_summary" product="default">Unmount the UICC storage so you can safely remove it</string>
-    <string name="uicc_format" product="default">Erase UICC storage</string>
-    <string name="uicc_format_summary" product="default">Erases all data on the UICC storage, such as music and photos</string>
-    <string name="uicc_mount" product="default">Mount UICC storage</string>
+    <string name="usb_insert_summary" product="default">Podłącz pamięć USB, aby ją zamontować</string>
+    <string name="uicc_eject" product="default">Wyłącz pamięć UICC</string>
+    <string name="uicc_eject_summary" product="default">Wyłącz pamięć UICC, abyś mógł ją bezpiecznie wyjąć</string>
+    <string name="uicc_format" product="default">Wyczyść pamięć UICC</string>
+    <string name="uicc_format_summary" product="default">Czy usunąć wszystkie dane na pamięci UICC, takie jak muzyka czy zdjęcia?</string>
+    <string name="uicc_mount" product="default">Zamontuj pamięć UICC</string>
     <string name="uicc_mount_summary" product="default"></string>
-    <string name="uicc_insert_summary" product="default">Insert an UICC storage for mounting</string>
+    <string name="uicc_insert_summary" product="default">Podłącz pamięć UICC, aby ją zamontować</string>
 
-    <string name="dlg_confirm_usb_unmount_title" product="default">Unmount USB storage?</string>
-    <string name="dlg_confirm_uicc_unmount_title" product="default">Unmount UICC storage?</string>
-    <string name="dlg_confirm_usb_unmount_text" product="default">If you unmount the USB storage, some apps you are using will stop and may be unavailable until you remount the USB storage.</string>
-    <string name="dlg_confirm_uicc_unmount_text" product="default">If you unmount the UICC storage, some apps you are using will stop and may be unavailable until you remount the UICC storage.</string>
-    <string name="dlg_error_usb_unmount_text" product="default">Couldn\'t unmount USB storage. Try again later.</string>
-    <string name="dlg_error_uicc_unmount_text" product="default">Couldn\'t unmount UICC storage. Try again later.</string>
-    <string name="usb_unmount_inform_text" product="default">USB storage will be unmounted.</string>
-    <string name="uicc_unmount_inform_text" product="default">UICC storage will be unmounted.</string>
+    <string name="dlg_confirm_usb_unmount_title" product="default">Wyłączyć pamięć USB?</string>
+    <string name="dlg_confirm_uicc_unmount_title" product="default">Wyłączyć pamięć UICC?</string>
+    <string name="dlg_confirm_usb_unmount_text" product="default">Jeśli wyłączysz pamięć USB, niektóre aplikacje, których używasz mogą się zatrzymać i być niedostępne, dopóki nie zamontujesz pamięci USB ponownie.</string>
+    <string name="dlg_confirm_uicc_unmount_text" product="default">Jeśli wyłączysz pamięć UICC, niektóre aplikacje, których używasz mogą się zatrzymać i być niedostępne, dopóki nie zamontujesz pamięci UICC ponownie.</string>
+    <string name="dlg_error_usb_unmount_text" product="default">Nie można wyłączyć pamięci USB. Sprobuj ponownie później.</string>
+    <string name="dlg_error_uicc_unmount_text" product="default">Nie można wyłączyć pamięci UICC. Sprobuj ponownie później.</string>
+    <string name="usb_unmount_inform_text" product="default">Pamięć USB zostanie wyłączona</string>
+    <string name="uicc_unmount_inform_text" product="default">Pamięć UICC zostanie wyłączona.</string>
 
-    <string name="usb_media_format_title" product="default">Erase USB storage</string>
-    <string name="uicc_media_format_title" product="default">Erase UICC storage</string>
-    <string name="usb_media_format_summary" product="default">Erases all data on the USB storage</string>
-    <string name="uicc_media_format_summary" product="default">Erases all data on the UICC storage</string>
-    <string name="usb_media_format_desc" product="default">Erase the USB storage? You will lose <b>all</b> data on the storage!</string>
-    <string name="uicc_media_format_desc" product="default">Erase the UICC storage? You will lose <b>all</b> data on the storage!</string>
-    <string name="usb_media_format_button_text" product="default">Erase USB storage</string>
-    <string name="uicc_media_format_button_text" product="default">Erase UICC storage</string>
-    <string name="usb_media_format_final_desc" product="default">Erase the USB storage, deleting all files stored there? You can\'t reverse this action!</string>
-    <string name="uicc_media_format_final_desc" product="default">Erase the UICC storage, deleting all files stored there? You can\'t reverse this action!</string>
-    <string name="usb_media_format_gesture_explanation" product="default">You need to draw your unlock pattern to confirm that you want to erase the USB storage.</string>
-    <string name="uicc_media_format_gesture_explanation" product="default">You need to draw your unlock pattern to confirm that you want to erase the UICC storage.</string>
+    <string name="usb_media_format_title" product="default">Wyczyść pamięć USB</string>
+    <string name="uicc_media_format_title" product="default">Wyczyść pamięć UICC</string>
+    <string name="usb_media_format_summary" product="default">Wyczyść wszystkie dane na pamięci USB</string>
+    <string name="uicc_media_format_summary" product="default">Wyczyść wszystkie dane na pamięci UICC</string>
+    <string name="usb_media_format_desc" product="default">Wyczyścić pamięć USB? Stracisz wszystkie <b>all</b> dane na pamięci!</string>
+    <string name="uicc_media_format_desc" product="default">Wyczyścić pamięć UICC? Stracisz wszystkie <b>all</b> dane na pamięci!</string>
+    <string name="usb_media_format_button_text" product="default">Wyczyść pamięć USB</string>
+    <string name="uicc_media_format_button_text" product="default">Wyczyść pamięć UICCe</string>
+    <string name="usb_media_format_final_desc" product="default">Usunąć wszystkie dane przechowywane na pamięci USB? Nie będziesz mógł tego cofnąć!</string>
+    <string name="uicc_media_format_final_desc" product="default">Usunąć wszystkie dane przechowywane na pamięci UICC? Nie będziesz mógł tego cofnąć!</string>
+    <string name="usb_media_format_gesture_explanation" product="default">Musisz narysować swój wzór odblokowania, aby potwierdzić usunięcie danych z pamięci USB.</string>
+    <string name="uicc_media_format_gesture_explanation" product="default">Musisz narysować swój wzór odblokowania, aby potwierdzić usunięcie danych z pamięci UICC.</string>
 
     <!-- [CHAR LIMIT=130] Location mode screen, sub category for IZat Location -->
-    <string name="location_category_enhanced_location">Enhanced Location</string>
+    <string name="location_category_enhanced_location">Ulepszona lokalizacja</string>
 
     <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
-    <string name="app_ops_settings_summary">View or change app permissions</string>
+    <string name="app_ops_settings_summary">Wyświetl lub zmień uprawnienia aplikacji</string>
 
     <!-- Setting checkbox summary when device is in Charging mode -->
-    <string name="enable_adb_summary_charging">Device is in Charging mode, USB debugging is disabled</string>
+    <string name="enable_adb_summary_charging">Urządzenie jest w trybie ładowania, debugowanie USB jest wyłączone</string>
 
     <!-- Title of checkbox setting that enable quickboot. [CHAR LIMIT=32] -->
     <string name="enable_quickboot_title">Włącz QuickBoot</string>
     <!-- Summary of checkbox setting that enable quickboot. [CHAR LIMIT=64] -->
-    <string name="enable_quickboot_summary">Put device into QuickBoot mode instead of normal power off</string>
+    <string name="enable_quickboot_summary">Włącz tryb QuickBoot zamiast normalnego wyłączania</string>
 
     <string name="data_usage_tab_slot">SIM </string>
 
@@ -760,7 +760,7 @@
 
     <string name="usb_charging_title">Ładowanie</string>
     <string name="usb_charging_summary">Wyłącza transfer danych i połączenie z komputerem oraz umieszcza urządzenie w trybie ładowania.</string>
-    <string name="primary_sub_select_title">Domyślne połączenie 4G/3G</string>
+    <string name="primary_sub_select_title">Domyślne połączenie LTE/3G</string>
 
     <string name="usb_sdcard_summary">Umożliwia przesyłanie plików multimedialnych na komputer</string>
     <string name="usb_sdcard_title">Zamontuj kartę SD</string>
