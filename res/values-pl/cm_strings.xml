@@ -54,7 +54,7 @@
     <string name="profile_trigger_filter_wifi">Wi-Fi</string>
     <string name="profile_trigger_filter_bluetooth">Bluetooth</string>
     <string name="profile_write_nfc_tag">Zapisz do tagu NFC</string>
-    <string name="profile_write_touch_tag">Dotknij tag aby zapisać</string>
+    <string name="profile_write_touch_tag">Dotknij tag, aby zapisać</string>
     <string name="profile_write_success">Tag został zapisany pomyślnie</string>
     <string name="profile_write_failed">Zapisywanie tagu nie powiodło się!</string>
     <string name="profile_selected">Wybrany profil: %1$s</string>
@@ -120,7 +120,7 @@
     <string name="choose_ringtone">Wybierz dzwonek</string>
 
     <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
-    <string name="soundtone_title">Dźwięk powiadomowienia</string>
+    <string name="soundtone_title">Dźwięk powiadomienia</string>
     <string name="soundtone_summary" translatable="false">""</string>
 
     <!-- Title for application group setting screen -->
@@ -196,7 +196,7 @@
     <string name="sunlight_enhancement_summary">Zwiększenie jasności i czytelności wyświetlacza w świetle słonecznym</string>
 
     <!-- Color enhancement settings screen -->
-    <string name="color_enhancement_title">Poprawienie kolorów</string>
+    <string name="color_enhancement_title">Poprawa kolorów</string>
     <string name="color_enhancement_summary">Dynamiczne poprawianie kolorów na wyświetlaczu</string>
 
     <string name="app_security_title">Zabezpieczenie aplikacji</string>
@@ -299,10 +299,10 @@
     <string name="privacy_settings_cyanogenmod_category" translatable="false">CyanogenMod</string>
 
     <!-- Privacy Guard -->
-    <string name="privacy_guard_switch_label">Włącz ochronę prywatności</string>
-    <string name="privacy_guard_dlg_title">Włączyć ochronę prywatności?</string>
-    <string name="privacy_guard_dlg_text">Kiedy ochrona prywatności jest włączona, aplikacje nie otrzymają dostępu do osobistych danych, takich jak kontakty, wiadomości czy rejestry połączeń.</string>
-    <string name="privacy_guard_dlg_system_app_text">Jeśli ochrona prywatności jest włączona dla wbudowanej aplikacji, nie będzie ona w stanie otrzymać dostępu lub dostarczać danych osobowych. Może to spowodować, że inne aplikacje nie będą działać prawidłowo.</string>
+    <string name="privacy_guard_switch_label">Włącz Ochronę Prywatności</string>
+    <string name="privacy_guard_dlg_title">Włączyć Ochronę Prywatności?</string>
+    <string name="privacy_guard_dlg_text">Kiedy Ochrona Prywatności jest włączona, aplikacje nie otrzymają dostępu do osobistych danych, takich jak kontakty, wiadomości czy rejestry połączeń.</string>
+    <string name="privacy_guard_dlg_system_app_text">Jeśli Ochrona Prywatności jest włączona dla wbudowanej aplikacji, nie będzie ona w stanie otrzymać dostępu lub dostarczać danych osobowych. Może to spowodować, że inne aplikacje nie będą działać prawidłowo.</string>
     <string name="privacy_guard_default_title">Ustaw jako domyślne</string>
     <string name="privacy_guard_default_summary">Ustaw jako domyślne dla nowo zainstalowanych aplikacji</string>
     <string name="privacy_guard_manager_title">Ochrona prywatności</string>
@@ -330,14 +330,14 @@
     <string name="enable_adb_summary_cm">Włącz interfejs ADB (Android Debug Bridge)</string>
 
     <!-- Setting checkbox summary for displaying USB debugging notification -->
-    <string name="adb_notify">Powiadomieinie trybu debugowania</string>
+    <string name="adb_notify">Powiadomienie trybu debugowania</string>
     <string name="adb_notify_summary">Wyświetla powiadomienie, gdy debugowanie USB jest aktywne</string>
 
     <!-- Android debugging over WiFi -->
     <string name="adb_over_network">ADB przez sieć</string>
     <string name="adb_over_network_summary">Aktywuj debugowanie TCP/IP przez interfejs sieciowy (WiFi, sieci USB). Ustawienie zostanie zresetowane po ponownym uruchomieniu</string>
     <!-- Warning for Adb over Network -->
-    <string name="adb_over_network_warning">UWAGA: Kiedy ADB przez sieć jest aktywne, telefon jest podatny na ataki przez każdą połączoną sieci, w tym sieć GSM! \n\nKorzystaj z tej funkcji tylko wtedy, gdy jesteś połączony z zaufanych sieci. \n\nCzy na pewno chcesz włączyć tę funkcję?</string>
+    <string name="adb_over_network_warning">UWAGA: Kiedy ADB przez sieć jest aktywne, telefon jest podatny na ataki przez każdą połączoną sieci, w tym sieć GSM! \n\nKorzystaj z tej funkcji tylko wtedy, gdy jesteś połączony z zaufanymi sieciami. \n\nCzy na pewno chcesz włączyć tę funkcję?</string>
 
     <!-- Hostname setting -->
     <string name="device_hostname">Nazwa hosta</string>
@@ -347,8 +347,8 @@
     <string name="development_shortcut_summary">Włącz skróty programistyczne do zarządzania aplikacjami w liście ostatnio używanych aplikacji</string>
 
     <!-- tap-to-sleep -->
-    <string name="double_tap_to_sleep_title">Dwukrotnie dotknij żeby uśpić</string>
-    <string name="double_tap_to_sleep_summary">Dwukrotnie dotknij na pasku statusu, aby uśpić urządzenie</string>
+    <string name="double_tap_to_sleep_title">Dwukrotnie dotknij, aby uśpić</string>
+    <string name="double_tap_to_sleep_summary">Dwukrotnie dotknij na pasku stanu, aby uśpić urządzenie</string>
 
     <!-- Turn on display when power connected; turn off display when power disconnected -->
     <string name="wake_when_plugged_or_unplugged_title">Wybudź przy podłączaniu</string>
@@ -365,7 +365,7 @@
     <string name="header_category_personalization">Personalizacja</string>
 
     <!-- Status bar -->
-    <string name="status_bar_title">Pasek statusu</string>
+    <string name="status_bar_title">Pasek stanu</string>
     <string name="status_bar_toggle_brightness">Sterowanie jasnością</string>
     <string name="status_bar_toggle_brightness_summary">Reguluj jasność przesuwając palcem po pasku stanu</string>
     <string name="status_bar_quick_qs_pulldown_title">Szybkie rozwijanie</string>
@@ -437,7 +437,7 @@
     <string name="app_ops_summaries_modify_call_log">modyfikowanie rejestru połączeń</string>
     <string name="app_ops_summaries_read_calendar">czytanie kalendarza</string>
     <string name="app_ops_summaries_modify_calendar">modyfikowanie kalendarza</string>
-    <string name="app_ops_summaries_wifi_scan">skanowanie sieci wi-fi</string>
+    <string name="app_ops_summaries_wifi_scan">skanowanie sieci Wi-Fi</string>
     <string name="app_ops_summaries_notification">powiadomienie</string>
     <string name="app_ops_summaries_cell_scan">skanowanie sieci komórkowych</string>
     <string name="app_ops_summaries_call_phone">wykonywanie połączeń</string>
@@ -474,14 +474,14 @@
     <string name="app_ops_summaries_mute_unmute_microphone">wyłącz/włącz mikrofon</string>
     <string name="app_ops_summaries_toast_window">wyświetl toasty</string>
     <string name="app_ops_summaries_project_media">tworzenie multimediów</string>
-    <string name="app_ops_summaries_activate_vpn">aktywowanie VPN</string>
-    <string name="app_ops_summaries_wifi_change">zmienianie Wi-Fi</string>
-    <string name="app_ops_summaries_bluetooth_change">zmienianie bluetooth</string>
+    <string name="app_ops_summaries_activate_vpn">aktywacja VPN</string>
+    <string name="app_ops_summaries_wifi_change">zmiana Wi-Fi</string>
+    <string name="app_ops_summaries_bluetooth_change">zmiana Bluetooth</string>
     <string name="app_ops_summaries_send_mms">wysyłanie MMS</string>
     <string name="app_ops_summaries_read_mms">czytanie MMS</string>
     <string name="app_ops_summaries_write_mms">czytanie MMS</string>
     <string name="app_ops_summaries_auto_start">automatyczny start</string>
-    <string name="app_ops_summaries_nfc_change">zmienianie NFC</string>
+    <string name="app_ops_summaries_nfc_change">zmiana NFC</string>
     <string name="app_ops_summaries_delete_sms">usuwanie SMS</string>
     <string name="app_ops_summaries_delete_mms">usuwanie MMS</string>
     <string name="app_ops_summaries_delete_contacts">usuwanie kontaktów</string>
@@ -526,14 +526,14 @@
     <string name="app_ops_labels_mute_unmute_microphone">Wyłącz/włącz mikrofon</string>
     <string name="app_ops_labels_toast_window">Wyświetl toasty</string>
     <string name="app_ops_labels_project_media">Tworzenie multimediów</string>
-    <string name="app_ops_labels_activate_vpn">Aktywowanie VPN</string>
-    <string name="app_ops_labels_wifi_change">Zmienianie Wi-Fi</string>
-    <string name="app_ops_labels_bluetooth_change">Zmienianie Bluetooth</string>
+    <string name="app_ops_labels_activate_vpn">Aktywacja VPN</string>
+    <string name="app_ops_labels_wifi_change">Zmiana Wi-Fi</string>
+    <string name="app_ops_labels_bluetooth_change">Zmiana Bluetooth</string>
     <string name="app_ops_labels_send_mms">Wysyłanie MMS</string>
     <string name="app_ops_labels_read_mms">Czytanie MMS</string>
     <string name="app_ops_labels_write_mms">Pisanie MMS</string>
     <string name="app_ops_labels_auto_start">Automatyczny starte</string>
-    <string name="app_ops_labels_nfc_change">Zmienianie NFC</string>
+    <string name="app_ops_labels_nfc_change">Zmiana NFC</string>
     <string name="app_ops_labels_delete_sms">Usuwanie SMS</string>
     <string name="app_ops_labels_delete_mms">Usuwanie MMS</string>
     <string name="app_ops_labels_delete_contacts">Usuwanie kontaktów</string>
