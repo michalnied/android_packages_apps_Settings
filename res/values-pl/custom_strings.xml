@@ -28,7 +28,7 @@
     <string name="mod_version">Wersja Euphoria OS</string>
     <string name="mod_version_default">Nieznane</string>
     <!-- About phone screen, Build date of ROM -->
-    <string name="build_date">Data buildu</string>
+    <string name="build_date">Data kompilacji</string>
     <string name="build_date_default">2012-01-01-0000</string>
     <!-- About device screen, Cpu info. -->
     <string name="cpu_info">Procesor</string>
@@ -56,7 +56,7 @@
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
     <string name="show_cpu_info">Pokaż informacje o procesorze</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
-    <string name="show_cpu_info_summary">Nakładka na ekran pokazująca bieżące użycie procesora</string>
+    <string name="show_cpu_info_summary">Nakładka na ekran pokazująca bieżące zużycie procesora</string>
 
     <!--Status bar -->
     <string name="status_bar_category">Pasek powiadomień</string>
@@ -68,7 +68,7 @@
 
     <!-- Touch control -->
     <string name="touch_control_settings_title">Kontrola dotyku</string>
-    <string name="touch_control_settings_summary">Zarządzaj zaawansowanymi opcjami wybudzania, w tym dwukrotnie dotknij, aby wybudzić i więcej</string>
+    <string name="touch_control_settings_summary">Zarządzaj zaawansowanymi opcjami wybudzania, w tym wybudzanie podwójnym dotknięciem i więcej</string>
 
     <!-- Status bar | Clock -->
     <string name="status_bar_clock_category">Pasek statusu</string>
@@ -89,7 +89,7 @@
     <string name="clock_date_display_summary">Wyświetl niestandardową datę przed zegarem</string>
     <string name="clock_date_style">Styl daty</string>
     <string name="clock_date_format">Format daty</string>
-    <string name="clock_date_string_edittext_title">Musi być w odpowiednim formacie daty np. MM/dd/yy</string>
+    <string name="clock_date_string_edittext_title">Format daty musi być w odpowiednim formacie np. MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">Wprowadź znaki</string>
     <string name="am_pm_clock_normal">Normalny rozmiar czcionki</string>
     <string name="am_pm_clock_small">Mały rozmiar czcionki</string>
@@ -114,7 +114,7 @@
 
     <!-- Unaccounted and overcounted battery stats -->
     <string name="show_unac_and_overcounted_stats_title">Pokaż rzeczywiste/szacowane zużycie baterii</string>
-    <string name="show_unac_and_overcounted_stats_summary">Wyświetla statystki dotyczące rzeczywistego i szacowanego użycia baterii</string>
+    <string name="show_unac_and_overcounted_stats_summary">Wyświetla statystki dotyczące rzeczywistego i szacowanego zużycia baterii</string>
 
     <!-- Keyguard notifications -->
     <string name="app_notification_show_on_keyguard_title">Pokaż na ekranie blokady</string>
