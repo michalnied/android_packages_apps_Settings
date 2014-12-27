@@ -48,7 +48,7 @@
     <string name="profile_menu_delete">Skasuj</string>
     <string name="profile_settings_title">Profile</string>
     <string name="profile_empty_list_profiles_off">Włącz profile, aby je skonfigurować i używać.</string>
-    <string name="profile_trigger_configure">Konfiguruj przełączniki</string>
+    <string name="profile_trigger_configure">Skonfiguruj przełączniki</string>
     <string name="profile_triggers">Przełączniki</string>
     <string name="profile_trigger_filter_all">Wszystkie przełączniki</string>
     <string name="profile_trigger_filter_wifi">Wi-Fi</string>
@@ -92,7 +92,7 @@
 
     <!-- Profile Config screen PreferenceGroup titles -->
     <string name="profile_connectionoverrides_title">Ustawienia połączeń</string>
-    <string name="profile_volumeoverrides_title">Ustawienia dżwięków</string>
+    <string name="profile_volumeoverrides_title">Ustawienia dźwięków</string>
     <string name="connection_state_disabled">Wyłącz</string>
     <string name="connection_state_enabled">Włącz</string>
     <string name="volume_override_summary">Ustaw %1$s/%2$s</string>
@@ -175,7 +175,7 @@
     <string name="hardware_keys_action_sleep">Wygaś ekran</string>
     <string name="hardware_keys_action_last_app">Ostatnia aplikacja</string>
     <string name="volbtn_music_controls_title">Sterowanie odtwarzaczem</string>
-    <string name="volbtn_music_controls_summary">Kiedy ekran jest wyłączony, pozwala przełączać utwory muzyczne długim naciśnięciem przycisków głośności.</string>
+    <string name="volbtn_music_controls_summary">Kiedy ekran jest wyłączony, pozwala przełączać utwory muzyczne długim naciśnięciem przycisku głośności.</string>
     <string name="volbtn_cursor_control_title">Sterowanie kursorem za pomocą klawiszy</string>
     <string name="volbtn_cursor_control_off">Wyłączone</string>
     <string name="volbtn_cursor_control_on">Przyciski głośności w górę/dół poruszają kursorem w lewo/prawo</string>
@@ -214,7 +214,7 @@
     <string name="blacklist_summary">Przychodzące wiadomości i połączenia od numerów na czarnej liście będą blokowane</string>
     <string name="blacklist_notify">Pokaż powiadomienia</string>
     <string name="blacklist_private_numbers_title">Numery prywatne</string>
-    <string name="blacklist_private_numbers_summary_disabled">Nie blokuj połączeń z prywatnych numerów</string>
+    <string name="blacklist_private_numbers_summary_disabled">Nie blokuj połączeń z numerów prywatnych</string>
     <string name="blacklist_private_numbers_summary">Blokuj przychodzące <xliff:g id="type">%s</xliff:g> z prywatnych numerów</string>
     <string name="blacklist_unknown_numbers_title">Nieznane numery</string>
     <string name="blacklist_unknown_numbers_summary_disabled">Nie blokuj połączeń lub wiadomości z numerów nie będących na liście kontaktów</string>
@@ -236,7 +236,7 @@
 
     <!-- Protected apps lockpattern reset button -->
     <string name="lockpattern_reset_button">Zresetuj wzór</string>
-    <string name="lockpattern_settings_reset_summary">Wprowadź podstawowe konto email i hasło, aby zresetować blokadę wzorem</string>
+    <string name="lockpattern_settings_reset_summary">Wprowadź nazwę podstawowego konta email i hasło, aby zresetować blokadę wzorem</string>
 
     <!-- Protected Apps -->
     <string name="menu_hidden_apps_delete">Zresetuj</string>
@@ -254,7 +254,7 @@
     <!-- Display : Rotation  -->
     <string name="display_rotation_title">Obracanie ekranu</string>
     <string name="display_rotation_disabled">Wyłączone</string>
-    <string name="display_rotation_unit">stopnii</string>
+    <string name="display_rotation_unit">stopni</string>
     <string name="display_lockscreen_rotation_title">Obróc ekran blokady</string>
     <string name="display_rotation_category_title">Tryby obracania ekranu</string>
     <string name="display_rotation_0_title">0 stopni</string>
@@ -339,7 +339,7 @@
     <string name="adb_over_network">ADB przez sieć</string>
     <string name="adb_over_network_summary">Aktywuj debugowanie TCP/IP przez interfejs sieciowy (WiFi, sieci USB). Ustawienie zostanie zresetowane po ponownym uruchomieniu</string>
     <!-- Warning for Adb over Network -->
-    <string name="adb_over_network_warning">UWAGA: Kiedy ADB przez sieć jest aktywne, telefon jest podatny na ataki przez każdą połączoną sieci, w tym sieć GSM! \n\nKorzystaj z tej funkcji tylko wtedy, gdy jesteś połączony z zaufanymi sieciami. \n\nCzy na pewno chcesz włączyć tę funkcję?</string>
+    <string name="adb_over_network_warning">UWAGA: Kiedy ADB przez sieć jest aktywne, telefon jest podatny na ataki przez każdą połączoną sieć, w tym sieć GSM! \n\nKorzystaj z tej funkcji tylko wtedy, gdy jesteś połączony z zaufanymi sieciami. \n\nCzy na pewno chcesz włączyć tę funkcję?</string>
 
     <!-- Hostname setting -->
     <string name="device_hostname">Nazwa hosta</string>
@@ -353,7 +353,7 @@
     <string name="double_tap_to_sleep_summary">Dwukrotnie dotknij na pasku stanu, aby uśpić urządzenie</string>
 
     <!-- Turn on display when power connected; turn off display when power disconnected -->
-    <string name="wake_when_plugged_or_unplugged_title">Wybudź przy podłączaniu</string>
+    <string name="wake_when_plugged_or_unplugged_title">Wybudź przy podłączeniu</string>
     <string name="wake_when_plugged_or_unplugged_summary">Włącz ekran przy podłączeniu lub odłączeniu od źródła zasilania</string>
 
     <!-- Kill app long-press back -->
@@ -362,7 +362,7 @@
 
     <!-- Buttons - Enable navbar -->
     <string name="disable_navkeys_title">Włącz ekranowy pasek nawigacyjny</string>
-    <string name="disable_navkeys_summary">Włącz ekranowy pasek nawigacji i zablokuj przyciski sprzętowe</string>
+    <string name="disable_navkeys_summary">Włącz ekranowy pasek nawigacyjny i zablokuj przyciski sprzętowe</string>
 
     <string name="header_category_personalization">Personalizacja</string>
 
