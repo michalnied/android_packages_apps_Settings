@@ -146,13 +146,13 @@
     <string name="lock_clock_summary">Pokaż lub zmień sposób wyświetlania widżetu "cLock"</string>
     
      <!-- Recents panel -->
-    <string name="recents_panel_category">Recents panel</string>
-    <string name="show_clear_all_recents_button_title">Clear all button</string>
-    <string name="show_clear_all_recents_button_summary">Show clear all button</string>
-    <string name="recents_clear_all_location_title">Clear all location</string>
-    <string name="recents_clear_all_location_right">Top right</string>
-    <string name="recents_clear_all_location_left">Top left</string>
-    <string name="recents_searchbar_title">Search bar</string>
+    <string name="recents_panel_category">Ostatnio używane aplikacje</string>
+    <string name="show_clear_all_recents_button_title">Przycisk wyczyść wszystkie</string>
+    <string name="show_clear_all_recents_button_summary">Pokaż przycisk czyszczenia ostatnio używanych aplikacji</string>
+    <string name="recents_clear_all_location_title">Położenie przycisku wyczyść wszystkie</string>
+    <string name="recents_clear_all_location_right">Górny prawy róg</string>
+    <string name="recents_clear_all_location_left">Górny lewy róg</string>
+    <string name="recents_searchbar_title">Pasek wyszukiwania</string>
 
     <!-- Full screen keyboard -->
     <string name="fullscreen_keyboard_title">Fullscreen keyboard</string>
