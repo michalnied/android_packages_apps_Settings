@@ -175,7 +175,7 @@
     <string name="hardware_keys_action_sleep">Wygaś ekran</string>
     <string name="hardware_keys_action_last_app">Ostatnia aplikacja</string>
     <string name="volbtn_music_controls_title">Sterowanie odtwarzaczem</string>
-    <string name="volbtn_music_controls_summary">Kiedy ekran jest wyłączony, długie naciśnięcie przycisków głośności będzie zmieniało utwory muzyczne.</string>
+    <string name="volbtn_music_controls_summary">Kiedy ekran jest wyłączony, pozwala przełączać utwory muzyczne długim naciśnięciem przycisków głośności.</string>
     <string name="volbtn_cursor_control_title">Sterowanie kursorem za pomocą klawiszy</string>
     <string name="volbtn_cursor_control_off">Wyłączone</string>
     <string name="volbtn_cursor_control_on">Przyciski głośności w górę/dół poruszają kursorem w lewo/prawo</string>
@@ -611,7 +611,7 @@
     <string name="font_size_sample">Przykład</string>
     
     <!-- Volume settings - Volume adjustment sound -->
-    <string name="volume_adjust_sounds_title">Regulacja głośności dźwięków</string>11
+    <string name="volume_adjust_sounds_title">Regulacja głośności dźwięków</string>
 
     <!-- Hardware tunables - Vibrator intensity -->
     <string name="vibrator_intensity_title">Siła wibracji</string>
