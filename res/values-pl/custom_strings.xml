@@ -43,7 +43,7 @@
     <string name="general_options_title">Ogólne</string>
 
     <!--Wakeup when plugged/unplugged -->
-    <string name="wakeup_when_plugged_unplugged_title">Wybudź przy podłączaniu</string>
+    <string name="wakeup_when_plugged_unplugged_title">Wybudź przy podłączeniu</string>
     <string name="wakeup_when_plugged_unplugged_summary">Wybudź ekran przy podłączeniu lub odłączeniu źródła zasilania</string>
 
     <!-- Font size sample text. This needs to be a very short string, as it is shown in
@@ -59,8 +59,8 @@
     <string name="show_cpu_info_summary">Nakładka na ekran pokazująca bieżące zużycie procesora</string>
 
     <!--Status bar -->
-    <string name="status_bar_category">Pasek powiadomień</string>
-    <string name="lockscreen_show_carrier_title">Nazwa operatora na ekranie blokady</string>
+    <string name="status_bar_category">Pasek stanu</string>
+    <string name="status_bar_show_carrier_title">Pokaż nazwę operatora</string>
 
     <!--Power menu -->
     <string name="power_category">Przycisk zasilania</string>
@@ -71,7 +71,7 @@
     <string name="touch_control_settings_summary">Zarządzaj zaawansowanymi opcjami wybudzania, w tym wybudzanie podwójnym dotknięciem i więcej</string>
 
     <!-- Status bar | Clock -->
-    <string name="status_bar_clock_category">Pasek statusu</string>
+    <string name="status_bar_clock_category">Pasek stanu</string>
     <string name="status_bar_clock">Zegar i data</string>
     <string name="status_bar_clock_title">Styl zegara i daty</string>
     <string name="clock_title_enable">Położenie zegara</string>
@@ -81,7 +81,7 @@
     <string name="status_bar_am_pm_title">AM/PM</string>
     <string name="status_bar_am_pm_info">Włączony format 24-godzinny</string>
     <string name="enable_clock_weekday">Dzień tygodnia</string>
-    <string name="enable_clock_weekday_summary">Skrócony dzień tygodnia przed zegarem</string>
+    <string name="enable_clock_weekday_summary">Skrócona nazwa dnia tygodnia przed zegarem</string>
     <string name="right_clock">Zegar z prawej strony</string>
     <string name="center_clock">Zegar na środku</string>
     <string name="dont_show">Nie pokazuj</string>
@@ -148,62 +148,62 @@
      <!-- Recents panel -->
     <string name="recents_panel_category">Ostatnio używane aplikacje</string>
     <string name="show_clear_all_recents_button_title">Przycisk wyczyść wszystkie</string>
-    <string name="show_clear_all_recents_button_summary">Pokaż przycisk czyszczenia ostatnio używanych aplikacji</string>
+    <string name="show_clear_all_recents_button_summary">Pokaż przycisk wyczyszczenia ostatnio używanych aplikacji</string>
     <string name="recents_clear_all_location_title">Położenie przycisku wyczyść wszystkie</string>
     <string name="recents_clear_all_location_right">Górny prawy róg</string>
     <string name="recents_clear_all_location_left">Górny lewy róg</string>
     <string name="recents_searchbar_title">Pasek wyszukiwania</string>
 
     <!-- Full screen keyboard -->
-    <string name="fullscreen_keyboard_title">Fullscreen keyboard</string>
-    <string name="fullscreen_keyboard_summary">Show a fullscreen keyboard in landscape</string>
+    <string name="fullscreen_keyboard_title">Klawiatura na pełnym ekranie</string>
+    <string name="fullscreen_keyboard_summary">Pokaż klawiaturę na pełnym ekranie w trybie poziomym</string>
 
     <!-- Navigation bar -->
-    <string name="navigation_bar_category">Navigation bar</string>
-    <string name="navbar_enable_bar">Enable</string>
-    <string name="navigation_bar_left_title">Left-handed mode</string>
-    <string name="navigation_bar_left_summary">Place the navigation bar on the left side of the screen in landscape mode</string>
-    <string name="navbar_dimen_title">Dimensions</string>
-    <string name="navbar_dimensions_reset_message">Reset all dimensions entries to default?</string>
-    <string name="navigation_bar_height_title">Navigation bar height</string>
-    <string name="navigation_bar_height_landscape_title">Navigation bar height landscape</string>
-    <string name="navigation_bar_width_title">Navigation bar width</string>
-    <string name="navigation_bar_size_42_dp_default">42 dp (default)</string>
+    <string name="navigation_bar_category">Pasek nawigacyjny</string>
+    <string name="navbar_enable_bar">Włączony</string>
+    <string name="navigation_bar_left_title">Tryb leworęczny</string>
+    <string name="navigation_bar_left_summary">W trybie poziomym pokaż pasek nawigacyjny po lewej stronie ekranu</string>
+    <string name="navbar_dimen_title">Wymiary</string>
+    <string name="navbar_dimensions_reset_message">Zresetować wszystkie wymiary do ustawień domyślnych?</string>
+    <string name="navigation_bar_height_title">Wysokość paska nawigacyjnego</string>
+    <string name="navigation_bar_height_landscape_title"Wysokość paska nawigacyjnego w trybie poziomym</string>
+    <string name="navigation_bar_width_title">Szerokość paska nawigacyjnego</string>
+    <string name="navigation_bar_size_42_dp_default">42 dp (domyślnie)</string>
     <string name="navigation_bar_size_36_dp">36 dp</string>
     <string name="navigation_bar_size_30_dp">30 dp</string>
     <string name="navigation_bar_size_24_dp">24 dp</string>
-    <string name="navigation_bar_size_48_dp_default">48 dp (default)</string>
+    <string name="navigation_bar_size_48_dp_default">48 dp (domyślnie)</string>
     <string name="navigation_bar_size_44_dp">44 dp</string>
     <string name="navigation_bar_size_40_dp">40 dp</string>
     <string name="navigation_bar_size_42_dp">42 dp</string>
-    <string name="navigation_bar_size_0_dp">0 dp (off)</string>
+    <string name="navigation_bar_size_0_dp">0 dp (wyłączony)</string>
 
     <!-- Wifi connection notifications -->
-    <string name="wifi_notify_changed_networks">Wi\u2011Fi connected notification</string>
-    <string name="notify_changed_networks_default">Off (default)</string>
+    <string name="wifi_notify_changed_networks">Powiadomienie o połączeniu z siecią Wi\u2011Fi</string>
+    <string name="notify_changed_networks_default">Wyłączone (domyślnie)</string>
     <string name="notify_changed_networks_toast">Toast</string>
-    <string name="notify_changed_networks_notification">Notification</string>
-    <string name="notify_changed_networks_notification_sound">Notification with sound</string>
+    <string name="notify_changed_networks_notification">Powiadomienie</string>
+    <string name="notify_changed_networks_notification_sound">Powiadomienie z dźwiękiem</string>
 
     <!-- Heads Up -->
-    <string name="category_heads_up">Heads up notifications</string>
-    <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
-    <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
-    <string name="add_heads_up_package">Add app</string>
-    <string name="add_heads_up_dnd_summary">Don\'t show heads up in these applications</string>
-    <string name="add_heads_up_blacklist_summary">Don\'t show heads up from these applications</string>
-    <string name="heads_up_dnd_title">Do not disturb</string>
-    <string name="heads_up_blacklist_title">Blacklist</string>
-    <string name="heads_up_disabled_notice">To allow applications to display interactive notifications in a pop-up window on your screen, enable Heads up.</string>
+    <string name="category_heads_up">Wyskakujące powiadomienia</string>
+    <string name="summary_heads_up_enabled">Wyskakujące powiadomienia są włączone</string>
+    <string name="summary_heads_up_disabled">Wyskakujące powiadomienia są wyłączone</string>
+    <string name="add_heads_up_package">Dodaj aplikację</string>
+    <string name="add_heads_up_dnd_summary">Nie pokazuj wyskakujących powiadomień w tych aplikacjach</string>
+    <string name="add_heads_up_blacklist_summary">Nie pokazuj wyskakujących powiadomień od tych aplikacji</string>
+    <string name="heads_up_dnd_title">Nie przeszkadzać</string>
+    <string name="heads_up_blacklist_title">Czarna lista</string>
+    <string name="heads_up_disabled_notice">Włącz Wyskakujące Powiadomienia, aby umożliwić aplikacji na wyświetlanie interaktywnych powiadomień w wyskakującym okienku.</string>
 
     <!-- Heads up timeout -->
-    <string name="heads_up_time_out_title">Time out</string>
-    <string name="heads_up_time_out_summary">Notification will show for <xliff:g id="number">%d</xliff:g> seconds</string>
-    <string name="heads_up_time_out_never_summary">Notification will show until it is dismissed</string>
-    <string name="heads_up_time_out_2sec">2 seconds</string>
-    <string name="heads_up_time_out_4sec">4 seconds</string>
-    <string name="heads_up_time_out_6sec">6 seconds</string>
-    <string name="heads_up_time_out_8sec">8 seconds</string>
-    <string name="heads_up_time_out_10sec">10 seconds</string>
-    <string name="heads_up_time_out_never">Never</string>
+    <string name="heads_up_time_out_title">Czas wyświetlania</string>
+    <string name="heads_up_time_out_summary">Powiadomienie będzie pokazywane przez <xliff:g id="number">%d</xliff:g> sekund</string>
+    <string name="heads_up_time_out_never_summary">Powiadomienie będzie pokazywane, dopóki nie zostanie odwołane</string>
+    <string name="heads_up_time_out_2sec">2 sekundy</string>
+    <string name="heads_up_time_out_4sec">4 sekundy</string>
+    <string name="heads_up_time_out_6sec">6 sekund</string>
+    <string name="heads_up_time_out_8sec">8 sekund</string>
+    <string name="heads_up_time_out_10sec">10 sekund</string>
+    <string name="heads_up_time_out_never">Nigdy</string>
 </resources>
