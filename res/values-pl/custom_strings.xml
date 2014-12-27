@@ -148,7 +148,7 @@
      <!-- Recents panel -->
     <string name="recents_panel_category">Ostatnio używane aplikacje</string>
     <string name="show_clear_all_recents_button_title">Przycisk wyczyść wszystkie</string>
-    <string name="show_clear_all_recents_button_summary">Pokaż przycisk wyczyszczenia ostatnio używanych aplikacji</string>
+    <string name="show_clear_all_recents_button_summary">Pokaż przycisk usunięcia ostatnio używanych aplikacji</string>
     <string name="recents_clear_all_location_title">Położenie przycisku wyczyść wszystkie</string>
     <string name="recents_clear_all_location_right">Górny prawy róg</string>
     <string name="recents_clear_all_location_left">Górny lewy róg</string>
