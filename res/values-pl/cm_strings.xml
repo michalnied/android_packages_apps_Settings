@@ -182,7 +182,7 @@
     <string name="volbtn_cursor_control_on_reverse">Przyciski głośności w górę/dół poruszają kursorem w prawo/lewo</string>
     <string name="power_end_call_title">Kończenie rozmowy</string>
     <string name="power_end_call_summary">Naciśnięcie przycisku zasilania zakończy bieżące połączenie</string>
-    <string name="button_wake_title">Wybudż urządzenie</string>
+    <string name="button_wake_title">Wybudź urządzenie</string>
     <string name="home_wake_summary">Naciśnięcie przycisku Home wybudzi urządzenie</string>
     <string name="home_answer_call_title">Odbieranie połączeń</string>
     <string name="home_answer_call_summary">Naciśniecie przycisku Home odbierze bieżące połączenie przychodzące</string>
