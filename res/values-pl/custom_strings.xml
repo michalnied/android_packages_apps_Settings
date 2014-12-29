@@ -101,7 +101,7 @@
     <string name="clock_date_style_lowercase">Małe litery</string>
     <string name="clock_date_style_uppercase">Wielkie litery</string>
     <string name="clock_date_format_custom">Własny format Java</string>
-    <string name="status_bar_ticker_title">Skrót powiadomienia</string>
+    <string name="status_bar_ticker_title">Podgląd powiadomienia</string>
     <string name="status_bar_ticker_summary">Animacja treści powiadomienia na pasku stanu</string>
 
     <!-- Quick settings -->
