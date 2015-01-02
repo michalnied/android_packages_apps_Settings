@@ -61,6 +61,7 @@
     <!--Status bar -->
     <string name="status_bar_category">Pasek stanu</string>
     <string name="status_bar_show_carrier_title">Pokaż nazwę operatora</string>
+    <string name="status_bar_show_carrier_summary">Wyświetl nazwę operatora na pasku stanu</string>
 
     <!--Power menu -->
     <string name="power_category">Przycisk zasilania</string>
@@ -108,6 +109,14 @@
     <string name="quick_settings_category">Szybkie ustawienia</string>
     <string name="block_on_secure_keyguard_title">Wyłącz na ekranie blokady</string>
     <string name="block_on_secure_keyguard_summary">Wyłącz szybkie ustawienia na zabezpieczonym ekranie blokady</string>
+    
+    <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Wibruj przy dotknięciu</string>
+    <string name="quick_settings_vibrate_summary">Wibruj przy dotknięciu przełącznika</string>
+
+    <!-- QuickSettings collapse panel -->
+    <string name="quick_settings_collapse_title">Automatyczne zamykanie panelu</string>
+    <string name="quick_settings_collapse_summary">Zamyka panel szybkich ustawień po użyciu przełącznika</string>
 
     <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
     <string name="supersu_title">SuperSU</string>
@@ -150,9 +159,12 @@
     <string name="show_clear_all_recents_button_title">Przycisk wyczyść wszystkie</string>
     <string name="show_clear_all_recents_button_summary">Pokaż przycisk usunięcia ostatnio używanych aplikacji</string>
     <string name="recents_clear_all_location_title">Położenie przycisku wyczyść wszystkie</string>
-    <string name="recents_clear_all_location_right">Górny prawy róg</string>
-    <string name="recents_clear_all_location_left">Górny lewy róg</string>
+    <string name="recents_clear_all_location_top_right">Górny prawy róg</string>
+    <string name="recents_clear_all_location_top_left">Górny lewy róg</string>
+    <string name="recents_clear_all_location_bottom_right">Dolny prawy róg</string>
+    <string name="recents_clear_all_location_bottom_left">Dolny lewy róg</string>
     <string name="recents_searchbar_title">Pasek wyszukiwania</string>
+    <string name="recents_searchbar_summary">Pokaż pasek wyszukiwania Google na ekranie ostatnio otwartych aplikacji</string>
 
     <!-- Full screen keyboard -->
     <string name="fullscreen_keyboard_title">Klawiatura na pełnym ekranie</string>
@@ -189,6 +201,8 @@
     <string name="category_heads_up">Wyskakujące powiadomienia</string>
     <string name="summary_heads_up_enabled">Wyskakujące powiadomienia są włączone</string>
     <string name="summary_heads_up_disabled">Wyskakujące powiadomienia są wyłączone</string>
+    <string name="show_headsup_button_title">Pokaż przycisk szybkiego dostępu</string>
+    <string name="show_headsup_button_summary">Pokaż przycisk szybkiego dostępu w nagłówku paska stanu</string>
     <string name="add_heads_up_package">Dodaj aplikację</string>
     <string name="add_heads_up_dnd_summary">Nie pokazuj wyskakujących powiadomień w tych aplikacjach</string>
     <string name="add_heads_up_blacklist_summary">Nie pokazuj wyskakujących powiadomień od tych aplikacji</string>
