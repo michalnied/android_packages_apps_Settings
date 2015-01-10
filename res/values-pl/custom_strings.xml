@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2014 The Euphoria-OS Project
+     Copyright 2013, The ChameleonOS Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -60,8 +61,13 @@
 
     <!--Status bar -->
     <string name="status_bar_category">Pasek stanu</string>
+    
+    <!--Status bar carrier -->
     <string name="status_bar_show_carrier_title">Pokaż nazwę operatora</string>
-    <string name="status_bar_show_carrier_summary">Wyświetl nazwę operatora na pasku stanu</string>
+    <string name="show_carrier_disabled">Disabled</string>
+    <string name="show_carrier_keyguard">Keyguard carrier</string>
+    <string name="show_carrier_statusbar">Status bar carrier</string>
+    <string name="show_carrier_enabled">Enabled</string>
 
     <!--Power menu -->
     <string name="power_category">Przycisk zasilania</string>
@@ -163,6 +169,8 @@
     <string name="recents_clear_all_location_top_left">Górny lewy róg</string>
     <string name="recents_clear_all_location_bottom_right">Dolny prawy róg</string>
     <string name="recents_clear_all_location_bottom_left">Dolny lewy róg</string>
+    <string name="recents_clear_all_dismiss_all_title">Clear all tasks</string>
+    <string name="recents_clear_all_dismiss_all_summary">Choose whether to dismiss all tasks or ignore the foreground task</string>
     <string name="recents_searchbar_title">Pasek wyszukiwania</string>
     <string name="recents_searchbar_summary">Pokaż pasek wyszukiwania Google na ekranie ostatnio otwartych aplikacji</string>
 
@@ -220,4 +228,48 @@
     <string name="heads_up_time_out_8sec">8 sekund</string>
     <string name="heads_up_time_out_10sec">10 sekund</string>
     <string name="heads_up_time_out_never">Nigdy</string>
+    
+    <!-- Superuser indicator-->
+    <string name="su_indicator">Superuser indicator</string>
+    <string name="su_indicator_summary">Show superuser indicator when a session is active</string>
+
+    <!-- Screen recorder -->
+    <string name="screen_recorder_title">Screen recorder</string>
+    <string name="screen_recorder_summary">Adjust screen recorder settings</string>
+    <string name="screen_recorder_video_dimensions_title">Video size</string>
+    <string name="screen_recorder_video_bitrate_title">Bitrate</string>
+    <!-- video sizes -->
+    <string name="screen_recorder_size_240x400">240x400</string>
+    <string name="screen_recorder_size_360x640">360x640</string>
+    <string name="screen_recorder_size_480x800">480x800</string>
+    <string name="screen_recorder_size_480x854">480x854</string>
+    <string name="screen_recorder_size_540x960">540x960</string>
+    <string name="screen_recorder_size_600x1024">600x1024</string>
+    <string name="screen_recorder_size_720x1280">720x1280</string>
+    <!-- frame rates -->
+    <string name="screen_recorder_bitrate_title_100000">100 kB/s</string>
+    <string name="screen_recorder_bitrate_title_250000">250 kB/s</string>
+    <string name="screen_recorder_bitrate_title_500000">500 kB/s</string>
+    <string name="screen_recorder_bitrate_title_1000000">1 MB/s</string>
+    <string name="screen_recorder_bitrate_title_2000000">2 MB/s</string>
+    <string name="screen_recorder_bitrate_title_3000000">3 MB/s</string>
+    <string name="screen_recorder_bitrate_title_4000000">4 MB/s</string>
+    <string name="screen_recorder_bitrate_title_5000000">5 MB/s</string>
+    <string name="screen_recorder_bitrate_title_10000000">10 MB/s</string>
+    <string name="screen_recorder_bitrate_title_20000000">20 MB/s</string>
+    <string name="screen_recorder_bitrate_100000">100000</string>
+    <string name="screen_recorder_bitrate_250000">250000</string>
+    <string name="screen_recorder_bitrate_500000">500000</string>
+    <string name="screen_recorder_bitrate_1000000">1000000</string>
+    <string name="screen_recorder_bitrate_2000000">2000000</string>
+    <string name="screen_recorder_bitrate_3000000">3000000</string>
+    <string name="screen_recorder_bitrate_4000000">4000000</string>
+    <string name="screen_recorder_bitrate_5000000">5000000</string>
+    <string name="screen_recorder_bitrate_10000000">10000000</string>
+    <string name="screen_recorder_bitrate_20000000">20000000</string>
+
+    <string name="power_menu_screenrecord_title">Screen record</string>
+    <string name="screen_recorder_record_audio_title">External audio</string>
+    <string name="screen_recorder_record_audio_summary">Record audio from the microphone</string>
+    <string name="screen_recorder_power_menu_summary">Add a Screen Record entry in the power menu</string>
 </resources>
