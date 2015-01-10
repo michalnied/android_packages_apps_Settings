@@ -181,6 +181,8 @@
     <string name="volbtn_cursor_control_on">Przyciski głośności w górę/dół poruszają kursorem w lewo/prawo</string>
     <string name="volbtn_cursor_control_on_reverse">Przyciski głośności w górę/dół poruszają kursorem w prawo/lewo</string>
     <string name="power_end_call_title">Kończenie rozmowy</string>
+    <string name="swap_volume_buttons_title">Zmień orientację</string>
+    <string name="swap_volume_buttons_summary">Zamień przyciski głośności, kiedy ekran jest odwrócony</string>
     <string name="power_end_call_summary">Naciśnięcie przycisku zasilania zakończy bieżące połączenie</string>
     <string name="button_wake_title">Wybudź urządzenie</string>
     <string name="home_wake_summary">Naciśnięcie przycisku Home wybudzi urządzenie</string>
@@ -288,6 +290,8 @@
     <!--- Advanced Settings -->
     <string name="advanced_settings">Ustawienia zaawansowane</string>
     <string name="advanced_settings_summary">Włącz więcej opcji ustawień</string>
+
+    <string name="contributor_cloud_title">Twórcy</string>
 
     <!--- Tap To Wake -->
     <string name="double_tap_to_wake_title">Wybudzanie podwójnym dotknięciem</string>
@@ -498,6 +502,7 @@
     <string name="app_ops_summaries_delete_call_log">usuwanie rejestru połączeń</string>
     <string name="app_ops_summaries_data_change">zmienianie danych</string>
     <string name="app_ops_summaries_wake_up">wybudzenie</string>
+    <string name="app_ops_summaries_su">Superuser</string>
 
     <string name="app_ops_labels_location">Lokalizacja</string>
     <string name="app_ops_labels_vibrate">Wibracje</string>
@@ -550,6 +555,7 @@
     <string name="app_ops_labels_delete_call_log">Usuwanie rejestru połączeń</string>
     <string name="app_ops_labels_data_change">Zmienianie danych</string>
     <string name="app_ops_labels_wake_up">Wybudzanie</string>
+    <string name="app_ops_labels_su">Dostęp do roota</string>
 
     <!-- App ops categories -->
     <string name="app_ops_categories_location">Lokalizacja</string>
@@ -558,6 +564,7 @@
     <string name="app_ops_categories_media">Media</string>
     <string name="app_ops_categories_device">Urządzenie</string>
     <string name="app_ops_categories_bootup">Rozruch</string>
+    <string name="app_ops_categories_su">Superuser</string>
 
     <!-- App ops permissions -->
     <string name="app_ops_permissions_allowed">Dozwolone</string>
@@ -631,7 +638,6 @@
     <string name="gamma_tuning_contrast">Kontrast</string>
     <string name="gamma_tuning_brightness">Jasność</string>
     <string name="gamma_tuning_saturation">Nasycenie</string>
-
     <string name="settings_reset_button">Resetuj</string>
 
     <!-- Message when bluetooth dialog for pin entry is showing  when HIGH security enabled-->
@@ -790,4 +796,24 @@
     <string name="status_bar_show_weather_title">Pokaż pogodę</string>
     <string name="status_bar_show_weather_summary">Pokaż pogodę w nagłówku paska stanu</string>
 
+<!-- Category title for Charging sounds (Power state change) specific Settings.
+         [CHAR LIMIT=40] -->
+    <string name="power_notifications_category_title">Dźwięki ładowania</string>
+
+    <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
+    <string name="power_notifications_enable_title">Włącz</string>
+    <string name="power_notifications_enable_summary">Odtwórz dźwięk podczas podłączania lub odłączania ładowarki</string>
+    <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
+    <string name="power_notifications_vibrate_title">Wibracje</string>
+    <!-- Sound settings, Charging sounds ringtone selection, preference label -->
+    <string name="power_notifications_ringtone_title">Dźwięk powiadomienia</string>
+    <!-- Sound settings, charging sounds label for ringtone == none -->
+    <string name="power_notifications_ringtone_silent">Cichy</string>
+
+    <!-- EdgeGesture service -->
+    <string name="edge_gesture_service_title">Zablokuj gest zdarzeń dotyku</string>
+    <string name="edge_gesture_service_summary">Nie wysyłaj zdarzeń dotyku dla paska nawigacyjnego i paska statusu do aplikacji</string>
+
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
 </resources>
