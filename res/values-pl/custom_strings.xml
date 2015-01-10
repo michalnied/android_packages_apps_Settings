@@ -64,10 +64,10 @@
     
     <!--Status bar carrier -->
     <string name="status_bar_show_carrier_title">Pokaż nazwę operatora</string>
-    <string name="show_carrier_disabled">Disabled</string>
-    <string name="show_carrier_keyguard">Keyguard carrier</string>
-    <string name="show_carrier_statusbar">Status bar carrier</string>
-    <string name="show_carrier_enabled">Enabled</string>
+    <string name="show_carrier_disabled">Wyłączone</string>
+    <string name="show_carrier_keyguard">Na ekranie blokady</string>
+    <string name="show_carrier_statusbar">Na pasku statusu</string>
+    <string name="show_carrier_enabled">Włączone</string>
 
     <!--Power menu -->
     <string name="power_category">Przycisk zasilania</string>
@@ -169,8 +169,8 @@
     <string name="recents_clear_all_location_top_left">Górny lewy róg</string>
     <string name="recents_clear_all_location_bottom_right">Dolny prawy róg</string>
     <string name="recents_clear_all_location_bottom_left">Dolny lewy róg</string>
-    <string name="recents_clear_all_dismiss_all_title">Clear all tasks</string>
-    <string name="recents_clear_all_dismiss_all_summary">Choose whether to dismiss all tasks or ignore the foreground task</string>
+    <string name="recents_clear_all_dismiss_all_title">Wyczyść wszystkie zadania</string>
+    <string name="recents_clear_all_dismiss_all_summary">Wybierz, czy usuwać wszystkie zadania, czy zignorować ostatnio uruchomione</string>
     <string name="recents_searchbar_title">Pasek wyszukiwania</string>
     <string name="recents_searchbar_summary">Pokaż pasek wyszukiwania Google na ekranie ostatnio otwartych aplikacji</string>
 
@@ -230,13 +230,13 @@
     <string name="heads_up_time_out_never">Nigdy</string>
     
     <!-- Superuser indicator-->
-    <string name="su_indicator">Superuser indicator</string>
-    <string name="su_indicator_summary">Show superuser indicator when a session is active</string>
+    <string name="su_indicator">Ikona superusera</string>
+    <string name="su_indicator_summary">Pokaż ikonę superusera podczas aktywnej sesji</string>
 
     <!-- Screen recorder -->
-    <string name="screen_recorder_title">Screen recorder</string>
-    <string name="screen_recorder_summary">Adjust screen recorder settings</string>
-    <string name="screen_recorder_video_dimensions_title">Video size</string>
+    <string name="screen_recorder_title">Nagrywanie ekranu</string>
+    <string name="screen_recorder_summary">Dostosuj ustawienia nagrywania ekranu</string>
+    <string name="screen_recorder_video_dimensions_title">Rozmiar wideo</string>
     <string name="screen_recorder_video_bitrate_title">Bitrate</string>
     <!-- video sizes -->
     <string name="screen_recorder_size_240x400">240x400</string>
@@ -268,8 +268,8 @@
     <string name="screen_recorder_bitrate_10000000">10000000</string>
     <string name="screen_recorder_bitrate_20000000">20000000</string>
 
-    <string name="power_menu_screenrecord_title">Screen record</string>
-    <string name="screen_recorder_record_audio_title">External audio</string>
-    <string name="screen_recorder_record_audio_summary">Record audio from the microphone</string>
-    <string name="screen_recorder_power_menu_summary">Add a Screen Record entry in the power menu</string>
+    <string name="power_menu_screenrecord_title">Nagrywanie ekranu</string>
+    <string name="screen_recorder_record_audio_title">Dźwięk z zewnątrz</string>
+    <string name="screen_recorder_record_audio_summary">Nagrywaj dźwięk z mikrofonu</string>
+    <string name="screen_recorder_power_menu_summary">Dodaj opcję nagrywania ekranu w menu zasilania</string>
 </resources>
