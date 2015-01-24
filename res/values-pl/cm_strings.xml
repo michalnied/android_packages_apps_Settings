@@ -672,11 +672,12 @@
     <string name="contrast_str">Kontrast: <xliff:g id="contrast_value">%1$s</xliff:g></string>
     <string name="intensity_str">Instensywność: <xliff:g id="intensity_str_value">%1$s</xliff:g></string>
 
-    <string name="screen_color_setting_standard">Standard</string>
-    <string name="screen_color_setting_vivid">Vivid</string>
-    <string name="screen_color_setting_custom">Custom</string>
+    <string name="screen_color_setting_standard">Standardowe</string>
+    <string name="screen_color_setting_vivid">Żywe</string>
+    <string name="screen_color_setting_custom">Własne</string>
 
-    <string name="settings_reset_button">Reset</string>
+    <string name="settings_reset_button">Zresetuj</string>
+    
     <!-- Message when bluetooth dialog for pin entry is showing  when HIGH security enabled-->
     <string name="bluetooth_enter_pin_msg_hs">Urządzenie wymaga hasła składającego się z co najmniej 16 znaków</string>
 
@@ -694,11 +695,8 @@
     <string name="bluetooth_dun_profile_summary_use_for">Używaj dostępu do sieci przez modem</string>
     <!-- Bluetooth settings.  Connection options screen.  The summary for the SAP checkbox preference that describes how checking it will set the SAP profile as preferred. -->
     <string name="bluetooth_sap_profile_summary_use_for">Używaj dla SIM Access</string>
-
-    <!-- Checkbox title for option to toggle wifi RSSI threshold check -->
-    <string name="wifi_rssi_threshold_check">Włącz próg RSSI</string>
-    <!-- Checkbox summary for option to toggle poor network detection -->
-    <string name="wifi_rssi_threshold_check_summary">Nie łacz z AP, gdy RSSI jest słabe</string>
+    <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
+    <string name="bluetooth_accept_all_files">Akceptuj wszystkie rodzaje plików</string>
 
     <!-- SIM lock settings title  [CHAR LIMIT=40] -->
     <string name="sim_lock_settings_cm">Ustawienia blokady karty SIM/RUIM</string>
