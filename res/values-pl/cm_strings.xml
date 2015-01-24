@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2012-2014 The CyanogenMod Project
+     Copyright (C) 2012-2015 The CyanogenMod Project
+     
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
+     
           http://www.apache.org/licenses/LICENSE-2.0
+          
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -40,19 +43,12 @@
     <string name="ring_mode_vibrate">Wibracje</string>
     <string name="ring_mode_mute">Wyciszony</string>
 
-    <string name="ring_mode_unchanged">Bez zmian</string>
-
     <!-- Profiles settings  -->
     <string name="profiles_settings_title">Profile</string>
     <string name="profiles_add">Dodaj</string>
-    <string name="profile_menu_delete">Skasuj</string>
     <string name="profile_settings_title">Profile</string>
     <string name="profile_empty_list_profiles_off">Włącz profile, aby je skonfigurować i używać.</string>
     <string name="profile_trigger_configure">Skonfiguruj przełączniki</string>
-    <string name="profile_triggers">Przełączniki</string>
-    <string name="profile_trigger_filter_all">Wszystkie przełączniki</string>
-    <string name="profile_trigger_filter_wifi">Wi-Fi</string>
-    <string name="profile_trigger_filter_bluetooth">Bluetooth</string>
     <string name="profile_write_nfc_tag">Zapisz do tagu NFC</string>
     <string name="profile_write_touch_tag">Dotknij tag, aby zapisać</string>
     <string name="profile_write_success">Tag został zapisany pomyślnie</string>
@@ -62,48 +58,39 @@
     <string name="profile_unknown_nfc_tag">Nieznany profil</string>
     <string name="profile_add_nfc_text">Ten tag NFC odwołuje się do nieznanego profilu. Zapisanie tego taga NFC do istniejącego profilu pozwoli na aktywowanie go w przyszłości.</string>
     <string name="profile_select">Wybierz profil</string>
-
+    <string name="profile_remove_dialog_message">Usunąć profil %1$s?</string>
+    <string name="profile_populate_profile_from_state">Skonfigurować profil używająć aktualnych ustawień urządzenia?</string>
+    <string name="profile_menu_fill_from_state">Importowanie aktualnych ustawień urządzenia</string>
+    <string name="profile_remove_current_profile">Nie można usunąć bieżącego profilu!</string>
+    
     <!-- Add Profile -->
-    <string name="add_profile_dialog_title">Stwórz nowy profil</string>
     <string name="profile_name_title">Nazwa</string>
-    <string name="profile_profile_name_prompt">Wpisz nazwę nowego profilu</string>
-    <string name="menu_new_profile">Nowy profil</string>
     <string name="new_profile_name">&lt;nowy profil&gt;</string>
 
     <!-- Rename Dialog  -->
     <string name="rename_dialog_title">Zmień nazwę</string>
     <string name="rename_dialog_message">Wpisz nową nazwę</string>
-    <string name="duplicate_profile_name">Profil o tej nazwie już istnieje!</string>
-    <string name="duplicate_appgroup_name">Grupa aplikacji o tej nazwie już istnieje!</string>
+    <string name="rename_dialog_hint">Wpisz nazwę profilu</string>
 
     <!-- Reset Profiles -->
     <string name="profile_reset_title">Resetuj</string>
     <string name="profile_reset_message">Usunąć wszystkie stworzone profile oraz grupy aplikacji i przywrócić je do domyślnych??</string>
 
-    <!-- Delete confimation messages -->
-    <string name="profile_delete_confirm">Usunąć ten profil?</string>
-    <string name="profile_app_delete_confirm">Usunąć tę aplikację?</string>
-    <string name="profile_cannot_delete">Aktywny profil nie może zostać usunięty</string>
-
-    <!-- Profile network mode -->
+        <!-- Profile network mode -->
     <string name="profile_networkmode_2g">2G</string>
     <string name="profile_networkmode_3g">3G</string>
+    <string name="profile_networkmode_4g">LTE</string>
     <string name="profile_networkmode_2g3g">2G/3G</string>
+    <string name="profile_networkmode_2g3g4g">2G/3G/LTE</string>
 
     <!-- Profile Config screen PreferenceGroup titles -->
-    <string name="profile_connectionoverrides_title">Ustawienia połączeń</string>
     <string name="profile_volumeoverrides_title">Ustawienia dźwięków</string>
-    <string name="connection_state_disabled">Wyłącz</string>
-    <string name="connection_state_enabled">Włącz</string>
     <string name="volume_override_summary">Ustaw %1$s/%2$s</string>
-    <string name="volume_override_summary_no_override">Nie zmieniaj</string>
     <string name="profile_volume_override_checkbox_label">Zmień głośność</string>
 
     <!-- Menu item for managing profiles -->
     <string name="profile_profiles_manage">Profile</string>
     <string name="profile_profile_manage">Zarządzaj profilami</string>
-    <string name="profile_appgroups_manage">Grupy aplikacji</string>
-    <string name="profile_appgroup_manage">Zarządzaj grupami aplikacji</string>
 
     <!-- Profile settings screen, section header for settings related to notification profiles -->
     <string name="profile_settings">Ustawienia profili</string>
@@ -116,33 +103,22 @@
     <string name="ringer_mode">Tryb dźwięku</string>
     <string name="lights_mode">Tryb diody powiadomień</string>
     <string name="vibrate_mode">Tryb wibracji</string>
-    <string name="choose_soundtone">Wybierz dźwięk powiadomienia</string>
-    <string name="choose_ringtone">Wybierz dzwonek</string>
-
+   
     <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
     <string name="soundtone_title">Dźwięk powiadomienia</string>
     <string name="soundtone_summary" translatable="false">""</string>
 
     <!-- Title for application group setting screen -->
-    <string name="profile_appgroups_title">Grupy aplikacji</string>
     <string name="profile_applist_title">Aplikacje</string>
-    <string name="profile_new_appgroup">Nowa grupa aplikacji</string>
-    <string name="profile_delete_appgroup">Usunąć tę grupę aplikacji?</string>
-    <string name="profile_appgroup_name_prompt">Wpisz nazwę nowej grupy aplikacji</string>
-    <string name="profile_appgroup_name_title">Nazwa</string>
-
+   
     <!-- Add application dialog box title -->
     <string name="profile_choose_app">Wybierz aplikację</string>
 
     <!-- Profiles - system settings -->
     <string name="profile_system_settings_title">Ustawienia systemu</string>
     <string name="profile_lockmode_title">Tryb blokady ekranu</string>
-    <string name="profile_lockmode_default">Domyślny</string>
-    <string name="profile_lockmode_insecure">Niezabezpieczony</string>
-    <string name="profile_lockmode_disabled">Wyłączony</string>
-    <string name="profile_lockmode_default_summary">Użyj domyślnych ustawień systemu</string>
-    <string name="profile_lockmode_insecure_summary">Użyj niezabezpieczonego ekranu blokady</string>
-    <string name="profile_lockmode_disabled_summary">Ekran blokady jest wyłączony</string>
+    <string name="profile_lockmode_insecure_summary">Nie pytaj o PIN lub hasło</string>
+    <string name="profile_lockmode_disabled_summary">Wyłącz ekran blokady</string>
     <string name="profile_airplanemode_title">Tryb samolotowy</string>
 
     <!-- Connection override toggles (not all are used at this time ) -->
@@ -152,8 +128,7 @@
     <string name="toggleGPS">GPS</string>
     <string name="toggleData">Dane komórkowe</string>
     <string name="toggleSync">Synchronizacja danych</string>
-    <string name="toggle2g3g">2G/3G</string>
-    <string name="toggleWimax">WiMAX</string>
+    <string name="toggle2g3g4g">Preferowany tryb sieci</string>
     <string name="toggleNfc">NFC</string>
 
     <!-- Hardware keys -->
@@ -175,7 +150,7 @@
     <string name="hardware_keys_action_sleep">Wygaś ekran</string>
     <string name="hardware_keys_action_last_app">Ostatnia aplikacja</string>
     <string name="volbtn_music_controls_title">Sterowanie odtwarzaczem</string>
-    <string name="volbtn_music_controls_summary">Kiedy ekran jest wyłączony, pozwala przełączać utwory muzyczne długim naciśnięciem przycisku głośności.</string>
+    <string name="volbtn_music_controls_summary">Kiedy ekran jest wyłączony, pozwala przełączać utwory muzyczne długim naciśnięciem przycisku głośności</string>
     <string name="volbtn_cursor_control_title">Sterowanie kursorem za pomocą klawiszy</string>
     <string name="volbtn_cursor_control_off">Wyłączone</string>
     <string name="volbtn_cursor_control_on">Przyciski głośności w górę/dół poruszają kursorem w lewo/prawo</string>
@@ -191,6 +166,33 @@
     <string name="volbtn_wake_device_title">Wybudź urządzenie</string>
     <string name="volbtn_wake_device_summary">Naciśnięcie dowolnego przycisku głośności wybudzi urządzenie</string>
 
+    <!-- Key backlight -->
+    <string name="button_backlight_title">Podświetlenie</string>
+    <string name="button_backlight_enabled">Podświetlenie przycisków</string>
+    <string name="keyboard_backlight_enabled">Podświetlenie klawiatury</string>
+    <string name="button_backlight_seekbar_title">Poziom jasności przycisków</string>
+    <string name="keyboard_backlight_seekbar_title">Poziom jasności klawiatury</string>
+    <string name="backlight_timeout_title">Czas podświetlenia</string>
+    <string name="backlight_timeout_unlimited">Nie wyłączaj</string>
+    <string name="backlight_summary_disabled">Wyłączone</string>
+    <string name="backlight_summary_enabled_with_timeout">Włączone przez <xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_summary_enabled">Włączone</string>
+
+      <!-- Power menu -->
+    <string name="power_menu_title">Menu zasilania</string>
+    <string name="power_menu_power_title">Wyłącz</string>
+    <string name="power_menu_reboot_title">Menu ponownego uruchomienia</string>
+    <string name="power_menu_screenshot_title">Zrzut ekranu</string>
+    <string name="power_menu_profiles_title">Przełączanie profili</string>
+    <string name="power_menu_airplane_title">Tryb samolotowy</string>
+    <string name="power_menu_users_title">Przełączanie użytkownika</string>
+    <string name="power_menu_settings_title">Ustawienia skrótów</string>
+    <string name="power_menu_lockdown_title">Blokada urządzenia</string>
+    <string name="power_menu_bug_report_title">Raport o błędzie</string>
+    <string name="power_menu_sound_title">Panel dźwięków</string>
+    <string name="power_menu_bug_report_disabled">Raportowanie błędów jest wyłączone w opcjach programistycznych</string>
+    <string name="power_menu_profiles_disabled">Profile są wyłączone</string>
+    
     <!-- Backlight brightness settings screen -->
     <string name="adaptive_backlight_title">Adaptacyjne podświetlenie</string>
     <string name="adaptive_backlight_summary">Dynamiczne dostosowywanie jasności wyświetlacza w celu maksymalizacji żywotności baterii</string>
@@ -231,7 +233,6 @@
     <string name="blacklist_bad_number_add">Numer jest nieprawidłowy, nie można go dodać do czarnej listy</string>
 
     <!-- Blacklist management -->
-    <string name="add_blacklist_number">Dodaj numer</string>
     <string name="remove_blacklist_number_title">Usuń numer</string>
     <string name="remove_blacklist_entry">Czy chcesz usunąć ten wpis z czarnej listy?</string>
     <string name="select_contact">Wybierz kontakt</string>
@@ -245,8 +246,7 @@
     <string name="menu_hidden_apps_reset_lock">Zresetuj blokadę wzorem</string>
     <string name="protected_apps">Zabezpieczone aplikacje</string>
     <string name="saving_protected_components">Zapisywanie stanu składnika\u2026</string>
-    <string name="launch_app">Uruchom aplikację</string>
-
+   
     <string name="pa_login_username_hint">Nazwa użytkownika (email)</string>
     <string name="pa_login_password_hint">Hasło</string>
     <string name="pa_login_submit_button">Zaloguj</string>
@@ -282,6 +282,7 @@
     <!-- About phone screen, CyanogenMod version -->
     <string name="mod_version">Wersja CyanogenMod</string>
     <string name="mod_version_default">Nieznane</string>
+    <string name="model_name">Nazwa modelu</string>
 
     <!-- About phone screen, build date -->
     <string name="build_date">Data kompilacji</string>
@@ -302,13 +303,8 @@
 
     <!-- Privacy Settings Header item -->
     <string name="privacy_settings_cyanogenmod_title">Prywatność</string>
-    <string name="privacy_settings_cyanogenmod_category" translatable="false">CyanogenMod</string>
-
+    
     <!-- Privacy Guard -->
-    <string name="privacy_guard_switch_label">Włącz Ochronę Prywatności</string>
-    <string name="privacy_guard_dlg_title">Włączyć Ochronę Prywatności?</string>
-    <string name="privacy_guard_dlg_text">Kiedy Ochrona Prywatności jest włączona, aplikacje nie otrzymają dostępu do osobistych danych, takich jak kontakty, wiadomości czy rejestry połączeń.</string>
-    <string name="privacy_guard_dlg_system_app_text">Jeśli Ochrona Prywatności jest włączona dla wbudowanej aplikacji, nie będzie ona w stanie otrzymać dostępu lub dostarczać danych osobowych. Może to spowodować, że inne aplikacje nie będą działać prawidłowo.</string>
     <string name="privacy_guard_default_title">Ustaw jako domyślne</string>
     <string name="privacy_guard_default_summary">Ustaw jako domyślne dla nowo zainstalowanych aplikacji</string>
     <string name="privacy_guard_manager_title">Ochrona prywatności</string>
@@ -335,16 +331,16 @@
     <!-- Setting checkbox summary for Whether to enable Android debugging support on the phone -->
     <string name="enable_adb_summary_cm">Włącz interfejs ADB (Android Debug Bridge)</string>
 
-    <!-- Setting checkbox summary for displaying USB debugging notification -->
-    <string name="adb_notify">Powiadomienie trybu debugowania</string>
-    <string name="adb_notify_summary">Wyświetla powiadomienie, gdy debugowanie USB jest aktywne</string>
-
     <!-- Android debugging over WiFi -->
     <string name="adb_over_network">ADB przez sieć</string>
     <string name="adb_over_network_summary">Aktywuj debugowanie TCP/IP przez interfejs sieciowy (WiFi, sieci USB). Ustawienie zostanie zresetowane po ponownym uruchomieniu</string>
     <!-- Warning for Adb over Network -->
     <string name="adb_over_network_warning">UWAGA: Kiedy ADB przez sieć jest aktywne, telefon jest podatny na ataki przez każdą połączoną sieć, w tym sieć GSM! \n\nKorzystaj z tej funkcji tylko wtedy, gdy jesteś połączony z zaufanymi sieciami. \n\nCzy na pewno chcesz włączyć tę funkcję?</string>
 
+    <!-- Setting checkbox summary for displaying USB debugging notification -->
+    <string name="adb_notify">Powiadomienie trybu debugowania</string>
+    <string name="adb_notify_summary">Wyświetla powiadomienie, gdy debugowanie USB jest aktywne</string>
+    
     <!-- Hostname setting -->
     <string name="device_hostname">Nazwa hosta</string>
 
@@ -368,6 +364,11 @@
     <string name="disable_navkeys_title">Włącz ekranowy pasek nawigacyjny</string>
     <string name="disable_navkeys_summary">Włącz ekranowy pasek nawigacyjny i zablokuj przyciski sprzętowe</string>
 
+    <!-- Navigation Bar -->
+    <string name="navigation_bar_category">Pasek nawigacyjny</string>
+    <string name="navigation_bar_left_title">Tryb leworęczny</string>
+    <string name="navigation_bar_left_summary">W trybie poziomym pokaż pasek nawigacyjny po lewej stronie ekranu</string>
+    
     <string name="header_category_personalization">Personalizacja</string>
 
     <!-- Status bar -->
