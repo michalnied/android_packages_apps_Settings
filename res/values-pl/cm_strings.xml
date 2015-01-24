@@ -904,70 +904,70 @@
     <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
     <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
 
-    <string name="link_volume_option_title">Link ringtone &amp; notification volumes</string>
-    <string name="notification_volume_option_title">Notification volume</string>
+    <string name="link_volume_option_title">Powiększ głośność dzwonka i powiadomień</string>
+    <string name="notification_volume_option_title">Głośność powiadomień</string>
 
     <!-- Notification drawer -->
-    <string name="notification_drawer_title">Notification drawer</string>
+    <string name="notification_drawer_title">Pasek powiadomień</string>
 
-    <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
-    <string name="status_bar_quick_qs_pulldown_summary">Right edge of the status bar pulls down Quick Settings</string>
+    <string name="status_bar_quick_qs_pulldown_title">Szybkie rozwijanie</string>
+    <string name="status_bar_quick_qs_pulldown_summary">Prawa krawędź paska stanu rozwija Szybkie Ustawienia</string>
     
       <!-- Weather in status bar -->
     <string name="status_bar_show_weather_title">Pokaż pogodę</string>
     <string name="status_bar_show_weather_summary">Pokaż pogodę w nagłówku paska stanu</string>
     
-    <string name="qs_category_title">Quick Settings panel</string>
+    <string name="qs_category_title">Panel szybkich ustawień</string>
 
-    <string name="qs_order_title">Select and order tiles</string>
-    <string name="add_qs">Add new tile</string>
+    <string name="qs_order_title">Wybierz i ustaw przełączniki</string>
+    <string name="add_qs">Dodaj nowy przełącznik</string>
     <string name="cast_screen">Cast screen</string>
     <string name="hotspot">Hotspot</string>
-    <string name="qs_action_delete">Delete</string>
-    <string name="qs_action_add">Add</string>
-    <string name="qs_action_no_more_tiles">No more tiles available</string>
+    <string name="qs_action_delete">Usuń</string>
+    <string name="qs_action_add">Dodaj</string>
+    <string name="qs_action_no_more_tiles">Nie ma więcej dostępnych przełączników</string>
 
-    <string name="qs_main_tiles_title">Enlarge first row</string>
-    <string name="qs_main_tiles_summary_on">Two main tiles on the first row</string>
-    <string name="qs_main_tiles_summary_off">Three tiles on each row</string>
+    <string name="qs_main_tiles_title">Powiększ pierwszy rząd</string>
+    <string name="qs_main_tiles_summary_on">Dwa główne przełączniki w pierwszym rzędzie</string>
+    <string name="qs_main_tiles_summary_off">Trzy przełączniki w każdym rzędzie</string>
 
-    <string name="qs_advanced_location_title">Advanced location settings</string>
-    <string name="qs_advanced_location_summary">Enable advanced settings for location in Quick Settings</string>
+    <string name="qs_advanced_location_title">Zaawansowane ustawienia lokalizacji</string>
+    <string name="qs_advanced_location_summary">Włącz zaawansowane ustawienia lokalizacji w Szybkich Ustawieniach</string>
 
     <!-- Themes Settings -->
     <!-- Settings main menu entry -->
-    <string name="themes_settings_title">Themes</string>
+    <string name="themes_settings_title">Motywy</string>
 
     <!-- WiFi Ad-Hoc mode -->
-    <string name="wifi_mode">Mode</string>
-    <string name="wifi_mode_ibss">Ad-Hoc (IBSS) network</string>
+    <string name="wifi_mode">Tryb</string>
+    <string name="wifi_mode_ibss">Sieć Ad-Hoc (IBSS)</string>
     <string name="wifi_mode_ibss_short">Ad-Hoc</string>
 
-    <string name="wifi_ibss_freq_title">Channel / Frequency</string>
-    <string name="wifi_channel">Channel</string>
+    <string name="wifi_ibss_freq_title">Kanał / Częstotliwość</string>
+    <string name="wifi_channel">Kanał</string>
     <string name="wifi_mhz">MHz</string>
 
     <!-- About phone settings screen, setting option dialog title to show regulatory information [CHAR LIMIT=25] -->
     <string name="regulatory_information_dialog_title" translatable="false">@string/regulatory_information</string>
 
     <!-- SAR information -->
-    <string name="maximum_head_level">Head: %1$s W/kg</string>
-    <string name="maximum_body_level">Body: %1$s W/kg</string>
+    <string name="maximum_head_level">Głowa: %1$s W/kg</string>
+    <string name="maximum_body_level">Ciało: %1$s W/kg</string>
 
-    <string name="power_menu_expanded_desktop">Expanded desktop</string>
-    <string name="expanded_hide_nothing">Hide nothing</string>
-    <string name="expanded_hide_status">Hide status bar</string>
-    <string name="expanded_hide_navigation">Hide navigation bar</string>
-    <string name="expanded_hide_both">Hide both</string>
-    <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set "Enabled for all" to the off position</string>
-    <string name="expanded_desktop_state">Expanded state</string>
-    <string name="expanded_enabled_for_all">Enabled for all</string>
+    <string name="power_menu_expanded_desktop">Rozszerzony pulpit</string>
+    <string name="expanded_hide_nothing">Nie ukrywaj</string>
+    <string name="expanded_hide_status">Ukryj pasek statusu</string>
+    <string name="expanded_hide_navigation">Ukryj pasek nawigacyjny</string>
+    <string name="expanded_hide_both">Ukryj oba</string>
+    <string name="expanded_nothing_to_show">Aby dodać własne ustawienia dla aplikacji w rozszerzonym stanie, wyłącz opcję "Włącz dla wszystkich"</string>
+    <string name="expanded_desktop_state">Rozszerzony stan</string>
+    <string name="expanded_enabled_for_all">Włącz dla wszystkich</string>
     <string name="expanded_user_configurable">User configurable</string>
 
-    <string name="lockscreen_settings_title">Lock screen</string>
-    <string name="lockscreen_targets_message">Lockscreen shortcuts</string>
-    <string name="lockscreen_default_target">Default</string>
-    <string name="lockscreen_message">Tap an icon on the left or right to reassign a lock screen shortcut.</string>
-    <string name="lockscreen_choose_action_title">Choose action</string>
+    <string name="lockscreen_settings_title">Ekran blokady</string>
+    <string name="lockscreen_targets_message">Skróty ekranu blokady</string>
+    <string name="lockscreen_default_target">Domyślne</string>
+    <string name="lockscreen_message">Dotknij ikonę z lewej lub prawej strony, aby umieścić skrót ekranu blokady.</string>
+    <string name="lockscreen_choose_action_title">Wybierz działanie</string>
     
 </resources>
