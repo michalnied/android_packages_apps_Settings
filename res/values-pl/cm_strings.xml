@@ -705,9 +705,6 @@
     <!-- Security & location settings screen, section heading for settings related to sim card locking  [CHAR LIMIT=40] -->
     <string name="sim_lock_settings_title_cm">Blokada karty SIM/RUIM</string>
 
-    <!-- SIM card lock settings screen, SIM PIN dialog message when SIM card is absent-->
-    <string name="sim_absent">Brak SIM/RUIM</string>
-
     <!-- SIM card lock settings screen, SIM PIN dialog message when PIN disable fails-->
     <string name="sim_pin_disable_failed">Nie można zablokować PINu.</string>
     <!-- SIM card lock settings screen, SIM PIN dialog message when PIN enable fails-->
@@ -723,6 +720,8 @@
     <string name="sim_pin_enabled">PIN1 Włączony!</string>
     <!-- SIM card lock settings screen, toast displayed on PIN1 disable: -->
     <string name="sim_pin_disabled">PIN1 Wyłączony!</string>
+    
+    <string name="subs_settings">Status karty SIM</string>
 
     <!-- About tablet screen, summary of the item that takes you to tablet status screen -->
     <string name="device_status_summary_cm" product="tablet">Stan baterii, sieci itd.</string>
