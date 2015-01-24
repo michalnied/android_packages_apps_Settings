@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2014 The Euphoria-OS Project
      Copyright 2013, The ChameleonOS Open Source Project
+     Copyright (C) 2012-2014 SlimRoms Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -63,53 +64,24 @@
     <string name="status_bar_category">Pasek stanu</string>
     
     <!--Status bar carrier -->
-    <string name="status_bar_show_carrier_title">Pokaż nazwę operatora</string>
+    <string name="show_carrier_title">Pokaż nazwę operatora</string>
     <string name="show_carrier_disabled">Wyłączone</string>
     <string name="show_carrier_keyguard">Na ekranie blokady</string>
     <string name="show_carrier_statusbar">Na pasku statusu</string>
     <string name="show_carrier_enabled">Włączone</string>
+    
+     <!-- Notification ticker -->
+    <string name="status_bar_ticker_title">Podgląd powiadomienia</string>
+    <string name="status_bar_ticker_summary">Animacja treści powiadomienia na pasku stanu</string>
 
     <!--Power menu -->
     <string name="power_category">Przycisk zasilania</string>
     <string name="lockscreen_enable_power_menu_title">Pokaż menu zasilania na ekranie blokady</string>
+    <string name="actions_category">Działania</string>
 
     <!-- Touch control -->
     <string name="touch_control_settings_title">Kontrola dotyku</string>
     <string name="touch_control_settings_summary">Zarządzaj zaawansowanymi opcjami wybudzania, w tym wybudzanie podwójnym dotknięciem i więcej</string>
-
-    <!-- Status bar | Clock -->
-    <string name="status_bar_clock_category">Pasek stanu</string>
-    <string name="status_bar_clock">Zegar i data</string>
-    <string name="status_bar_clock_title">Styl zegara i daty</string>
-    <string name="clock_title_enable">Położenie zegara</string>
-    <string name="clock_enabled">Włączony</string>
-    <string name="clock_disabled">Wyłączony</string>
-    <string name="status_bar_show_clock_title">Pokaż zegar i datę</string>
-    <string name="status_bar_am_pm_title">AM/PM</string>
-    <string name="status_bar_am_pm_info">Włączony format 24-godzinny</string>
-    <string name="enable_clock_weekday">Dzień tygodnia</string>
-    <string name="enable_clock_weekday_summary">Skrócona nazwa dnia tygodnia przed zegarem</string>
-    <string name="right_clock">Zegar z prawej strony</string>
-    <string name="center_clock">Zegar na środku</string>
-    <string name="dont_show">Nie pokazuj</string>
-    <string name="clock_date_display">Data</string>
-    <string name="clock_date_display_summary">Wyświetl niestandardową datę przed zegarem</string>
-    <string name="clock_date_style">Styl daty</string>
-    <string name="clock_date_format">Format daty</string>
-    <string name="clock_date_string_edittext_title">Data musi być w odpowiednim formacie np. MM/DD/RR</string>
-    <string name="clock_date_string_edittext_summary">Wprowadź znaki</string>
-    <string name="am_pm_clock_normal">Normalny rozmiar czcionki</string>
-    <string name="am_pm_clock_small">Mały rozmiar czcionki</string>
-    <string name="am_pm_clock_none">Nie pokazuj</string>
-    <string name="clock_date_display_none">Nie pokazuj</string>
-    <string name="clock_date_display_small">Mały rozmiar czcionki</string>
-    <string name="clock_date_display_normal">Normalny rozmiar czcionki</string>
-    <string name="clock_date_style_normal">Standardowy</string>
-    <string name="clock_date_style_lowercase">Małe litery</string>
-    <string name="clock_date_style_uppercase">Wielkie litery</string>
-    <string name="clock_date_format_custom">Własny format Java</string>
-    <string name="status_bar_ticker_title">Podgląd powiadomienia</string>
-    <string name="status_bar_ticker_summary">Animacja treści powiadomienia na pasku stanu</string>
 
     <!-- Quick settings -->
     <string name="quick_settings_category">Szybkie ustawienia</string>
@@ -124,6 +96,10 @@
     <string name="quick_settings_collapse_title">Automatyczne zamykanie panelu</string>
     <string name="quick_settings_collapse_summary">Zamyka panel szybkich ustawień po użyciu przełącznika</string>
 
+    <!-- QuickSettings brightness slider -->
+    <string name="qs_brightness_slider_title">Suwak poziomu jasności</string>
+    <string name="qs_brightness_slider_summary">Pokaż suwak poziomu jasności w panelu szybkich ustawień</string>
+    
     <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
     <string name="supersu_title">SuperSU</string>
 
@@ -231,7 +207,7 @@
     
     <!-- Superuser indicator-->
     <string name="su_indicator">Ikona superusera</string>
-    <string name="su_indicator_summary">Pokaż ikonę superusera podczas aktywnej sesji</string>
+    <string name="su_indicator_summary">Pokaż ikonę superuser podczas aktywnej sesji</string>
 
     <!-- Screen recorder -->
     <string name="screen_recorder_title">Nagrywanie ekranu</string>
@@ -272,4 +248,8 @@
     <string name="screen_recorder_record_audio_title">Dźwięk z zewnątrz</string>
     <string name="screen_recorder_record_audio_summary">Nagrywaj dźwięk z mikrofonu</string>
     <string name="screen_recorder_power_menu_summary">Dodaj opcję nagrywania ekranu w menu zasilania</string>
-</resources>
+    
+    <!-- Privacy guard notification -->
+    <string name="privacy_guard_notification_title">Powiadomienie</string>
+    <string name="privacy_guard_notifiation_summary">Pokaż powiadomienie, gdy ochrona prywatności jest aktywna</string>
+    </resources>
