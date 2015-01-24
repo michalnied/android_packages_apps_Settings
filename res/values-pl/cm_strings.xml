@@ -723,16 +723,6 @@
     
     <string name="subs_settings">Status karty SIM</string>
 
-    <!-- About tablet screen, summary of the item that takes you to tablet status screen -->
-    <string name="device_status_summary_cm" product="tablet">Stan baterii, sieci itd.</string>
-    <!-- About phone screen, summary of the item to go into the phone status screen -->
-    <string name="device_status_summary_cm" product="default">Status baterii, poziom baterii, itd.</string>
-    <string name="subs_settings">Status SUBS</string>
-    <!-- About phone screen, summary of the item to go into the phone status screen -->
-    <string name="device_additional_status_summary">Numer telefonu, Sygnał, IMEI, itd.</string>
-    <!-- In About phone->Status screen, title of the item to go into the subscription status screen -->
-    <string name="device_additional_status">Dodatkowe informacje</string>
-
     <!-- string resources for USB OTG & UICC features -->
     <string name="storage_usb">Pamięć USB</string>
     <string name="storage_uicc">Pamięć UICC</string>
@@ -750,6 +740,10 @@
     <string name="uicc_mount" product="default">Zamontuj pamięć UICC</string>
     <string name="uicc_mount_summary" product="default"></string>
     <string name="uicc_insert_summary" product="default">Podłącz pamięć UICC, aby ją zamontować</string>
+    <!-- Title of dialog asking user to confirm before enabling UMS. [CHAR LIMIT=48] -->
+    <string name="usb_settings_enable_ums_title">Enable mass storage?</string>
+    <!-- Message of dialog asking user to confirm before enabling UMS. [CHAR LIMIT=NONE] -->
+    <string name="usb_settings_enable_ums_message">Składniki systemu i aplikacji polegające na podstawowym przechowywaniu są zawsze dostępne. Ta funkcja przerywa tę funkcjonalność. Stanowczo zaleca się, aby zamiast tego korzystać z MTP. Czy na pewno chcesz włączyć pamięć masową?</string>
 
     <string name="dlg_confirm_usb_unmount_title" product="default">Wymontować pamięć USB?</string>
     <string name="dlg_confirm_uicc_unmount_title" product="default">Wymontować pamięć UICC?</string>
@@ -790,33 +784,29 @@
     <string name="data_usage_tab_slot">SIM </string>
 
     <!-- MultiSim Settings changes-->
-    <string name="close_dialog">OK</string>
     <string name="sim_enabler_title">Akywacja kart SIM</string>
     <string name="sim_enabler_summary">Karta SIM jest %1$s</string>
     <string name="sim_enabled">Włączona</string>
     <string name="sim_disabled">Wyłączona</string>
     <string name="sim_missing">brak lub błąd</string>
-    <string name="sim_enabler_need_enable_sim">Aktywacja karty SIM, czy jesteś pewny?</string>
     <string name="sim_enabler_need_disable_sim">Dezaktywacja karty SIM, czy jesteś pewny?</string>
     <string name="sim_enabler_airplane_on">BŁĄD, włączony tryb samolotowy!</string>
     <string name="sim_enabler_in_call">BŁĄD, trwające połączenie!</string>
     <string name="sim_enabler_both_inactive">"BŁĄD, nie można zablokować wszystkich kart SIM"</string>
+    <string name="sim_enabler_sim">SIM</string>
     <string name="sim_enabler_enabling">Aktywacja...</string>
     <string name="sim_enabler_disabling">Dezaktywacja...</string>
     <string name="sub_activate_success">Aktywacja przebiegła pomyślnie.</string>
-    <string name="sub_activate_failed">Aktywacja nie powiodła się.</string>
     <string name="sub_deactivate_success">Dezaktywacja przebiegła pomyślnie.</string>
-    <string name="sub_deactivate_failed">Dezaktywacja nie powiodła się.</string>
-    <string name="sub_deactivate_not_supported">Dezaktywacja nie jest wspierana</string>
-    <string name="sub_activate_not_supported">Aktywacja nie jest wspierana</string>
-    <string name="slot_name">SIM <xliff:g id="sub">%d</xliff:g></string>
-
+    
+    <string name="primary_sub_select_title">Domyślne połączenie 3G/LTE</string>
+     
     <string name="usb_charging_title">Ładowanie</string>
     <string name="usb_charging_summary">Wyłącza transfer danych i połączenie z komputerem oraz umieszcza urządzenie w trybie ładowania.</string>
-    <string name="primary_sub_select_title">Domyślne połączenie LTE/3G</string>
 
-    <string name="usb_sdcard_summary">Umożliwia przesyłanie plików multimedialnych na komputer</string>
     <string name="usb_sdcard_title">Zamontuj kartę SD</string>
+    <string name="usb_sdcard_summary">Umożliwia przesyłanie plików multimedialnych na komputer</string>
+    
     <string name="external_storage_turn_on">Pamięć zewnętrzna została włączona</string>
     <string name="external_storage_turn_off">Pamięć zewnętrzna została wyłączona</string>
 
@@ -825,12 +815,11 @@
     <string name="menu_hidden_apps_reset_lock">Resetuj wzór blokady</string>
     <string name="protected_apps">Zabezpieczone aplikacje</string>
     <string name="saving_protected_components">Zapisywanie stanu składnika</string>
+    
+    <string name="stats_collection_title">Statystyki kolekcji</string>
+    <string name="stats_collection_summary">Kiedy włączona, umożliwia gromadzenie metryk</string>
 
-    <!-- Weather in status bar -->
-    <string name="status_bar_show_weather_title">Pokaż pogodę</string>
-    <string name="status_bar_show_weather_summary">Pokaż pogodę w nagłówku paska stanu</string>
-
-<!-- Category title for Charging sounds (Power state change) specific Settings.
+    <!-- Category title for Charging sounds (Power state change) specific Settings.
          [CHAR LIMIT=40] -->
     <string name="power_notifications_category_title">Dźwięki ładowania</string>
 
@@ -843,11 +832,142 @@
     <string name="power_notifications_ringtone_title">Dźwięk powiadomienia</string>
     <!-- Sound settings, charging sounds label for ringtone == none -->
     <string name="power_notifications_ringtone_silent">Cichy</string>
+    
+    <!-- Voice Wakeup -->
+    <string name="voice_wakeup_settings_title">Wybudzanie głosem</string>
+    <string name="voice_wakeup_retrain_title">Przeszkól swój głos</string>
+    <string name="voice_wakeup_activity_title">Uruchamiane działanie</string>
+    <string name="voice_wakeup_default_activity">Google Now</string>
+
+    <string name="picker_activities">Aktywności</string>
+    <string name="select_custom_app_title">Wybierz niestandardową aplikcję</string>
+    <string name="select_custom_activity_title">Wybierz niestandardowe działanie</string>
+
+    <!-- Performance settings -->
+    <string name="title_tile_performance_profile">Profile wydajności</string>
+    <string name="performance_settings_title">Wydajność</string>
+
+    <!-- Performance Settings : I/O scheduler settings title -->
+    <string name="io_scheds_title">I/O scheduler</string>
+
+    <!-- Performance Settings : I/O scheduler settings sub items -->
+    <string name="io_sched_title">I/O scheduler</string>
+    <string name="io_sched_summary" translatable="false">%S</string>
+
+    <!-- Performance Settings : Performance profile settings -->
+    <string name="perf_profile_title">Profil</string>
+
+    <!-- Performance : Force high-end graphics -->
+    <string name="pref_force_highend_gfx_title">Wymuś wysokiej jakości grafikę</string>
+    <string name="pref_force_highend_gfx_summary">Włącza wysokiej klasy efekty wizualne, takie jak przezroczysty pasek statusu/pasek nawigacyjny (wymaga ponownego uruchomienia)</string>
+
+    <!-- Performance Settings : Warning dialog -->
+    <string name="performance_settings_warning_title">Zachowaj ostrożność</string>
+         <string name="performance_settings_warning">Te ustawienia są eksperymentalne. Wszelkie zmiany mogą spowodować niestabilność, awarie, utraty danych lub uszkodzenia sprzętu. \n\nProsimy o niezgłaszanie błędów, jeśli ustawienia zostaną zmienione na inne niż domyślne.</string>
+
+    <!-- Performance Settings : Set on boot option -->
+    <string name="performance_set_on_boot">Set on boot</string>
+    <string name="performance_set_on_boot_summary">Restore the settings on boot</string>
+
+    <!-- Performance Settings : Processor Settings -->
+    <!-- Performance Settings : Processor settings title -->
+    <string name="processor_title">Processor</string>
+
+    <!-- Performance Settings : Processor settings sub items -->
+    <string name="cpu_cur_freq_title">Current CPU frequency</string>
+    <string name="cpu_governors_title">CPU governor</string>
+    <string name="cpu_governors_summary" translatable="false">%S</string>
+    <string name="cpu_min_freq_title">Minimum CPU frequency</string>
+    <string name="cpu_min_freq_summary" translatable="false">%s</string>
+    <string name="cpu_max_freq_title">Maximum CPU frequency</string>
+    <string name="cpu_max_freq_summary" translatable="false">%s</string>
+
+    <!-- Automatic performance profiles -->
+    <string name="autoperf_title">Enable per-app profiles</string>
+    <string name="autoperf_summary">Automatically choose an appropriate performance profile for various apps</string>
+
+    <!-- Performance menu, graphics options category -->
+    <string name="graphics_title">Graphics and rendering</string>
 
     <!-- EdgeGesture service -->
     <string name="edge_gesture_service_title">Zablokuj gest zdarzeń dotyku</string>
-    <string name="edge_gesture_service_summary">Nie wysyłaj zdarzeń dotyku dla paska nawigacyjnego i paska statusu do aplikacji</string>
+    <string name="edge_gesture_service_summary">Nie wysyłaj zdarzeń dotyku dla paska nawigacyjnego i paska statusu do aplikacji</string>    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+   
+   <!-- CM Legal -->
+    <string name="cmlicense_title">CyanogenMod legal</string>
+    <string name="settings_cmlicense_activity_title">CyanogenMod legal</string>
+    <string name="settings_cmlicense_activity_unreachable">You don\'t have a data connection. To view this information now, go to %s from any computer connected to the Internet.</string>
 
+    <!-- Screen security -->
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
     <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
     <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+
+    <string name="link_volume_option_title">Link ringtone &amp; notification volumes</string>
+    <string name="notification_volume_option_title">Notification volume</string>
+
+    <!-- Notification drawer -->
+    <string name="notification_drawer_title">Notification drawer</string>
+
+    <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
+    <string name="status_bar_quick_qs_pulldown_summary">Right edge of the status bar pulls down Quick Settings</string>
+    
+      <!-- Weather in status bar -->
+    <string name="status_bar_show_weather_title">Pokaż pogodę</string>
+    <string name="status_bar_show_weather_summary">Pokaż pogodę w nagłówku paska stanu</string>
+    
+    <string name="qs_category_title">Quick Settings panel</string>
+
+    <string name="qs_order_title">Select and order tiles</string>
+    <string name="add_qs">Add new tile</string>
+    <string name="cast_screen">Cast screen</string>
+    <string name="hotspot">Hotspot</string>
+    <string name="qs_action_delete">Delete</string>
+    <string name="qs_action_add">Add</string>
+    <string name="qs_action_no_more_tiles">No more tiles available</string>
+
+    <string name="qs_main_tiles_title">Enlarge first row</string>
+    <string name="qs_main_tiles_summary_on">Two main tiles on the first row</string>
+    <string name="qs_main_tiles_summary_off">Three tiles on each row</string>
+
+    <string name="qs_advanced_location_title">Advanced location settings</string>
+    <string name="qs_advanced_location_summary">Enable advanced settings for location in Quick Settings</string>
+
+    <!-- Themes Settings -->
+    <!-- Settings main menu entry -->
+    <string name="themes_settings_title">Themes</string>
+
+    <!-- WiFi Ad-Hoc mode -->
+    <string name="wifi_mode">Mode</string>
+    <string name="wifi_mode_ibss">Ad-Hoc (IBSS) network</string>
+    <string name="wifi_mode_ibss_short">Ad-Hoc</string>
+
+    <string name="wifi_ibss_freq_title">Channel / Frequency</string>
+    <string name="wifi_channel">Channel</string>
+    <string name="wifi_mhz">MHz</string>
+
+    <!-- About phone settings screen, setting option dialog title to show regulatory information [CHAR LIMIT=25] -->
+    <string name="regulatory_information_dialog_title" translatable="false">@string/regulatory_information</string>
+
+    <!-- SAR information -->
+    <string name="maximum_head_level">Head: %1$s W/kg</string>
+    <string name="maximum_body_level">Body: %1$s W/kg</string>
+
+    <string name="power_menu_expanded_desktop">Expanded desktop</string>
+    <string name="expanded_hide_nothing">Hide nothing</string>
+    <string name="expanded_hide_status">Hide status bar</string>
+    <string name="expanded_hide_navigation">Hide navigation bar</string>
+    <string name="expanded_hide_both">Hide both</string>
+    <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set "Enabled for all" to the off position</string>
+    <string name="expanded_desktop_state">Expanded state</string>
+    <string name="expanded_enabled_for_all">Enabled for all</string>
+    <string name="expanded_user_configurable">User configurable</string>
+
+    <string name="lockscreen_settings_title">Lock screen</string>
+    <string name="lockscreen_targets_message">Lockscreen shortcuts</string>
+    <string name="lockscreen_default_target">Default</string>
+    <string name="lockscreen_message">Tap an icon on the left or right to reassign a lock screen shortcut.</string>
+    <string name="lockscreen_choose_action_title">Choose action</string>
+    
 </resources>
