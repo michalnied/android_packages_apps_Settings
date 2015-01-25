@@ -70,7 +70,7 @@
     <string name="show_carrier_statusbar">Na pasku statusu</string>
     <string name="show_carrier_enabled">Włączone</string>
     
-     <!-- Notification ticker -->
+    <!-- Notification ticker -->
     <string name="status_bar_ticker_title">Podgląd powiadomienia</string>
     <string name="status_bar_ticker_summary">Animacja treści powiadomienia na pasku stanu</string>
 
@@ -97,8 +97,8 @@
     <string name="quick_settings_collapse_summary">Zamyka panel szybkich ustawień po użyciu przełącznika</string>
 
     <!-- QuickSettings brightness slider -->
-    <string name="qs_brightness_slider_title">Suwak poziomu jasności</string>
-    <string name="qs_brightness_slider_summary">Pokaż suwak poziomu jasności w panelu szybkich ustawień</string>
+    <string name="qs_brightness_slider_title">Suwak jasności ekranu</string>
+    <string name="qs_brightness_slider_summary">Pokaż suwak jasności ekranu w panelu szybkich ustawień</string>
     
     <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
     <string name="supersu_title">SuperSU</string>
@@ -206,8 +206,8 @@
     <string name="heads_up_time_out_never">Nigdy</string>
     
     <!-- Superuser indicator-->
-    <string name="su_indicator">Ikona superusera</string>
-    <string name="su_indicator_summary">Pokaż ikonę superuser podczas aktywnej sesji</string>
+    <string name="su_indicator">Ikona Superuser</string>
+    <string name="su_indicator_summary">Pokaż ikonę Superuser podczas aktywnej sesji</string>
 
     <!-- Screen recorder -->
     <string name="screen_recorder_title">Nagrywanie ekranu</string>
