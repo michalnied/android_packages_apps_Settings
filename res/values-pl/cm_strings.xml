@@ -602,7 +602,7 @@
     <string name="profile_tabs_bluetooth">Bluetooth</string>
     <string name="profile_tabs_nfc">NFC</string>
     
-    <string name="profile_triggers_header">Triggers which will activate this profile</string>
+    <string name="profile_triggers_header">Przełączniki, które aktywują ten profil</string>
 
     <string name="profile_setup_setup_triggers_title">Krok 1: Dodaj przełączniki</string>
     <string name="profile_setup_setup_triggers_title_config">Modyfikuj przełączniki: <xliff:g id="profile_name">%1$s</xliff:g></string>
@@ -673,7 +673,7 @@
     <string name="intensity_str">Instensywność: <xliff:g id="intensity_str_value">%1$s</xliff:g></string>
 
     <string name="screen_color_setting_standard">Standardowe</string>
-    <string name="screen_color_setting_vivid">Żywe</string>
+    <string name="screen_color_setting_vivid">Intensywne</string>
     <string name="screen_color_setting_custom">Własne</string>
 
     <string name="settings_reset_button">Zresetuj</string>
@@ -858,7 +858,7 @@
     <string name="perf_profile_title">Profil</string>
 
     <!-- Performance : Force high-end graphics -->
-    <string name="pref_force_highend_gfx_title">Wymuś wysokiej jakości grafikę</string>
+    <string name="pref_force_highend_gfx_title">Wymuś grafikę wysokiej jakości</string>
     <string name="pref_force_highend_gfx_summary">Włącza wysokiej klasy efekty wizualne, takie jak przezroczysty pasek statusu/pasek nawigacyjny (wymaga ponownego uruchomienia)</string>
 
     <!-- Performance Settings : Warning dialog -->
