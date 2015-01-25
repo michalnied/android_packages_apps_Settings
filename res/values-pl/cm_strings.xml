@@ -962,7 +962,7 @@
     <string name="expanded_nothing_to_show">Aby dodać własne ustawienia dla aplikacji w rozszerzonym stanie, wyłącz opcję "Włącz dla wszystkich"</string>
     <string name="expanded_desktop_state">Rozszerzony stan</string>
     <string name="expanded_enabled_for_all">Włącz dla wszystkich</string>
-    <string name="expanded_user_configurable">User configurable</string>
+    <string name="expanded_user_configurable">Skonfigurowane przez użytkownika</string>
 
     <string name="lockscreen_settings_title">Ekran blokady</string>
     <string name="lockscreen_targets_message">Skróty ekranu blokady</string>
