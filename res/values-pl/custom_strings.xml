@@ -67,8 +67,26 @@
     <string name="show_carrier_title">Pokaż nazwę operatora</string>
     <string name="show_carrier_disabled">Wyłączone</string>
     <string name="show_carrier_keyguard">Na ekranie blokady</string>
-    <string name="show_carrier_statusbar">Na pasku statusu</string>
+    <string name="show_carrier_statusbar">Na pasku statusur</string>
     <string name="show_carrier_enabled">Włączone</string>
+    
+    <!--Status bar data and wifi activity -->
+    <string name="show_activity_indicators_title">Activity indicators</string>
+    <string name="show_activity_indicators_summary">Show indicators in signal bars</string>
+
+    <!--Status bar date -->
+    <string name="status_bar_clock_category">Clock</string>
+    <string name="status_bar_date_title">Date style</string>
+    <string name="status_bar_date_none">Hidden (default)</string>
+    <string name="status_bar_date_small">Small</string>
+    <string name="status_bar_date_normal">Normal</string>
+    <string name="status_bar_date_format_title">Date format</string>
+
+    <!-- Weather in status bar header -->
+    <string name="status_bar_show_weather_title_eos">Weather</string>
+
+    <!-- Notification count -->
+    <string name="status_bar_notif_count_title_eos">Notification count</string>
     
     <!-- Notification ticker -->
     <string name="status_bar_ticker_title">Podgląd powiadomienia</string>
@@ -78,13 +96,47 @@
     <string name="power_category">Przycisk zasilania</string>
     <string name="lockscreen_enable_power_menu_title">Pokaż menu zasilania na ekranie blokady</string>
     <string name="actions_category">Działania</string>
+    
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Network traffic</string>
+    <string name="show_network_traffic_state">Status bar traffic monitor</string>
+    <string name="show_network_traffic_unit">Display unit</string>
+    <string name="show_network_traffic_frequency">Update interval</string>
+    <string name="show_network_traffic_disable">Disabled</string>
+    <string name="show_network_traffic_up">Outgoing</string>
+    <string name="show_network_traffic_down">Incoming</string>
+    <string name="show_network_traffic_all">Outgoing and incoming</string>
+    <string name="show_network_traffic_bit">Bits per second</string>
+    <string name="show_network_traffic_byte">Bytes per second</string>
+    <string name="show_network_traffic_500">500 ms</string>
+    <string name="show_network_traffic_1000">1000 ms</string>
+    <string name="show_network_traffic_1500">1500 ms</string>
+    <string name="show_network_traffic_2000">2000 ms</string>
+    <string name="network_traffic_autohide">Auto hide</string>
+    <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
+    <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
+
+    <!-- Notification ticker -->
+    <string name="status_bar_ticker_title">Podgląd powiadomienia</string>
+    <string name="status_bar_ticker_summary">Animacja treści powiadomienia na pasku stanu</string>
 
     <!-- Touch control -->
     <string name="touch_control_settings_title">Kontrola dotyku</string>
     <string name="touch_control_settings_summary">Zarządzaj zaawansowanymi opcjami wybudzania, w tym wybudzanie podwójnym dotknięciem i więcej</string>
 
-    <!-- Quick settings -->
-    <string name="quick_settings_category">Szybkie ustawienia</string>
+   <!-- Quick Settings tiles -->
+    <string name="quick_settings_category">Quick settings</string>
+    <string name="qs_battery_saver_tile">Battery saver</string>
+    <string name="qs_brightness_tile">Brightness</string>
+    <string name="qs_expanded_desktop_tile">Expanded desktop</string>
+    <string name="qs_notifications_tile">Notifications</string>
+    <string name="qs_screen_off_tile">Screen off</string>
+    <string name="qs_screenshot_tile">Screenshot</string>
+    <string name="qs_sync_tile">Sync</string>
+
+    <string name="qs_main_tiles_summary_off_eos">Three or four tiles on each row</string>
+
+    <!-- Quick Settings block on keyguard -->
     <string name="block_on_secure_keyguard_title">Wyłącz na ekranie blokady</string>
     <string name="block_on_secure_keyguard_summary">Wyłącz szybkie ustawienia na zabezpieczonym ekranie blokady</string>
     
@@ -96,10 +148,13 @@
     <string name="quick_settings_collapse_title">Automatyczne zamykanie panelu</string>
     <string name="quick_settings_collapse_summary">Zamyka panel szybkich ustawień po użyciu przełącznika</string>
 
-    <!-- QuickSettings brightness slider -->
-    <string name="qs_brightness_slider_title">Suwak jasności ekranu</string>
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_brightness_slider_title_eos">Suwak jasności ekranu</string>
     <string name="qs_brightness_slider_summary">Pokaż suwak jasności ekranu w panelu szybkich ustawień</string>
     
+    <!-- Quick Settings 4 columns -->
+    <string name="qs_four_columns_title">Show four tiles per row</string>
+
     <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
     <string name="supersu_title">SuperSU</string>
 
@@ -143,8 +198,10 @@
     <string name="recents_clear_all_location_title">Położenie przycisku wyczyść wszystkie</string>
     <string name="recents_clear_all_location_top_right">Górny prawy róg</string>
     <string name="recents_clear_all_location_top_left">Górny lewy róg</string>
+    <string name="recents_clear_all_location_top_center">Top center</string>
     <string name="recents_clear_all_location_bottom_right">Dolny prawy róg</string>
     <string name="recents_clear_all_location_bottom_left">Dolny lewy róg</string>
+    <string name="recents_clear_all_location_bottom_center">Bottom center</string>
     <string name="recents_clear_all_dismiss_all_title">Wyczyść wszystkie zadania</string>
     <string name="recents_clear_all_dismiss_all_summary">Wybierz, czy usuwać wszystkie zadania, czy zignorować ostatnio uruchomione</string>
     <string name="recents_searchbar_title">Pasek wyszukiwania</string>
@@ -205,10 +262,10 @@
     <string name="heads_up_time_out_10sec">10 sekund</string>
     <string name="heads_up_time_out_never">Nigdy</string>
     
-    <!-- Superuser indicator-->
+     <!-- Superuser indicator-->
     <string name="su_indicator">Ikona Superuser</string>
     <string name="su_indicator_summary">Pokaż ikonę Superuser podczas aktywnej sesji</string>
-
+   
     <!-- Screen recorder -->
     <string name="screen_recorder_title">Nagrywanie ekranu</string>
     <string name="screen_recorder_summary">Dostosuj ustawienia nagrywania ekranu</string>
@@ -252,4 +309,14 @@
     <!-- Privacy guard notification -->
     <string name="privacy_guard_notification_title">Powiadomienie</string>
     <string name="privacy_guard_notifiation_summary">Pokaż powiadomienie, gdy ochrona prywatności jest aktywna</string>
+    
+    <!-- Display settings screen, setting options for LCD density -->
+    <string name="lcd_density">LCD density</string>
+    <string name="lcd_density_summary">%d DPI</string>
+    <string name="lcd_density_default">Device default</string>
+    <string name="lcd_density_unsupported">Unsupported</string>
+    <string name="restarting_ui">Restarting</string>
+
+    <!-- Navring targets (enable/disable) -->
+    <string name="navigation_ring_enable_title">Enable navigation rings</string>
     </resources>
