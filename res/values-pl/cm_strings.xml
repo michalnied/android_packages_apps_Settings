@@ -258,8 +258,7 @@
     <!--- Sms security limit -->
     <string name="app_security_title">Zabezpieczenie aplikacji</string>
     <string name="sms_security_check_limit_title">Limit wiadomości SMS</string>
-    <string name="sms_security_check_limit_summary">Wyświetla ostrzeżenie, aby zapobiec wysyłaniu zbyt wielu wiadomości przez inne aplikacje. Obecny limit: %d wiadomości w ciągu 15 minut</string>
-    <string name="sms_security_check_limit_default">30 (Domyślne)</string>
+    <string name="sms_security_check_limit_summary">Aplikacje mogą wysłać %d wiadomości w ciągu 30 minut, zanim wymagane będzie potwierdzenie</string>
 
     <string name="spam_added_title">Dodano %1$s</string>
     <string name="spam_last_blocked_title">Ostatnio zablokowano %1$s</string>
@@ -270,6 +269,12 @@
     <!-- CM Updater -->
     <string name="cmupdate_settings_title">Aktualizacje CyanogenMod</string>
 
+    <!-- Settings switch for updating Cyanogen recovery -->
+    <string name="update_recovery_title">Update Cyanogen recovery</string>
+    <string name="update_recovery_summary">Update recovery with system updates</string>
+    <string name="update_recovery_on_warning">NOTICE: When this feature is enabled, your installed recovery will be replaced by one included with the current version of the running OS.\n\nYour recovery will be updated along with upgrades to your system, helping to ensure compatibility with future versions.\n\nWould you like to enable this feature?</string>
+    <string name="update_recovery_off_warning">WARNING: When this feature is disabled, your installed recovery will not be updated with OS upgrades.\n\nFuture OS updates may not install with outdated or custom recovery versions.\n\nDo you really want to disable this feature?</string>
+
     <!-- About phone screen, CyanogenMod version -->
     <string name="mod_version">Wersja CyanogenMod</string>
     <string name="mod_version_default">Nieznane</string>
@@ -278,10 +283,6 @@
     <!-- About phone screen, build date -->
     <string name="build_date">Data kompilacji</string>
     <string name="build_date_default">2014-01-01-0000</string>
-
-    <!--- Advanced Settings -->
-    <string name="advanced_settings">Ustawienia zaawansowane</string>
-    <string name="advanced_settings_summary">Włącz więcej opcji ustawień</string>
 
     <string name="contributor_cloud_title">Twórcy</string>
 
@@ -355,11 +356,19 @@
     <string name="disable_navkeys_title">Włącz ekranowy pasek nawigacyjny</string>
     <string name="disable_navkeys_summary">Włącz ekranowy pasek nawigacyjny i zablokuj przyciski sprzętowe</string>
 
-    <!-- Navigation Bar -->
-    <string name="navigation_bar_category">Pasek nawigacyjny</string>
+        <!-- Navigation Bar -->
+    <string name="navigation_bar_category">Pasek nawigacyjnyr</string>
     <string name="navigation_bar_left_title">Tryb leworęczny</string>
     <string name="navigation_bar_left_summary">W trybie poziomym pokaż pasek nawigacyjny po lewej stronie ekranu</string>
-    
+    <string name="navigation_bar_title">Buttons and layout</string>
+    <string name="navigation_bar_help_text">To get started tap the edit icon to unlock the navigation bar for editing.\n\nYou can tap an icon to change its shortcut, or long press an icon to re-arrange the layout.\n\nTap \'Save\' to commit your changes, or \'Restore defaults\' to reset the layout to default settings.</string>
+    <string name="navigation_restore_button_text">Restore\ndefaults</string>
+    <string name="navigation_edit_button_text">Edit</string>
+    <string name="navigation_save_button_text">Save</string>
+    <string name="navigation_bar_reset_message">Delete current settings and restore the default layout?</string>
+    <string name="navigation_bar_arrow_keys_title">Show arrow keys while typing</string>
+    <string name="navigation_bar_arrow_keys_summary">Display left and right cursor buttons while typing. Overrides IME switcher.</string>
+
     <string name="header_category_personalization">Personalizacja</string>
 
     <!-- Status bar -->
@@ -371,8 +380,8 @@
     
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_style_title">Styl zegara</string>
-    <string name="status_bar_clock_style_right">Z prawej</string>
-    <string name="status_bar_clock_style_left">Z lewej</string>
+    <string name="status_bar_clock_style_right">Z prawej strony</string>
+    <string name="status_bar_clock_style_left">Z lewej strony</string>
     <string name="status_bar_clock_style_center">Wyśrodkowany</string>
     <string name="status_bar_clock_style_hidden">Ukryty</string>
 
@@ -380,19 +389,19 @@
     <string name="status_bar_am_pm_info">Włączony format 24-godzinny</string>
     <string name="status_bar_am_pm_normal">Normalny</string>
     <string name="status_bar_am_pm_small">Mały</string>
-    <string name="status_bar_am_pm_hidden">Ukryty (domyślnie)</string>
+    <string name="status_bar_am_pm_hidden">Ukryty</string>
     
-    <!-- Status bar - Battery -->
+     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Wygląd ikony baterii</string>
     <string name="status_bar_battery_style_icon_portrait">Ikona pionowo</string>
     <string name="status_bar_battery_style_icon_landscape">Ikona poziomo</string>
     <string name="status_bar_battery_style_circle">Okrąg</string>
     <string name="status_bar_battery_style_text">Tekst</string>
     <string name="status_bar_battery_style_hidden">Ukryty</string>
-
-    <!-- Battery percentage -->
+    
+  <!-- Status bar - Battery percentage -->
     <string name="status_bar_battery_percentage_title">Pokaż procent naładowania baterii</string>
-    <string name="status_bar_battery_percentage_default">Ukryte (domyślnie)</string>
+    <string name="status_bar_battery_percentage_default">Ukryty</string>
     <string name="status_bar_battery_percentage_text_inside">Wewnątrz ikony</string>
     <string name="status_bar_battery_percentage_text_next">Obok ikony</string>
 
@@ -576,7 +585,7 @@
     <string name="app_ops_permissions_allowed">Dozwolone</string>
     <string name="app_ops_permissions_ignored">Niedozwolone</string>
     <string name="app_ops_permissions_always_ask">Zawsze pytaj</string>
-
+    
     <string name="ok">OK</string>
 
     <!-- Profiles -->
@@ -633,7 +642,7 @@
     <string name="vibrator_intensity_title">Siła wibracji</string>
     <string name="vibrator_warning">Wartość większa niż  %1$d nie jest zalecana</string>
 
-    <!-- Hardware tunables - Color calibration -->
+     <!-- Hardware tunables - Color calibration -->
     <string name="color_calibration_title">Kalibracja kolorów</string>
     <string name="color_calibration_summary">Skalibruj kolory na ekranie</string>
     <string name="color_red_title">Czerwony</string>
@@ -647,28 +656,28 @@
     <string name="gamma_tuning_contrast">Kontrast</string>
     <string name="gamma_tuning_brightness">Jasność</string>
     <string name="gamma_tuning_saturation">Nasycenie</string>
-    
-    <!-- Display settings.  Screen color. -->
+
+ <!-- Display settings.  Screen color. -->
     <string name="screencolor">Kolory wyświetlacza</string>
     <string name="screencolor_summary">Ustaw odcień, nasycenie, kontrast i intensywność kolorów wyświetlacza</string>
     <string name="custom_screencolor">Własne kolory ekranu</string>
     <string name="screencolor_save">Zapisz</string>
     <string name="screencolor_cancel">Anuluj</string>
     <string name="restore_preview">Wyświetl domyślny obraz</string>
-    <string name="selectnewfile_menu">Wyświetl nowy obraz z Galerii</string>
-    <string name="selectfile_menu">Wyświetl obraz z Galerii</string>
+    <string name="selectnewfile_menu">View new picture from Gallery</string>
+    <string name="selectfile_menu">Wyświetl nowy obraz z Galerii</string>
     <string name="restore_default_str">Resetuj</string>
     <string name="hue_str">Odcień: <xliff:g id="hue_value">%1$s</xliff:g></string>
     <string name="saturation_str">Nasycenie: <xliff:g id="saturation_value">%1$s</xliff:g></string>
     <string name="contrast_str">Kontrast: <xliff:g id="contrast_value">%1$s</xliff:g></string>
-    <string name="intensity_str">Instensywność: <xliff:g id="intensity_str_value">%1$s</xliff:g></string>
+    <string name="intensity_str">Intensywność: <xliff:g id="intensity_str_value">%1$s</xliff:g></string>
 
     <string name="screen_color_setting_standard">Standardowe</string>
     <string name="screen_color_setting_vivid">Intensywne</string>
     <string name="screen_color_setting_custom">Własne</string>
 
     <string name="settings_reset_button">Zresetuj</string>
-    
+
     <!-- Message when bluetooth dialog for pin entry is showing  when HIGH security enabled-->
     <string name="bluetooth_enter_pin_msg_hs">Urządzenie wymaga hasła składającego się z co najmniej 16 znaków</string>
 
@@ -679,11 +688,15 @@
 
     <!-- Bluetooth settings.  Connection options screen.  The summary for the DUN checkbox preference when DUN is connected. -->
     <string name="bluetooth_dun_profile_summary_connected">Połączono z serwerem DUN</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the pbap checkbox preference when pbap is connected. -->
+    <string name="bluetooth_pbap_profile_summary_connected">Połączono z serwerem pbap</string>
     <!-- Bluetooth settings.  Connection options screen.  The summary for the SAP checkbox preference when SAP is connected. -->
     <string name="bluetooth_sap_profile_summary_connected">Połączono z serwerem SIM Access</string>
 
     <!-- Bluetooth settings.  Connection options screen.  The summary for the DUN checkbox preference that describes how checking it will set the DUN profile as preferred. -->
     <string name="bluetooth_dun_profile_summary_use_for">Używaj dostępu do sieci przez modem</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the pbap checkbox preference that describes how checking it will set the pbap profile as preferred. -->
+    <string name="bluetooth_pbap_profile_summary_use_for">Używaj do przesyłania kontaktu</string>
     <!-- Bluetooth settings.  Connection options screen.  The summary for the SAP checkbox preference that describes how checking it will set the SAP profile as preferred. -->
     <string name="bluetooth_sap_profile_summary_use_for">Używaj dla SIM Access</string>
     <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
@@ -745,10 +758,6 @@
     <string name="usb_unmount_inform_text" product="default">Pamięć USB zostanie wymontowana</string>
     <string name="uicc_unmount_inform_text" product="default">Pamięć UICC zostanie wymontowana.</string>
 
-    <string name="usb_media_format_title" product="default">Wyczyść pamięć USB</string>
-    <string name="uicc_media_format_title" product="default">Wyczyść pamięć UICC</string>
-    <string name="usb_media_format_summary" product="default">Wyczyść wszystkie dane na pamięci USB</string>
-    <string name="uicc_media_format_summary" product="default">Wyczyść wszystkie dane na pamięci UICC</string>
     <string name="usb_media_format_desc" product="default">Wyczyścić pamięć USB? Stracisz wszystkie <b>all</b> dane na pamięci!</string>
     <string name="uicc_media_format_desc" product="default">Wyczyścić pamięć UICC? Stracisz wszystkie <b>all</b> dane na pamięci!</string>
     <string name="usb_media_format_button_text" product="default">Wyczyść pamięć USB</string>
@@ -775,20 +784,19 @@
     <string name="data_usage_tab_slot">SIM </string>
 
     <!-- MultiSim Settings changes-->
-    <string name="sim_enabler_title">Akywacja kart SIM</string>
+    <string name="sim_enabler_title">Status karty SIM</string>
     <string name="sim_enabler_summary">Karta SIM jest %1$s</string>
     <string name="sim_enabled">Włączona</string>
     <string name="sim_disabled">Wyłączona</string>
     <string name="sim_missing">brak lub błąd</string>
     <string name="sim_enabler_need_disable_sim">Dezaktywacja karty SIM, czy jesteś pewny?</string>
-    <string name="sim_enabler_airplane_on">BŁĄD, włączony tryb samolotowy!</string>
-    <string name="sim_enabler_in_call">BŁĄD, trwające połączenie!</string>
-    <string name="sim_enabler_both_inactive">"BŁĄD, nie można zablokować wszystkich kart SIM"</string>
+    <string name="sim_enabler_airplane_on">Nie można wykonać tej operacji, gdy włączony jest tryb samolotowy.</string>
+    <string name="sim_enabler_in_call">Nie można wykonać tej operacji w trakcie połączenia..</string>
+    <string name="sim_enabler_both_inactive">Nie można zablokować wszystkich kart SIM</string>
     <string name="sim_enabler_sim">SIM</string>
     <string name="sim_enabler_enabling">Aktywacja...</string>
     <string name="sim_enabler_disabling">Dezaktywacja...</string>
-    <string name="sub_activate_success">Aktywacja przebiegła pomyślnie.</string>
-    <string name="sub_deactivate_success">Dezaktywacja przebiegła pomyślnie.</string>
+    <string name="sim_enabler_deactivate">Dezaktywacja</string>
     
     <string name="primary_sub_select_title">Domyślne połączenie 3G/LTE</string>
      
@@ -901,9 +909,9 @@
     <!-- Notification drawer -->
     <string name="notification_drawer_title">Pasek powiadomień</string>
 
-    <string name="status_bar_quick_qs_pulldown_title">Szybkie rozwijanie</string>
+       <string name="status_bar_quick_qs_pulldown_title">Szybkie rozwijanie</string>
     <string name="status_bar_quick_qs_pulldown_summary">Prawa krawędź paska stanu rozwija Szybkie Ustawienia</string>
-    
+  
       <!-- Weather in status bar -->
     <string name="status_bar_show_weather_title">Pokaż pogodę</string>
     <string name="status_bar_show_weather_summary">Pokaż pogodę w nagłówku paska stanu</string>
