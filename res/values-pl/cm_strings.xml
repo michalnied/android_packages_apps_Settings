@@ -23,7 +23,7 @@
     <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
     <string name="show_dev_on_cm">Opcje programistyczne zostały włączone!</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
-    <string name="show_dev_already_cm">Nie trzeba, już masz włączone opcje programistyczne.</string>
+    <string name="show_dev_already_cm">Już nie trzeba, opcje programistyczne są włączone.</string>
 
     <!-- Launch Dev Tools -->
     <string name="development_tools_title">Narzędzia programistyczne</string>
@@ -99,7 +99,7 @@
     <string name="profile_trigger_notrigger">Brak przełącznika</string>
 
     <!-- Title for application group setting screen -->
-    <string name="profile_applist_title">Apps</string>
+    <string name="profile_applist_title">Aplikacje</string>
 
     <!-- Add application dialog box title -->
     <string name="profile_choose_app">Wybierz aplikację</string>
@@ -124,9 +124,9 @@
     <!-- Hardware keys -->
     <string name="button_pref_title">Przyciski</string>
     <string name="hardware_keys_power_key_title">Przycisk zasilania</string>
-    <string name="hardware_keys_home_key_title">Przycisk Home</string>
-    <string name="hardware_keys_menu_key_title">Przycisk Menu</string>
-    <string name="hardware_keys_back_key_title">Back button</string>
+    <string name="hardware_keys_home_key_title">Przycisk home</string>
+    <string name="hardware_keys_menu_key_title">Przycisk menu</string>
+    <string name="hardware_keys_back_key_title">Przycisk wstecz</string>
     <string name="hardware_keys_assist_key_title">Przycisk wyszukiwania</string>
     <string name="hardware_keys_appswitch_key_title">Przycisk ostatnich aplikacji</string>
     <string name="hardware_keys_volume_keys_title">Przyciski głośności</string>
@@ -155,7 +155,7 @@
     <string name="button_wake_title">Wybudź urządzenie</string>
     <string name="button_wake_summary">Zastępuje sterowanie odtwarzaczem</string>
     <string name="home_answer_call_title">Odbieranie połączeń</string>
-    <string name="home_answer_call_summary">Naciśniecie przycisku Home odbierze bieżące połączenie przychodzące</string>
+    <string name="home_answer_call_summary">Naciśniecie przycisku home odbierze bieżące połączenie przychodzące</string>
 
     <!-- Key backlight -->
     <string name="button_backlight_title">Podświetlenie</string>
@@ -270,10 +270,10 @@
     <string name="cmupdate_settings_title">Aktualizacje CyanogenMod</string>
 
     <!-- Settings switch for updating Cyanogen recovery -->
-    <string name="update_recovery_title">Update Cyanogen recovery</string>
-    <string name="update_recovery_summary">Update recovery with system updates</string>
-    <string name="update_recovery_on_warning">NOTICE: When this feature is enabled, your installed recovery will be replaced by one included with the current version of the running OS.\n\nYour recovery will be updated along with upgrades to your system, helping to ensure compatibility with future versions.\n\nWould you like to enable this feature?</string>
-    <string name="update_recovery_off_warning">WARNING: When this feature is disabled, your installed recovery will not be updated with OS upgrades.\n\nFuture OS updates may not install with outdated or custom recovery versions.\n\nDo you really want to disable this feature?</string>
+    <string name="update_recovery_title">Aktualizacja recovery Cyanogen</string>
+    <string name="update_recovery_summary">Aktualizuj recovery podczas aktualizacji systemu</string>
+    <string name="update_recovery_on_warning">UWAGA: Gdy ta funkcja jest włączona, twoje recovery zostanie zastąpione tym dołączonym do obecnej wersji działającego OS.\n\nTwoje recovery zostanie zaktualizowane wraz z aktualizacją systemu, przyczyniając się do zapewnienia kompatybilności z przyszłymi wersjami.\n\nCzy chcesz włączyć tę funkcję?</string>
+    <string name="update_recovery_off_warning">Uwaga: Gdy ta funkcja jest wyłączona, twoje recovery nie będzie aktualizowane wraz z aktualizacją OS.\n\nPrzyszłe aktualizacje OS mogą nie zostać zainstalowane przez nieaktualne lub niestandardowe wersje recovery.\n\nCzy na pewno chcesz wyłączyć tę funkcję?</string>
 
     <!-- About phone screen, CyanogenMod version -->
     <string name="mod_version">Wersja CyanogenMod</string>
