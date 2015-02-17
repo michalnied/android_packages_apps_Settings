@@ -342,7 +342,7 @@
 
     <!-- tap-to-sleep -->
     <string name="double_tap_to_sleep_title">Dwukrotnie dotknij, aby uśpić</string>
-    <string name="double_tap_to_sleep_summary">Dwukrotnie dotknij na pasku stanu, aby uśpić urządzenie</string>
+    <string name="double_tap_to_sleep_summary">Dwukrotnie dotknij na pasku statusu, aby uśpić urządzenie</string>
 
     <!-- Turn on display when power connected; turn off display when power disconnected -->
     <string name="wake_when_plugged_or_unplugged_title">Wybudź przy podłączeniu</string>
