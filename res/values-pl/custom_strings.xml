@@ -86,7 +86,7 @@
     <string name="status_bar_show_weather_title_eos">Pogoda</string>
 
     <!-- Notification count -->
-    <string name="status_bar_notif_count_title_eos">Liczba oczekujących powiadomień</string>
+    <string name="status_bar_notif_count_title_eos">Pokaż liczbę powiadomień powiadomień</string>
     
     <!-- Notification ticker -->
     <string name="status_bar_ticker_title">Podgląd powiadomienia</string>
@@ -98,23 +98,23 @@
     <string name="actions_category">Działania</string>
     
     <!-- Network traffic -->
-    <string name="network_traffic_title">Network traffic</string>
-    <string name="show_network_traffic_state">Status bar traffic monitor</string>
-    <string name="show_network_traffic_unit">Display unit</string>
-    <string name="show_network_traffic_frequency">Update interval</string>
-    <string name="show_network_traffic_disable">Disabled</string>
-    <string name="show_network_traffic_up">Outgoing</string>
-    <string name="show_network_traffic_down">Incoming</string>
-    <string name="show_network_traffic_all">Outgoing and incoming</string>
-    <string name="show_network_traffic_bit">Bits per second</string>
-    <string name="show_network_traffic_byte">Bytes per second</string>
+    <string name="network_traffic_title">Ruch sieciowy</string>
+    <string name="show_network_traffic_state">Monitorowanie sieci na pasku sttusu</string>
+    <string name="show_network_traffic_unit">Wyświetl jednostkko</string>
+    <string name="show_network_traffic_frequency">Interwał aktualizacji</string>
+    <string name="show_network_traffic_disable">Wyłączone</string>
+    <string name="show_network_traffic_up">Wychodzące</string>
+    <string name="show_network_traffic_down">Przychodzące</string>
+    <string name="show_network_traffic_all">Wychodzące i przychodzące</string>
+    <string name="show_network_traffic_bit">Bity na sekundę</string>
+    <string name="show_network_traffic_byte">Bajty na sekundę</string>
     <string name="show_network_traffic_500">500 ms</string>
     <string name="show_network_traffic_1000">1000 ms</string>
     <string name="show_network_traffic_1500">1500 ms</string>
     <string name="show_network_traffic_2000">2000 ms</string>
-    <string name="network_traffic_autohide">Auto hide</string>
-    <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
-    <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
+    <string name="network_traffic_autohide">Autoukrywaj</string>
+    <string name="network_traffic_autohide_summary">Ukrywaj monitorowanie sieci podczas braku aktywności</string>
+    <string name="network_traffic_autohide_threshold">Próg bezczynności</string>
 
     <!-- Notification ticker -->
     <string name="status_bar_ticker_title">Podgląd powiadomienia</string>
