@@ -27,7 +27,7 @@
     <string name="button_settings_title">Przyciski</string>
 
     <!-- About phone screen,  Mod Version -->
-    <string name="mod_version">Wersja Euphoria OS</string>
+    <string name="mod_version">Wersja Euphoria-OS</string>
     <string name="mod_version_default">Nieznane</string>
     <!-- About phone screen, Build date of ROM -->
     <string name="build_date">Data kompilacji</string>
@@ -61,7 +61,7 @@
     <string name="show_cpu_info_summary">Nakładka na ekran pokazująca bieżące zużycie procesora</string>
 
     <!--Status bar -->
-    <string name="status_bar_category">Pasek stanu</string>
+    <string name="status_bar_category">Pasek statusu</string>
     
     <!--Status bar carrier -->
     <string name="show_carrier_title">Pokaż nazwę operatora</string>
@@ -71,22 +71,22 @@
     <string name="show_carrier_enabled">Włączone</string>
     
     <!--Status bar data and wifi activity -->
-    <string name="show_activity_indicators_title">Activity indicators</string>
-    <string name="show_activity_indicators_summary">Show indicators in signal bars</string>
+    <string name="show_activity_indicators_title">Wskaźniki aktywności</string>
+    <string name="show_activity_indicators_summary">Pokaż wskaźniki użycia sieci</string>
 
     <!--Status bar date -->
-    <string name="status_bar_clock_category">Clock</string>
-    <string name="status_bar_date_title">Date style</string>
-    <string name="status_bar_date_none">Hidden (default)</string>
-    <string name="status_bar_date_small">Small</string>
-    <string name="status_bar_date_normal">Normal</string>
-    <string name="status_bar_date_format_title">Date format</string>
+    <string name="status_bar_clock_category">Zegar</string>
+    <string name="status_bar_date_title">Styl daty</string>
+    <string name="status_bar_date_none">Ukryty (domyślne)</string>
+    <string name="status_bar_date_small">Mały</string>
+    <string name="status_bar_date_normal">Normalny</string>
+    <string name="status_bar_date_format_title">Format daty</string>
 
     <!-- Weather in status bar header -->
-    <string name="status_bar_show_weather_title_eos">Weather</string>
+    <string name="status_bar_show_weather_title_eos">Pogoda</string>
 
     <!-- Notification count -->
-    <string name="status_bar_notif_count_title_eos">Notification count</string>
+    <string name="status_bar_notif_count_title_eos">Liczba oczekujących powiadomień</string>
     
     <!-- Notification ticker -->
     <string name="status_bar_ticker_title">Podgląd powiadomienia</string>
