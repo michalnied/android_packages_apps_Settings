@@ -360,14 +360,14 @@
     <string name="navigation_bar_category">Pasek nawigacyjnyr</string>
     <string name="navigation_bar_left_title">Tryb leworęczny</string>
     <string name="navigation_bar_left_summary">W trybie poziomym pokaż pasek nawigacyjny po lewej stronie ekranu</string>
-    <string name="navigation_bar_title">Buttons and layout</string>
-    <string name="navigation_bar_help_text">To get started tap the edit icon to unlock the navigation bar for editing.\n\nYou can tap an icon to change its shortcut, or long press an icon to re-arrange the layout.\n\nTap \'Save\' to commit your changes, or \'Restore defaults\' to reset the layout to default settings.</string>
-    <string name="navigation_restore_button_text">Restore\ndefaults</string>
-    <string name="navigation_edit_button_text">Edit</string>
-    <string name="navigation_save_button_text">Save</string>
-    <string name="navigation_bar_reset_message">Delete current settings and restore the default layout?</string>
-    <string name="navigation_bar_arrow_keys_title">Show arrow keys while typing</string>
-    <string name="navigation_bar_arrow_keys_summary">Display left and right cursor buttons while typing. Overrides IME switcher.</string>
+    <string name="navigation_bar_title">Przyciski i ich układ</string>
+    <string name="navigation_bar_help_text">Aby rozpocząć edycję paska nawigacyjnego naciśnij ikonę edycji.\n\nZa pomocą krótkiego naciśnięcia ikony możesz zmienić jej skrót a za pomocą długiego naciśnięcia możesz zmienić układ przycisków.\n\nNaciśnij \'Zapisz\', aby zachować zmiany lub \'Przywróć domyślne\', aby zresetować ustawienia.</string>
+    <string name="navigation_restore_button_text">Przywróć\ndomyślne</string>
+    <string name="navigation_edit_button_text">Edytuj</string>
+    <string name="navigation_save_button_text">Zapisz</string>
+    <string name="navigation_bar_reset_message">Usunąć obecne ustawienia i przywrócić domyślny układ przycisków?</string>
+    <string name="navigation_bar_arrow_keys_title">Pokaż strzałki podczas wpisywania tekstu</string>
+    <string name="navigation_bar_arrow_keys_summary">Wyświetl strzałki z lewej i prawej strony podczas wpisywania tekstu. Nadpisuje przełącznik zmiany klawiatury.</string>
 
     <string name="header_category_personalization">Personalizacja</string>
 
