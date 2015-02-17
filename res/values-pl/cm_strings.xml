@@ -372,9 +372,9 @@
     <string name="header_category_personalization">Personalizacja</string>
 
     <!-- Status bar -->
-    <string name="status_bar_title">Pasek stanu</string>
+    <string name="status_bar_title">Pasek statusu</string>
     <string name="status_bar_toggle_brightness">Sterowanie jasnością</string>
-    <string name="status_bar_toggle_brightness_summary">Reguluj jasność przesuwając palcem po pasku stanu</string>
+    <string name="status_bar_toggle_brightness_summary">Reguluj jasność przesuwając palcem po pasku statusu</string>
     <string name="status_bar_notif_count_title">Pokaż liczbę powiadomień</string>
     <string name="status_bar_notif_count_summary">Wyświetla liczbę oczekujących powiadomień</string>
     
@@ -516,7 +516,7 @@
     <string name="app_ops_summaries_delete_contacts">usuwanie kontaktów</string>
     <string name="app_ops_summaries_delete_call_log">usuwanie rejestru połączeń</string>
     <string name="app_ops_summaries_data_change">zmienianie danych</string>
-    <string name="app_ops_summaries_wake_up">wybudzenie</string>
+    <string name="app_ops_summaries_wake_up">wybudzanie</string>
     <string name="app_ops_summaries_su">Superuser</string>
 
     <string name="app_ops_labels_location">Lokalizacja</string>
@@ -664,8 +664,8 @@
     <string name="screencolor_save">Zapisz</string>
     <string name="screencolor_cancel">Anuluj</string>
     <string name="restore_preview">Wyświetl domyślny obraz</string>
-    <string name="selectnewfile_menu">View new picture from Gallery</string>
-    <string name="selectfile_menu">Wyświetl nowy obraz z Galerii</string>
+    <string name="selectnewfile_menu">Wyświetl nowy obraz z Galerii</string>
+    <string name="selectfile_menu">Wyświetl obraz z Galerii</string>
     <string name="restore_default_str">Resetuj</string>
     <string name="hue_str">Odcień: <xliff:g id="hue_value">%1$s</xliff:g></string>
     <string name="saturation_str">Nasycenie: <xliff:g id="saturation_value">%1$s</xliff:g></string>
@@ -742,10 +742,10 @@
     <string name="uicc_format" product="default">Wyczyść pamięć UICC</string>
     <string name="uicc_format_summary" product="default">Czy usunąć wszystkie dane na pamięci UICC, takie jak muzyka czy zdjęcia?</string>
     <string name="uicc_mount" product="default">Zamontuj pamięć UICC</string>
-    <string name="uicc_mount_summary" product="default"></string>
+    <string name="uicc_mount_summary" product="default" translatable="false"></string>
     <string name="uicc_insert_summary" product="default">Podłącz pamięć UICC, aby ją zamontować</string>
     <!-- Title of dialog asking user to confirm before enabling UMS. [CHAR LIMIT=48] -->
-    <string name="usb_settings_enable_ums_title">Enable mass storage?</string>
+    <string name="usb_settings_enable_ums_title">Włączyć pamięć masową?</string>
     <!-- Message of dialog asking user to confirm before enabling UMS. [CHAR LIMIT=NONE] -->
     <string name="usb_settings_enable_ums_message">Składniki systemu i aplikacji polegające na podstawowym przechowywaniu są zawsze dostępne. Ta funkcja przerywa tę funkcjonalność. Stanowczo zaleca się, aby zamiast tego korzystać z MTP. Czy na pewno chcesz włączyć pamięć masową?</string>
 
@@ -873,7 +873,7 @@
     <string name="processor_title">Procesor</string>
 
     <!-- Performance Settings : Processor settings sub items -->
-    <string name="cpu_cur_freq_title">Current CPU frequency</string>
+    <string name="cpu_cur_freq_title">Aktualna częstotliwość procesora</string>
     <string name="cpu_governors_title">Zarządca procesora</string>
     <string name="cpu_governors_summary" translatable="false">%S</string>
     <string name="cpu_min_freq_title">Minimalna częstotliwość taktowania procesora</string>
@@ -936,7 +936,7 @@
     <string name="qs_tile_flashlight">Latarka</string>
     <string name="qs_tile_location">Lokalizacja</string>
     <string name="qs_tile_cast_screen">Przesyłaj ekran</string>
-    <string name="qs_tile_hotspot">Hotspot</string>
+    <string name="qs_tile_hotspot">Punkt dostępu</string>
     <string name="qs_tile_adb_over_network">ADB przez sieć</string>
     <string name="qs_tile_profiles">Profile</string>
     <string name="qs_tile_performance">Wydajność</string>
@@ -945,7 +945,7 @@
     <string name="qs_tile_lockscreen">Blokada ekranu</string>
     <string name="qs_tile_lte">LTE</string>
     <string name="qs_tile_visualizer" translatable="false">AudioFX</string>
-    <string name="qs_tile_screen_timeout">Uśpienie ekranu ekranu</string>
+    <string name="qs_tile_screen_timeout">Uśpienie ekranu</string>
 
     <string name="qs_main_tiles_title">Powiększ pierwszy rząd</string>
     <string name="qs_main_tiles_summary_on">Dwa główne przełączniki w pierwszym rzędzie</string>
@@ -1000,6 +1000,6 @@
     <string name="whisperpush_summary">Zarządzaj ustawieniami bezpiecznych SMS</string>
 
     <string name="navigation_ring_title">Skróty paska nawigacyjnego</string>
-    <string name="navigation_ring_message">Dotknij ikonę edycji, aby zmienić ustawienia skrótów paska nawigacyjnego. \n\nWybierz cel, aby skonfigurować jego działanie. \n\nDotknij \'\u2713\' ikonę, aby zapisać zmiany lub \'Przywróć domyślne\', aby zresetować ustawienia.</string>
+    <string name="navigation_ring_message">Dotknij ikonę edycji, aby zmienić ustawienia skrótów paska nawigacyjnego.\n\nWybierz cel, aby skonfigurować jego działanie.\n\nDotknij \'\u2713\' ikonę, aby zapisać zmiany lub \'Przywróć domyślne\', aby zresetować ustawienia.</string>
 
 </resources>
