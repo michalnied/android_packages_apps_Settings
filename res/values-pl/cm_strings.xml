@@ -155,7 +155,7 @@
     <string name="button_wake_title">Wybudź urządzenie</string>
     <string name="button_wake_summary">Zastępuje sterowanie odtwarzaczem</string>
     <string name="home_answer_call_title">Odbieranie połączeń</string>
-    <string name="home_answer_call_summary">Naciśniecie przycisku home odbierze bieżące połączenie przychodzące</string>
+    <string name="home_answer_call_summary">Naciśnięcie przycisku home odbierze bieżące połączenie przychodzące</string>
 
     <!-- Key backlight -->
     <string name="button_backlight_title">Podświetlenie</string>
@@ -172,7 +172,7 @@
       <!-- Power menu -->
     <string name="power_menu_title">Menu zasilania</string>
     <string name="power_menu_power_title">Wyłącz</string>
-    <string name="power_menu_reboot_title">Menu ponownego uruchomienia</string>
+    <string name="power_menu_reboot_title">Menu ponownego uruchamiania</string>
     <string name="power_menu_screenshot_title">Zrzut ekranu</string>
     <string name="power_menu_profiles_title">Przełączanie profili</string>
     <string name="power_menu_airplane_title">Tryb samolotowy</string>
@@ -273,7 +273,7 @@
     <string name="update_recovery_title">Aktualizacja recovery Cyanogen</string>
     <string name="update_recovery_summary">Aktualizuj recovery podczas aktualizacji systemu</string>
     <string name="update_recovery_on_warning">UWAGA: Gdy ta funkcja jest włączona, twoje recovery zostanie zastąpione tym dołączonym do obecnej wersji działającego OS.\n\nTwoje recovery zostanie zaktualizowane wraz z aktualizacją systemu, przyczyniając się do zapewnienia kompatybilności z przyszłymi wersjami.\n\nCzy chcesz włączyć tę funkcję?</string>
-    <string name="update_recovery_off_warning">Uwaga: Gdy ta funkcja jest wyłączona, twoje recovery nie będzie aktualizowane wraz z aktualizacją OS.\n\nPrzyszłe aktualizacje OS mogą nie zostać zainstalowane przez nieaktualne lub niestandardowe wersje recovery.\n\nCzy na pewno chcesz wyłączyć tę funkcję?</string>
+    <string name="update_recovery_off_warning">Uwaga: Gdy ta funkcja jest wyłączona, twoje recovery nie będzie aktualizowane wraz z aktualizacją OS.\n\nPrzyszłe aktualizacje OS mogą nie zostać zainstalowane z powodu nieaktualnej lub niestandardowej wersji recovery.\n\nCzy na pewno chcesz wyłączyć tę funkcję?</string>
 
     <!-- About phone screen, CyanogenMod version -->
     <string name="mod_version">Wersja CyanogenMod</string>
@@ -349,8 +349,8 @@
     <string name="wake_when_plugged_or_unplugged_summary">Włącz ekran przy podłączeniu lub odłączeniu od źródła zasilania</string>
 
     <!-- Kill app long-press back -->
-    <string name="kill_app_longpress_back">Zabij aplikacje przyciskiem wstecz</string>
-    <string name="kill_app_longpress_back_summary">Przytrzymanie przycisku wstecz zabija aktywną aplikację</string>
+    <string name="kill_app_longpress_back">Zabijaj aplikacje przyciskiem wstecz</string>
+    <string name="kill_app_longpress_back_summary">Przytrzymanie przycisku wstecz zabije aktywną aplikację</string>
 
     <!-- Buttons - Enable navbar -->
     <string name="disable_navkeys_title">Włącz ekranowy pasek nawigacyjny</string>
@@ -367,7 +367,7 @@
     <string name="navigation_save_button_text">Zapisz</string>
     <string name="navigation_bar_reset_message">Usunąć obecne ustawienia i przywrócić domyślny układ przycisków?</string>
     <string name="navigation_bar_arrow_keys_title">Pokaż strzałki podczas wpisywania tekstu</string>
-    <string name="navigation_bar_arrow_keys_summary">Wyświetl strzałki z lewej i prawej strony podczas wpisywania tekstu. Nadpisuje przełącznik zmiany klawiatury.</string>
+    <string name="navigation_bar_arrow_keys_summary">Wyświetla strzałki z lewej i prawej strony podczas wpisywania tekstu. Nadpisuje przełącznik zmiany klawiatury.</string>
 
     <string name="header_category_personalization">Personalizacja</string>
 
@@ -659,7 +659,7 @@
 
  <!-- Display settings.  Screen color. -->
     <string name="screencolor">Kolory wyświetlacza</string>
-    <string name="screencolor_summary">Ustaw odcień, nasycenie, kontrast i intensywność kolorów wyświetlacza</string>
+    <string name="screencolor_summary">Ustaw odcień, nasycenie, kontrast i intensywność kolorów na wyświetlaczu</string>
     <string name="custom_screencolor">Własne kolory ekranu</string>
     <string name="screencolor_save">Zapisz</string>
     <string name="screencolor_cancel">Anuluj</string>
@@ -914,7 +914,7 @@
   
       <!-- Weather in status bar -->
     <string name="status_bar_show_weather_title">Pokaż pogodę</string>
-    <string name="status_bar_show_weather_summary">Pokaż pogodę w nagłówku paska stanu</string>
+    <string name="status_bar_show_weather_summary">Pokaż pogodę w nagłówku paska statusu</string>
     
     <string name="qs_category_title">Panel szybkich ustawień</string>
 
