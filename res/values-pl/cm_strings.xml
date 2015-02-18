@@ -945,7 +945,7 @@
     <string name="qs_tile_lockscreen">Blokada ekranu</string>
     <string name="qs_tile_lte">LTE</string>
     <string name="qs_tile_visualizer" translatable="false">AudioFX</string>
-    <string name="qs_tile_screen_timeout">Uśpienie ekranu</string>
+    <string name="qs_tile_screen_timeout">Uśpij ekran</string>
 
     <string name="qs_main_tiles_title">Powiększ pierwszy rząd</string>
     <string name="qs_main_tiles_summary_on">Dwa główne przełączniki w pierwszym rzędzie</string>
