@@ -918,7 +918,7 @@
     
     <string name="qs_category_title">Panel szybkich ustawień</string>
 
-    <string name="qs_brightness_slider_title">Pokaż pasek ustawienia jasności</string>
+    <string name="qs_brightness_slider_title">Pokaż suwak ustawienia jasności</string>
 
     <string name="qs_order_title">Wybierz i ustaw przełączniki</string>
     <string name="add_qs">Dodaj nowy przełącznik</string>
