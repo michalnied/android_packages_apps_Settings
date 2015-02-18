@@ -98,7 +98,7 @@
     <string name="actions_category">Działania</string>
     
     <!-- Network traffic -->
-    <string name="network_traffic_title">Monitorowanie sieci</string>
+    <string name="network_traffic_title">Wykorzystanie sieci</string>
     <string name="show_network_traffic_state">Monitorowanie sieci na pasku statusu</string>
     <string name="show_network_traffic_unit">Wyświetlana jednostka</string>
     <string name="show_network_traffic_frequency">Interwał aktualizacji</string>
