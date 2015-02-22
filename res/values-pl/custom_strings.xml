@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2014 The Euphoria-OS Project
+<!-- Copyright 2014-2015 The Euphoria-OS Project
      Copyright 2013, The ChameleonOS Open Source Project
      Copyright (C) 2012-2014 SlimRoms Project
 
@@ -81,6 +81,13 @@
     <string name="status_bar_date_small">Mały</string>
     <string name="status_bar_date_normal">Normalny</string>
     <string name="status_bar_date_format_title">Format daty</string>
+    <string name="status_bar_date_style">Date style</string>
+    <string name="status_bar_date_style_normal">Normal</string>
+    <string name="status_bar_date_style_lowercase">Lowercase</string>
+    <string name="status_bar_date_style_uppercase">Uppercase</string>
+    <string name="status_bar_date_format_custom">Custom java format</string>
+    <string name="status_bar_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
+    <string name="status_bar_date_string_edittext_summary">Enter string</string>
 
     <!-- Weather in status bar header -->
     <string name="status_bar_show_weather_title_eos">Pogoda</string>
