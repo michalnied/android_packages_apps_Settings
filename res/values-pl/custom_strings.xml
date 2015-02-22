@@ -81,13 +81,13 @@
     <string name="status_bar_date_small">Mały</string>
     <string name="status_bar_date_normal">Normalny</string>
     <string name="status_bar_date_format_title">Format daty</string>
-    <string name="status_bar_date_style">Date style</string>
-    <string name="status_bar_date_style_normal">Normal</string>
-    <string name="status_bar_date_style_lowercase">Lowercase</string>
-    <string name="status_bar_date_style_uppercase">Uppercase</string>
-    <string name="status_bar_date_format_custom">Custom java format</string>
-    <string name="status_bar_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
-    <string name="status_bar_date_string_edittext_summary">Enter string</string>
+    <string name="status_bar_date_style">Styl daty</string>
+    <string name="status_bar_date_style_normal">Normalny</string>
+    <string name="status_bar_date_style_lowercase">Małe litery</string>
+    <string name="status_bar_date_style_uppercase">Wielkie litery</string>
+    <string name="status_bar_date_format_custom">Własny format Javy</string>
+    <string name="status_bar_date_string_edittext_title">Musi być w formacie np. MM/dd/rr</string>
+    <string name="status_bar_date_string_edittext_summary">Wprowadź ciąg znaków</string>
 
     <!-- Weather in status bar header -->
     <string name="status_bar_show_weather_title_eos">Pogoda</string>
@@ -99,11 +99,6 @@
     <string name="status_bar_ticker_title">Podgląd powiadomienia</string>
     <string name="status_bar_ticker_summary">Animacja treści powiadomienia na pasku stanu</string>
 
-    <!--Power menu -->
-    <string name="power_category">Przycisk zasilania</string>
-    <string name="lockscreen_enable_power_menu_title">Pokaż menu zasilania na ekranie blokady</string>
-    <string name="actions_category">Działania</string>
-    
     <!-- Network traffic -->
     <string name="network_traffic_title">Zużycie sieci</string>
     <string name="show_network_traffic_state">Pokaż zużycie sieci na pasku statusu</string>
@@ -127,6 +122,11 @@
     <string name="status_bar_ticker_title">Podgląd powiadomienia</string>
     <string name="status_bar_ticker_summary">Animacja treści powiadomienia na pasku statusu</string>
 
+    <!--Power menu -->
+    <string name="power_category">Przycisk zasilania</string>
+    <string name="lockscreen_enable_power_menu_title">Pokaż menu zasilania na ekranie blokady</string>
+    <string name="actions_category">Działania</string>
+    
     <!-- Touch control -->
     <string name="touch_control_settings_title">Kontrola dotyku</string>
     <string name="touch_control_settings_summary">Zarządzaj zaawansowanymi opcjami wybudzania, w tym wybudzanie podwójnym dotknięciem i więcej</string>
@@ -326,4 +326,128 @@
 
     <!-- Navring targets (enable/disable) -->
     <string name="navigation_ring_enable_title">Włącz skróty paska nawigacyjnego</string>
-    </resources>
+    
+    <!-- AOKP custom system animations -->
+    <string name="animation_title">Animacje</string>  
+    <string name="system_animation_title">System</string>
+    <string name="activity_open_title">Otwarcie aktywności</string>
+    <string name="activity_close_title">Zamknięcie aktywności</string>
+    <string name="task_open_title">Otwarcie zadania</string>
+    <string name="task_close_title">Zamknięcie zadania</string>
+    <string name="task_move_to_front_title">Przesuń na przód</string>
+    <string name="task_move_to_back_title">Przesuń na tył</string>
+    <string name="wallpaper_open_title">Otwarcie tapety</string>
+    <string name="wallpaper_close_title">Zamknięcie tapety</string>
+    <string name="wallpaper_intra_open_title">Otwarcie tapety wewnątrz</string>
+    <string name="wallpaper_intra_close_title">Zamknięcie tapety wewnątrz</string>
+    <string name="task_open_behind_title">Otwarcie zadania z tyłu</string>
+    <string name="animation_duration_title">Czas trwania animacji</string>
+    <string name="title_animation_no_override">Zapobiegaj nadpisywaniu aplikacji</string>
+    <string name="summary_animation_no_override">Zapobiegaj nadpisywaniu animacji przez aplikacji</string>
+    <string name="animation_duration_default">Domyślne</string>
+
+    <!-- Toast Animation -->
+    <string name="toast_animation_title">Animacje toast</string>
+    <string name="toast_none_animation">Brak</string>
+    <string name="toast_default_animation">Domyślne</string>
+    <string name="toast_fade_animation">Animacja zanikania</string>
+    <string name="toast_SlideRight_animation">Przesunięcie w prawo</string>
+    <string name="toast_SlideLeft_animation">Przesunięcie w lewo</string>
+    <string name="toast_Xylon_animation">Xylon</string>
+    <string name="toast_Toko_animation">Toko</string>
+    <string name="toast_Tn_animation">Tn</string>
+    <string name="toast_Honami_animation">Honami</string>
+    <string name="toast_FastFade_animation">Szybkie zanikanie</string>
+    <string name="toast_GrowFade_animation">Rosnące zanikanie</string>
+    <string name="toast_GrowFadeCenter_animation">Rosnące zanikanie od środka</string>
+    <string name="toast_GrowFadeBottom_animation">Rosnące zanikanie od dołu</string>
+    <string name="toast_Translucent_animation">Półprzezroczystość</string>
+    <string name="toast_SlideLeftRight_animation">Przesunięcie z lewej do prawej</string>
+    <string name="toast_SlideRightLeft_animation">Przesunięcie z prawej do lewej</string>
+
+    <!-- ListView animation -->
+    <string name="listview_animation_title">Pokaż listę animacji</string>
+    <string name="listview_off">Domyślne</string>
+    <string name="listview_wave_left">Fala (z lewej)</string>
+    <string name="listview_wave_right">Fala (z prawej)</string>
+    <string name="listview_alpha">Alpha</string>
+    <string name="listview_scale">Skala</string>
+    <string name="listview_stack_top">Stos (góra)</string>
+    <string name="listview_stack_bottom">Stos (dół)</string>
+    <string name="listview_unfold">Rozwijanie</string>
+    <string name="listview_fold">Zwijanie</string>
+    <string name="listview_translate_left">Przekładanie (z lewej)</string>
+    <string name="listview_translate_right">Przekładanie (z prawej)</string>
+
+    <!-- ListView interpolator -->
+    <string name="listview_interpolator_title">Pokaż listę interpolatorów</string>
+    <string name="listview_accelerate_interpolator">Przyśpieszenie</string>
+    <string name="listview_decelerate_interpolator">Zwolnienie</string>
+    <string name="listview_accelerate_decelerate_interpolator">Przyśpieszenie i zwolnienie</string>
+    <string name="listview_anticipate_interpolator">Przewidywanie</string>
+    <string name="listview_overshoot_interpolator">Przeregulowanie</string>
+    <string name="listview_anticipate_overshoot_interpolator">Przewidywanie i przeregulowanie</string>
+    <string name="listview_bounce_interpolator">Odbijanie</string>
+
+    <!-- Doze pulse (ambient display) options -->
+    <string name="doze_overwrite_value_title">Nadpisz wartość</string>
+    <string name="doze_overwrite_value_summary">Pozwalaj na zastąpienie domyślnych wartości ustawieniami użytkownika</string>
+
+    <string name="doze_list_mode_title">Tryb drzemki</string>
+    <string name="doze_list_mode_summary">Możliwość konfiguracji trybu drzemki</string>
+
+    <string name="doze_pulse_title">Ustawienia czasu</string>
+    <string name="doze_pulse_duration_in_title">Rozjaśnienie</string>
+    <string name="doze_pulse_duration_in_summary"></string>
+
+    <string name="doze_pulse_duration_visible_title">Czas widoczności</string>
+    <string name="doze_pulse_duration_visible_summary"></string>
+
+    <string name="doze_pulse_duration_out_title">Zanikanie</string>
+    <string name="doze_pulse_duration_out_summary"></string>
+
+    <string name="doze_pulse_on_notifications_title">Pulsuj na powiadomienia</string>
+    <string name="doze_pulse_on_notifications_summary">Aktywacja przełącznika tylko na oczekujące powiadomienia</string>
+
+    <string name="doze_shake_title">Ustawienia potrząsania</string>
+    <string name="doze_shake_mode_title">Tryb potrząsania</string>
+    <string name="doze_shake_mode_summary">Używaj wartości sensora potrząsania, aby aktywować przełącznik</string>
+    <string name="doze_shake_mode_test_summary">Czy chcesz przetestować sensor potrząsania?</string>
+    <string name="doze_shake_mode_test_result">Zastosować domyślną wartość?</string>
+    <string name="doze_shake_test">Potrząśnij swoim urządzeniem</string>
+    <string name="doze_shake_it">Wykryto potrząśnięcie!</string>
+
+    <string name="doze_shake_acc_threshold_title">Próg potrząśnięcia</string>
+    <string name="doze_shake_acc_threshold_summary">Skonfiguruj siłę potrząśnięcia wymaganą do aktywacji przełącznika</string>
+
+    <string name="doze_time_mode_title">Pokaż zegar i datę</string>
+    <string name="doze_time_mode_summary">Wymuś pokazywanie czasu przy braku powiadomienia</string>
+
+    <string name="twohundred_ms">200 ms</string>
+    <string name="fivehundred_ms">500 ms</string>
+    <string name="one_second">1 s</string>
+    <string name="one_second_default">1 s (domyślne)</string>
+    <string name="onehalf_second">1.5 s</string>
+    <string name="two_second">2 s</string>
+    <string name="twohalf_second">2.5 s</string>
+    <string name="three_second">3 s</string>
+    <string name="three_second_default">3 s (domyślne)</string>
+    <string name="threehalf_second">3.5 s</string>
+    <string name="four_second">4 s</string>
+    <string name="fourhalf_second">4.5 s</string>
+    <string name="five_second">5 s</string>
+
+    <string name="veryeasy_shake">Bardzo łatwo</string>
+    <string name="easy_shake">Łatwo</string>
+    <string name="medium_shake">Domyślne</string>
+    <string name="hard_shake">Trudno</string>
+    <string name="veryhard_shake">Bardzo trudno</string>
+    <string name="strong_shake">Mocno</string>
+
+    <string name="fully_mode">Full mode</string>
+    <string name="pocket_shake_mode">Pocket and shake</string>
+    <string name="pocket_pulse_mode">Pocket and pulse</string>
+    <string name="pocket_only_mode">Pocket</string>
+    <string name="shake_pulse_mode">Shake and pulse</string>
+    <string name="pulse_only_mode">Pulse (default)</string>
+</resources>
