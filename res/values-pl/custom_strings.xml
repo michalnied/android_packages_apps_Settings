@@ -411,8 +411,8 @@
 
     <string name="doze_shake_title">Ustawienia potrząsania</string>
     <string name="doze_shake_mode_title">Tryb potrząsania</string>
-    <string name="doze_shake_mode_summary">Używaj wartości sensora potrząsania, aby aktywować przełącznik</string>
-    <string name="doze_shake_mode_test_summary">Czy chcesz przetestować sensor potrząsania?</string>
+    <string name="doze_shake_mode_summary">Używaj wartości sensora drgań, aby aktywować przełącznik</string>
+    <string name="doze_shake_mode_test_summary">Czy chcesz przetestować sensor drgań?</string>
     <string name="doze_shake_mode_test_result">Zastosować domyślną wartość?</string>
     <string name="doze_shake_test">Potrząśnij swoim urządzeniem</string>
     <string name="doze_shake_it">Wykryto potrząśnięcie!</string>
